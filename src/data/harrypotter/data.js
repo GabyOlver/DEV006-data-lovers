@@ -13,6 +13,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [5]
     },
@@ -269,6 +270,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Avery family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -291,6 +293,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Avery family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -329,6 +332,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -607,6 +611,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor", "Dumbledore's Army"],
       "books_featured_in": [3, 5]
     },
@@ -815,6 +820,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Black family (formerly)",
         "Potter family",
@@ -838,6 +844,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Slytherin",
@@ -859,6 +866,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Slytherin"],
       "books_featured_in": [1, 2, 4, 5, 7]
     },
@@ -939,6 +947,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Bole family", "Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Slytherin Quidditch team"],
       "books_featured_in": [3, 5]
     },
@@ -1121,6 +1130,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor (possibly)",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Brown family"],
       "books_featured_in": [3]
     },
@@ -1209,6 +1219,7 @@ export default {
       "wand": "Blackthorn and troll whisker, 9\", combustible (according to legend)",
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["King Arthur", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [3, 4, 5, 7]
     },
@@ -1449,6 +1460,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor", "Gryffindor Quidditch team"],
       "books_featured_in": [6]
     },
@@ -1481,6 +1493,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": "Slytherin (likely)",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Crabbe family", "Lord Voldemort", "Death Eaters"],
       "books_featured_in": [4, 5, 7]
     },
@@ -1497,6 +1510,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "None",
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Slytherin",
@@ -1522,6 +1536,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Creevey family",
         "Dumbledore's Army",
@@ -1544,6 +1559,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Dumbledore's Army", "Creevey family", "Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [4, 5, 6]
     },
@@ -1873,6 +1889,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Slytherin Quidditch team"],
       "books_featured_in": [3, 5]
     },
@@ -2571,6 +2588,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Fox",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Dumbledore's Army", "Hogwarts School of Witchcraft and Wizardry", "Gryffindor", "Finnigan family"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
@@ -2662,6 +2680,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Flint family", "Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Slytherin Quidditch team"],
       "books_featured_in": [1, 2, 3]
     },
@@ -3060,6 +3079,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": "Slytherin (possibly)",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Goyle family", "Lord Voldemort", "Death Eaters"],
       "books_featured_in": [4]
     },
@@ -3076,6 +3096,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "None",
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Goyle family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -3341,6 +3362,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [1, 2, 5, 7]
     },
@@ -3389,6 +3411,7 @@ export default {
       "wand": "16\", Oak, unknown core",
       "patronus": "None",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Gryffindor",
@@ -3428,6 +3451,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Harper family", "Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Slytherin Quidditch team"],
       "books_featured_in": [6]
     },
@@ -3524,6 +3548,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Higgs family", "Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Slytherin Quidditch team"],
       "books_featured_in": [1]
     },
@@ -3604,6 +3629,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Hooper family", "Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [5]
     },
@@ -3700,6 +3726,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor (likely)",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Jordan family"],
       "books_featured_in": [4]
     },
@@ -3716,6 +3743,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Jordan family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -3883,6 +3911,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Kirke family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -4005,6 +4034,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Slytherin",
@@ -4195,6 +4225,7 @@ export default {
       "wand": "Unknown",
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Longbottom family",
         "Gryffindor",
@@ -4217,6 +4248,7 @@ export default {
       "wand": "Father's wand (formerly)",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Longbottom family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -4308,6 +4340,7 @@ export default {
       "wand": "10¼\", Cypress, unicorn hair",
       "patronus": "Wolf",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Lupin family",
         "Howell family",
@@ -4458,6 +4491,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Malfoy family", "Hogwarts School of Witchcraft and Wizardry", "Slytherin"],
       "books_featured_in": [6]
     },
@@ -4618,6 +4652,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "McLaggen family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -4641,6 +4676,7 @@ export default {
       "wand": "Unconfirmed length and core, English oak (?) wood",
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Order of Merlin", "Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Court of King Arthur"],
       "books_featured_in": [1, 2, 4, 7]
     },
@@ -4657,6 +4693,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor (likely)",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Midgen family"],
       "books_featured_in": [6]
     },
@@ -4673,6 +4710,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Henry VII's royal court (formerly)",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -4742,6 +4780,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Slytherin",
@@ -4962,6 +5001,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Nott family", "Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Death Eaters (indirectly)"],
       "books_featured_in": [1, 5, 6]
     },
@@ -5144,6 +5184,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Peakes family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -5233,6 +5274,7 @@ export default {
       "wand": "Unknown 1st wand",
       "patronus": "None",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Pettigrew family",
         "Weasley family (as Scabbers) (formerly)",
@@ -5435,6 +5477,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Potter family", "Weasley family", "Hogwarts School of Witchcraft and Wizardry", "Slytherin"],
       "books_featured_in": [7]
     },
@@ -5451,6 +5494,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Potter family",
         "Peverell family",
@@ -5473,6 +5517,7 @@ export default {
       "wand": "11\", Holly, phoenix feather",
       "patronus": "Stag",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Potter family",
         "Weasley family",
@@ -5503,6 +5548,7 @@ export default {
       "wand": "11\", Mahogany, unknown core",
       "patronus": "Stag",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Potter family",
         "Evans family",
@@ -5527,6 +5573,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Potter family", "Weasley family", "Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [7]
     },
@@ -5671,6 +5718,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Slytherin"],
       "books_featured_in": [4]
     },
@@ -5719,6 +5767,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Pucey family", "Hogwarts School of Witchcraft and Wizardry", "Slytherin Quidditch team", "Slytherin"],
       "books_featured_in": [1, 2, 3, 5]
     },
@@ -5879,6 +5928,7 @@ export default {
       "wand": "13½\", Yew, phoenix feather core",
       "patronus": "None",
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Death Eaters",
         "Hogwarts School of Witchcraft and Wizardry (formerly)",
@@ -6051,6 +6101,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Rosier family", "Death Eaters", "Hogwarts School of Witchcraft and Wizardry", "Slytherin"],
       "books_featured_in": [4]
     },
@@ -6147,6 +6198,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "None",
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry (formerly)", "Slytherin", "Azkaban", "Snatchers"],
       "books_featured_in": [7]
     },
@@ -6221,6 +6273,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": "Slytherin (possibly)",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Death Eaters", "Lord Voldemort", "British Ministry of Magic"],
       "books_featured_in": [7]
     },
@@ -6325,6 +6378,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Sloper family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -6346,6 +6400,7 @@ export default {
       "wand": "10¼\", Cedar, dragon heartstring, fairly flexible",
       "patronus": "Non-corporeal",
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Slughorn family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -6370,6 +6425,7 @@ export default {
       "wand": "Unknown length, snakewood, Basilisk horn",
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Slytherin family"],
       "books_featured_in": [2, 6, 7]
     },
@@ -6440,6 +6496,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Doe",
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Snape family",
         "Prince family",
@@ -6691,6 +6748,7 @@ export default {
       "wand": "Unknown 1st wand",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Thomas family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -6841,6 +6899,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [5]
     },
@@ -6985,6 +7044,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Slytherin Quidditch team"],
       "books_featured_in": [6]
     },
@@ -7001,6 +7061,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Vaisey family", "Hogwarts School of Witchcraft and Wizardry", "Slytherin Quidditch team", "Slytherin"],
       "books_featured_in": [6]
     },
@@ -7145,6 +7206,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Slytherin",
@@ -7230,6 +7292,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Weasel",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Weasley family",
         "Prewett family",
@@ -7273,6 +7336,7 @@ export default {
       "wand": "12\", Ash, unicorn tail hair (formerly)",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Weasley family",
         "Prewett family",
@@ -7298,6 +7362,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Magpie",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Circle of Khanna",
         "Dumbledore's Army",
@@ -7325,6 +7390,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Magpie",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Circle of Khanna",
         "Dumbledore's Army",
@@ -7367,6 +7433,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Weasley family",
         "Prewett family",
@@ -7391,6 +7458,7 @@ export default {
       "wand": "12\", Ash, unicorn tail hair",
       "patronus": "Jack Russell terrier",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Weasley family",
         "Granger family",
@@ -7422,6 +7490,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Weasley family",
         "Prewett family",
@@ -7607,6 +7676,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Gryffindor",
@@ -7694,6 +7764,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Zabini family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -7932,6 +8003,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Bell family",
         "Dumbledore's Army",
@@ -8167,6 +8239,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Brown family", "Dumbledore's Army", "Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
@@ -8183,6 +8256,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor (possibly)",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Brown family"],
       "books_featured_in": [3]
     },
@@ -8199,6 +8273,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Bulstrode family", "Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Inquisitorial Squad"],
       "books_featured_in": [1, 2, 5]
     },
@@ -8874,6 +8949,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor Tower", "Gryffindor"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
@@ -8970,6 +9046,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor (possibly)",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Finnigan family"],
       "books_featured_in": [1, 4, 5, 6]
     },
@@ -9066,6 +9143,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Frobisher family", "Hogwarts School of Witchcraft and Wizardry", "Gryffindor", "Charms Club"],
       "books_featured_in": [5]
     },
@@ -9178,6 +9256,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin (most likely)",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Death Eaters (most likely)"],
       "books_featured_in": [5]
     },
@@ -9194,6 +9273,7 @@ export default {
       "wand": "10¾\", vine wood, dragon heartstring",
       "patronus": "Otter",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Granger family",
         "Weasley family",
@@ -9239,6 +9319,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Greengrass family"],
       "books_featured_in": [5]
     },
@@ -9287,6 +9368,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -9913,6 +9995,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Prewett family", "Weasley Family", "Slytherin", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [4]
     },
@@ -10121,6 +10204,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -10137,6 +10221,7 @@ export default {
       "wand": "9½\", Fir, dragon heartstring",
       "patronus": "Cat",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "McGonagall family",
         "Urquart family",
@@ -10229,6 +10314,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor", "Midgen family"],
       "books_featured_in": [4, 5, 6]
     },
@@ -10293,6 +10379,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor, Hufflepuff, or Slytherin",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Moon family", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [1]
     },
@@ -10506,6 +10593,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [
         "Parkinson family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -10561,6 +10649,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Patil family", "Dumbledore's Army", "Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
@@ -10577,6 +10666,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor, Hufflepuff, or Slytherin",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Perks family", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [1]
     },
@@ -10727,6 +10817,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Potter family",
         "Weasley family",
@@ -10749,6 +10840,7 @@ export default {
       "wand": "10¼\", Willow, unknown core",
       "patronus": "Doe",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Evans family",
         "Potter family",
@@ -10804,6 +10896,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin (possibly)",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Prince family", "Snape family", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [5, 6, 7]
     },
@@ -11012,6 +11105,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor", "Gryffindor Quidditch team"],
       "books_featured_in": [6]
     },
@@ -11076,6 +11170,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Salazar Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [],
       "books_featured_in": [2, 3, 4, 5, 6, 7]
     },
@@ -11108,6 +11203,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Inquisitorial Squad (formerly)"],
       "books_featured_in": [5]
     },
@@ -11188,6 +11284,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Gryffindor",
@@ -11521,6 +11618,7 @@ export default {
       "wand": "8\", Birch, dragon heartstring (formerly)",
       "patronus": "Persian cat",
       "house": "Slytherin",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": [],
       "books_featured_in": [5, 6, 7]
     },
@@ -11569,6 +11667,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": ["Vane family", "Hogwarts School of Witchcraft and Wizardry", "Gryffindor", "Dumbledore's Army"],
       "books_featured_in": [4, 6]
     },
@@ -11697,6 +11796,7 @@ export default {
       "wand": "10½\", Larch, phoenix feather",
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Gryffindor",
@@ -11759,6 +11859,7 @@ export default {
       "wand": "Unknown length, Yew, unknown core",
       "patronus": "Horse",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Weasley family",
         "Potter family",
@@ -11787,6 +11888,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Weasley family",
         "Prewett family",
@@ -11810,6 +11912,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Weasley family",
         "Granger family",
@@ -11967,6 +12070,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin (likely)",
+      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
       "associated_groups": ["Zabini family"],
       "books_featured_in": [6]
     },
@@ -11999,6 +12103,7 @@ export default {
       "wand": "Unknown length, wood and core (formerly)",
       "patronus": "Phoenix",
       "house": "Gryffindor",
+      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
       "associated_groups": [
         "Order of Merlin",
         "Order of the Phoenix",
