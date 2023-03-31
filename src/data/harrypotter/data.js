@@ -14298,7 +14298,7 @@ export default {
       "other_name": null,
       "pronunciation": null,
       "spell_type": "Charm",
-      "img": "../img/hechizo1.jpg",
+      "img": "./img/hechizo1.jpg",
       "description": "Packs luggage.",
       "mention": "Used in 1994 by Remus Lupin in his office, and in 1995 by Nymphadora Tonks, once verbally and again non-verbally.",
       "etymology": null,
