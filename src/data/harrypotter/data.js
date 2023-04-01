@@ -744,7 +744,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Wool's Orphanage"],
       "books_featured_in": [6]
     },
@@ -1201,7 +1201,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["St Brutus's Secure Centre for Incurably Criminal Boys"],
       "books_featured_in": [3, 4, 5]
     },
@@ -1218,7 +1218,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Riddle family (formerly)",
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [4, 6]
     },
@@ -1362,7 +1362,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -1481,7 +1481,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -1649,7 +1649,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Creevey family"],
       "books_featured_in": [2]
     },
@@ -1878,6 +1878,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Dearborn family", "Order of the Phoenix"],
       "books_featured_in": [5]
     },
@@ -1945,7 +1946,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Dudley Dursley's gang"],
       "books_featured_in": [1, 5]
     },
@@ -2186,6 +2187,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Order of the Phoenix",
         "Advance Guard",
@@ -2259,7 +2261,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -2310,6 +2312,7 @@ export default {
       "wand": null,
       "patronus": "Goat",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Hog's Head Inn",
         "Order of the Phoenix",
@@ -2331,6 +2334,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Dumbledore family"],
       "books_featured_in": [7]
     },
@@ -2364,6 +2368,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Dursley family", "Grunnings"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
@@ -2464,7 +2469,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -2481,7 +2486,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Evans family"],
       "books_featured_in": [1, 7]
     },
@@ -2515,7 +2520,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Order of the Phoenix",
@@ -2587,6 +2592,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Albus Dumbledore", "Harry Potter", "Order of the Phoenix"],
       "books_featured_in": [1, 2, 4, 5, 6, 7]
     },
@@ -2603,6 +2609,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Fenwick family", "Order of the Phoenix"],
       "books_featured_in": [5]
     },
@@ -2692,7 +2699,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Finnigan family"],
       "books_featured_in": [1]
     },
@@ -2726,6 +2733,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Forbidden Forest Centaur colony",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -2747,6 +2755,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Beauxbatons Academy of Magic", "Albus Dumbledore", "Flamel family"],
       "books_featured_in": [1, 7]
     },
@@ -2763,7 +2772,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -2780,6 +2789,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": "Unknown",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Order of the Phoenix",
         "Albus Dumbledore",
@@ -2911,6 +2921,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Fortescue family", "Florean Fortescue's Ice Cream Parlour"],
       "books_featured_in": [3, 6]
     },
@@ -2927,6 +2938,7 @@ export default {
       "wand": "10\", blackthorn, unknown core materials (formerly)",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Snatchers"],
       "books_featured_in": [7]
     },
@@ -2943,6 +2955,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [3]
     },
@@ -2983,6 +2996,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Wizengamot", "British Ministry of Magic", "British Government", "Gamp family"],
       "books_featured_in": [6]
     },
@@ -2999,6 +3013,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Gaunt",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [2, 6, 7]
     },
@@ -3015,6 +3030,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": null,
       "house": "House of Gaunt",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [6, 7]
     },
@@ -3031,6 +3047,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -3047,6 +3064,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Lord Voldemort", "Death Eaters"],
       "books_featured_in": [6]
     },
@@ -3063,6 +3081,7 @@ export default {
       "wand": "Unknown wand",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -3079,6 +3098,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [3]
     },
@@ -3095,6 +3115,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -3128,6 +3149,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Giant colony", "Lord Voldemort", "Death Eaters"],
       "books_featured_in": [5]
     },
@@ -3144,6 +3166,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Dudley Dursley's gang"],
       "books_featured_in": [1, 5]
     },
@@ -3160,6 +3183,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Chudley Cannons"],
       "books_featured_in": [7]
     },
@@ -3192,6 +3216,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Gringotts Wizarding Bank"],
       "books_featured_in": [7]
     },
@@ -3251,6 +3276,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Granger family"],
       "books_featured_in": [1, 2, 3, 5, 7]
     },
@@ -3267,6 +3293,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["The Weird Sisters", "Graves family"],
       "books_featured_in": [4]
     },
@@ -3300,6 +3327,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -3316,6 +3344,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Fluffy"],
       "books_featured_in": [1]
     },
@@ -3332,6 +3361,7 @@ export default {
       "wand": "Gregorovitch Zauberstäbe",
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [4, 7]
     },
@@ -3348,6 +3378,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1, 5]
     },
@@ -3364,6 +3395,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Lord Voldemort", "Death Eaters (unofficially)", "Snatchers", "Werewolf army"],
       "books_featured_in": [3, 6, 7]
     },
@@ -3413,6 +3445,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Gringotts Wizarding Bank"],
       "books_featured_in": [1]
     },
@@ -3429,6 +3462,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      
       "associated_groups": ["Gringotts Wizarding Bank"],
       "books_featured_in": [1, 7]
     },
@@ -3462,6 +3496,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["St Mungo's Hospital for Magical Maladies and Injuries"],
       "books_featured_in": [5]
     },
@@ -3478,6 +3513,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -3528,6 +3564,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hagrid family"],
       "books_featured_in": [4, 5, 6]
     },
@@ -3568,6 +3605,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -3601,6 +3639,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -3633,6 +3672,7 @@ export default {
       "wand": "Unknown wand",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -3649,6 +3689,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Percy Weasley (owner)"],
       "books_featured_in": [1, 2, 3, 4, 5]
     },
@@ -3665,6 +3706,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -3698,6 +3740,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -3748,6 +3791,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1, 5]
     },
@@ -3781,6 +3825,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -3813,6 +3858,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -3829,6 +3875,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Chudley Cannons", "Jenkins family"],
       "books_featured_in": [4]
     },
@@ -3903,6 +3950,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Death Eaters", "Lord Voldemort"],
       "books_featured_in": [5]
     },
@@ -3919,6 +3967,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Durmstrang Institute", "Igor Karkaroff (formerly)"],
       "books_featured_in": [4]
     },
@@ -3935,6 +3984,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Death Eaters (formerly)", "Lord Voldemort (formerly)", "Durmstrang Institute (formerly)"],
       "books_featured_in": [4, 5, 6, 7]
     },
@@ -4000,6 +4050,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Kevin's family"],
       "books_featured_in": [4]
     },
@@ -4016,6 +4067,7 @@ export default {
       "wand": "Unknown length, wood and core materials",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Kevin's family"],
       "books_featured_in": [4]
     },
@@ -4032,6 +4084,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["King's Cross Station"],
       "books_featured_in": [1, 2]
     },
@@ -4086,6 +4139,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Krum family"],
       "books_featured_in": [4]
     },
@@ -4102,6 +4156,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Krum family"],
       "books_featured_in": [7]
     },
@@ -4118,6 +4173,7 @@ export default {
       "wand": "10¼\", Hornbeam, dragon heartstring",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Durmstrang Institute",
         "Bulgarian National Quidditch team",
@@ -4156,6 +4212,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["St Mungo's Hospital for Magical Maladies and Injuries", "Prewett family (possibly)"],
       "books_featured_in": [7]
     },
@@ -4195,6 +4252,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Lord Voldemort", "Death Eaters", "Lestrange family"],
       "books_featured_in": [4, 5]
     },
@@ -4211,6 +4269,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": "Lord Voldemort",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [4, 5, 7]
     },
@@ -4227,6 +4286,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Levski family", "Bulgarian National Quidditch team"],
       "books_featured_in": [4]
     },
@@ -4243,6 +4303,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -4259,6 +4320,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -4275,6 +4337,7 @@ export default {
       "wand": "Elder, Thestral tail hair core (possibly)",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -4291,6 +4354,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Caerphilly Catapults"],
       "books_featured_in": [5]
     },
@@ -4332,6 +4396,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Longbottom family"],
       "books_featured_in": [5]
     },
@@ -4348,6 +4413,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1, 5]
     },
@@ -4442,6 +4508,7 @@ export default {
       "wand": "Elder, Thestral tail hair core",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -4532,6 +4599,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Irish National Quidditch team"],
       "books_featured_in": [4]
     },
@@ -4548,6 +4616,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["MacBoon clan"],
       "books_featured_in": [6]
     },
@@ -4581,6 +4650,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Death Eaters",
         "Lord Voldemort",
@@ -4619,6 +4689,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Dudley Dursley's gang"],
       "books_featured_in": [1, 5]
     },
@@ -4685,6 +4756,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": null,
       "house": "Malfoy family",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -4717,6 +4789,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Gringotts Wizarding Bank"],
       "books_featured_in": [7]
     },
@@ -4733,6 +4806,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [2, 6, 7]
     },
@@ -4749,6 +4823,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Mason family"],
       "books_featured_in": [2]
     },
@@ -4765,6 +4840,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Maxime family"],
       "books_featured_in": [4]
     },
@@ -4781,6 +4857,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -4877,6 +4954,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -4893,6 +4971,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Ministry of Magic"],
       "books_featured_in": [4]
     },
@@ -4909,6 +4988,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Montague family"],
       "books_featured_in": [5]
     },
@@ -4948,6 +5028,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -4987,6 +5068,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -5003,6 +5085,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -5019,6 +5102,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Egypt", "International Association of Quidditch"],
       "books_featured_in": [4]
     },
@@ -5051,6 +5135,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      
       "associated_groups": ["Arabella Figg"],
       "books_featured_in": [1, 5]
     },
@@ -5067,6 +5152,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -5083,6 +5169,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Lord Voldemort", "Death Eaters"],
       "books_featured_in": [6]
     },
@@ -5099,6 +5186,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["British Ministry of Magic"],
       "books_featured_in": [5]
     },
@@ -5115,6 +5203,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -5165,6 +5254,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Bulgarian Ministry of Magic", "Bulgarian National Quidditch team"],
       "books_featured_in": [4]
     },
@@ -5181,6 +5271,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Ministry of Magic"],
       "books_featured_in": [4]
     },
@@ -5197,6 +5288,7 @@ export default {
       "wand": "Unknown length, wood and core materials",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [6, 7]
     },
@@ -5213,6 +5305,7 @@ export default {
       "wand": "Unknown wood, length and core materials",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["British Ministry of Magic", "Department of Magical Law Enforcement", "Ogden family"],
       "books_featured_in": [6, 7]
     },
@@ -5229,6 +5322,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Wizengamot (formally)", "Ogden family", "Ministry of Magic"],
       "books_featured_in": [5]
     },
@@ -5302,6 +5396,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Patil family"],
       "books_featured_in": [6]
     },
@@ -5318,6 +5413,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -5356,6 +5452,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Ministry of Magic"],
       "books_featured_in": [4]
     },
@@ -5393,6 +5490,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -5409,6 +5507,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["British Ministry of Magic", "Misuse of Muggle Artefacts Office"],
       "books_featured_in": [2, 4, 5, 7]
     },
@@ -5452,6 +5551,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Peverell family"],
       "books_featured_in": [7]
     },
@@ -5468,6 +5568,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -5484,6 +5585,7 @@ export default {
       "wand": "Unknown length, wood, and core (formerly)",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Peverell family"],
       "books_featured_in": [7]
     },
@@ -5500,6 +5602,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Peverell family", "His fiancée"],
       "books_featured_in": [7]
     },
@@ -5516,6 +5619,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Peverell family"],
       "books_featured_in": [7]
     },
@@ -5532,6 +5636,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -5548,6 +5653,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Ronald Weasley (owner)"],
       "books_featured_in": [3, 4, 5, 6, 7]
     },
@@ -5564,6 +5670,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Podmore family", "Order of the Phoenix", "Advance Guard"],
       "books_featured_in": [5]
     },
@@ -5580,6 +5687,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Durmstrang Institute"],
       "books_featured_in": [4]
     },
@@ -5596,6 +5704,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Dudley Dursley"],
       "books_featured_in": [1, 5]
     },
@@ -5612,6 +5721,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -5741,6 +5851,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Knight Bus", "Albus Dumbledore"],
       "books_featured_in": [3, 5, 6]
     },
@@ -5757,6 +5868,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -5773,6 +5885,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Prewett family", "Order of the Phoenix"],
       "books_featured_in": [1, 5, 7]
     },
@@ -5789,6 +5902,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Prewett family", "Order of the Phoenix"],
       "books_featured_in": [5]
     },
@@ -5805,6 +5919,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Prewett family"],
       "books_featured_in": [1, 5]
     },
@@ -5821,6 +5936,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -5837,6 +5953,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Great Britain", "British Government"],
       "books_featured_in": [6]
     },
@@ -5887,6 +6004,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Kwikspell"],
       "books_featured_in": [2]
     },
@@ -5903,6 +6021,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -5936,6 +6055,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["St Mungo's"],
       "books_featured_in": [5]
     },
@@ -5952,6 +6072,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Death Eaters", "Lord Voldemort", "Pyrites family"],
       "books_featured_in": [1]
     },
@@ -5968,6 +6089,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Pyrites family"],
       "books_featured_in": [1]
     },
@@ -5984,6 +6106,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Irish National Quidditch team"],
       "books_featured_in": [4]
     },
@@ -6017,6 +6140,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["St Mungo's Hospital for Magical Maladies and Injuries"],
       "books_featured_in": [5]
     },
@@ -6033,6 +6157,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Gringotts Wizarding Bank"],
       "books_featured_in": [5]
     },
@@ -6049,6 +6174,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Goblins"],
       "books_featured_in": [7]
     },
@@ -6065,6 +6191,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Riddle family"],
       "books_featured_in": [4, 6]
     },
@@ -6105,6 +6232,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Riddle family"],
       "books_featured_in": [2, 4, 5, 6]
     },
@@ -6121,6 +6249,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Marjorie Dursley"],
       "books_featured_in": [3, 5]
     },
@@ -6137,6 +6266,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["British Ministry of Magic", "Department of Magical Law Enforcement", "Auror Office"],
       "books_featured_in": [6]
     },
@@ -6153,6 +6283,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Roberts family"],
       "books_featured_in": [4]
     },
@@ -6169,6 +6300,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Roberts family"],
       "books_featured_in": [4]
     },
@@ -6185,6 +6317,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -6218,6 +6351,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Death Eaters",
         "Lord Voldemort",
@@ -6239,6 +6373,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Death Eaters", "Lord Voldemort", "Rosier family"],
       "books_featured_in": [6]
     },
@@ -6272,6 +6407,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -6288,6 +6424,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Rowle family", "Death Eaters", "Lord Voldemort"],
       "books_featured_in": [6, 7]
     },
@@ -6304,6 +6441,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -6320,6 +6458,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Irish National Quidditch team"],
       "books_featured_in": [4, 5]
     },
@@ -6336,6 +6475,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -6413,6 +6553,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["British Ministry of Magic", "Auror Office"],
       "books_featured_in": [5, 6, 7]
     },
@@ -6471,6 +6612,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -6487,6 +6629,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Knight Bus", "Death Eaters (Imperiused)"],
       "books_featured_in": [3, 4, 5, 6, 7]
     },
@@ -6503,6 +6646,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -6519,6 +6663,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Slinkhard family"],
       "books_featured_in": [5]
     },
@@ -6599,6 +6744,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["St Mungo's Hospital for Magical Maladies and Injuries", "Smethwyck family"],
       "books_featured_in": [5]
     },
@@ -6615,6 +6761,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Smith family"],
       "books_featured_in": [6]
     },
@@ -6682,6 +6829,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Snape family", "Prince family"],
       "books_featured_in": [5, 6, 7]
     },
@@ -6715,6 +6863,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Wool's orphanage"],
       "books_featured_in": [6]
     },
@@ -6731,6 +6880,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Death Eaters", "Lord Voldemort"],
       "books_featured_in": [7]
     },
@@ -6780,6 +6930,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -6796,6 +6947,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -6812,6 +6964,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -6828,6 +6981,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Gringotts Wizarding Bank"],
       "books_featured_in": [7]
     },
@@ -6861,6 +7015,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Landlady of the Green Dragon pub"],
       "books_featured_in": [5]
     },
@@ -6877,6 +7032,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["British Ministry of Magic", "Department of Magical Law Enforcement", "Death Eaters (Imperiused)"],
       "books_featured_in": [7]
     },
@@ -6933,6 +7089,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -6949,6 +7106,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Thomas family"],
       "books_featured_in": [5, 7]
     },
@@ -6965,6 +7123,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Weird Sisters"],
       "books_featured_in": [4]
     },
@@ -6981,6 +7140,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Slug Club (formerly)", "Ministry of Magic", "McLaggen family"],
       "books_featured_in": [6]
     },
@@ -7014,6 +7174,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Wizarding Examinations Authority"],
       "books_featured_in": [5]
     },
@@ -7030,6 +7191,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Leaky Cauldron"],
       "books_featured_in": [1, 3, 6, 7]
     },
@@ -7046,6 +7208,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Tonks family", "Order of the Phoenix (indirectly)"],
       "books_featured_in": [5, 7]
     },
@@ -7079,6 +7242,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Travers family", "Death Eaters", "Lord Voldemort", "Death Eater controlled Ministry of Magic"],
       "books_featured_in": [4, 7]
     },
@@ -7095,6 +7259,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["The Weird Sisters", "Tremlett family"],
       "books_featured_in": [4, 5, 6]
     },
@@ -7111,6 +7276,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Algie (formerly)", "Neville Longbottom", "Frog Choir (formerly)"],
       "books_featured_in": [1, 3, 4, 5, 6]
     },
@@ -7144,6 +7310,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Irish National Quidditch team"],
       "books_featured_in": [4]
     },
@@ -7177,6 +7344,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Goblinkind"],
       "books_featured_in": [4]
     },
@@ -7244,6 +7412,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -7277,6 +7446,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Bulgarian National Quidditch team"],
       "books_featured_in": [4]
     },
@@ -7293,6 +7463,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Bulgarian National Quidditch team", "Vulchanov family"],
       "books_featured_in": [4]
     },
@@ -7309,6 +7480,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1, 3, 7]
     },
@@ -7325,6 +7497,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -7358,6 +7531,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Warren family"],
       "books_featured_in": [2]
     },
@@ -7396,6 +7570,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -7412,6 +7587,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -7428,6 +7604,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Weasley family"],
       "books_featured_in": [2, 7]
     },
@@ -7444,6 +7621,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -7488,6 +7666,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Weasley family"],
       "books_featured_in": [7]
     },
@@ -7584,6 +7763,7 @@ export default {
       "eye_color": null,
       "wand": null,
       "patronus": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "house": "Arthur Weasley (paternal grandfather)",
       "associated_groups": ["Weasley family", "Granger family", "Prewett family", "Potter family"],
       "books_featured_in": [7]
@@ -7684,6 +7864,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Wool's Orphanage"],
       "books_featured_in": [6]
     },
@@ -7717,6 +7898,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["British Ministry of Magic"],
       "books_featured_in": [5]
     },
@@ -7750,6 +7932,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -7766,6 +7949,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Castelobruxo"],
       "books_featured_in": [4]
     },
@@ -7782,6 +7966,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["British Ministry of Magic", "Auror Department"],
       "books_featured_in": [5]
     },
@@ -7798,6 +7983,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Committee on Experimental Charms", "Ministry of Magic"],
       "books_featured_in": [4]
     },
@@ -7814,6 +8000,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Weird Sisters"],
       "books_featured_in": [4]
     },
@@ -7830,6 +8017,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -7904,6 +8092,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Quidditch"],
       "books_featured_in": [7]
     },
@@ -7920,6 +8109,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "None",
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [6, 7]
     },
@@ -7960,6 +8150,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Polish National Quidditch team"],
       "books_featured_in": [5]
     },
@@ -7976,6 +8167,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Bulgarian National Quidditch team"],
       "books_featured_in": [4]
     },
@@ -7992,6 +8184,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
       "associated_groups": ["Zoo"],
       "books_featured_in": [1]
     },
@@ -8008,6 +8201,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Abbott family"],
       "books_featured_in": [6]
     },
@@ -8048,6 +8242,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["St Mungo's Hospital for Magical Maladies and Injuries"],
       "books_featured_in": [5]
     },
@@ -8080,6 +8275,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -8146,6 +8342,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -8162,6 +8359,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -8201,6 +8399,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -8217,6 +8416,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Wool's Orphanage"],
       "books_featured_in": [6]
     },
@@ -8233,6 +8433,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Black family"],
       "books_featured_in": [5]
     },
@@ -8298,6 +8499,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Bones family"],
       "books_featured_in": [5]
     },
@@ -8314,6 +8516,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [
         "Ministry of Magic",
         "Department of Magical Law Enforcement",
@@ -8352,6 +8555,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Daily Prophet"],
       "books_featured_in": [7]
     },
@@ -8385,6 +8589,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Daily Prophet", "Witch Weekly", "The Quibbler", "Order of the Phoenix (indirectly)"],
       "books_featured_in": [4, 5, 6, 7]
     },
@@ -8469,6 +8674,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -8519,6 +8725,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -8535,6 +8742,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -8551,6 +8759,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Cattermole family"],
       "books_featured_in": [7]
     },
@@ -8567,6 +8776,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Cattermole family"],
       "books_featured_in": [7]
     },
@@ -8583,6 +8793,7 @@ export default {
       "wand": "Cherry, 8¾\", unicorn hair",
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Cattermole family"],
       "books_featured_in": [7]
     },
@@ -8599,6 +8810,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Riddle family", "Little Hangleton"],
       "books_featured_in": [6]
     },
@@ -8655,6 +8867,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -8688,6 +8901,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -8704,6 +8918,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Wool's Orphanage"],
       "books_featured_in": [6]
     },
@@ -8720,6 +8935,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["British Ministry of Magic"],
       "books_featured_in": [5]
     },
@@ -8736,6 +8952,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Cresswell family"],
       "books_featured_in": [7]
     },
@@ -8752,6 +8969,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Leaky Cauldron"],
       "books_featured_in": [1]
     },
@@ -8768,6 +8986,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Crouch family"],
       "books_featured_in": [4]
     },
@@ -8784,6 +9003,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Roger Davies"],
       "books_featured_in": [5]
     },
@@ -8800,6 +9020,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Delacour family"],
       "books_featured_in": [7]
     },
@@ -8816,6 +9037,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Delacour family"],
       "books_featured_in": [4, 7]
     },
@@ -8832,6 +9054,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Delacour family"],
       "books_featured_in": [4, 7]
     },
@@ -8872,6 +9095,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Delacour family", "Beauxbatons Academy of Magic"],
       "books_featured_in": [4, 5, 6, 7]
     },
@@ -8939,6 +9163,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -8955,6 +9180,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -8971,6 +9197,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Dumbledore family"],
       "books_featured_in": [7]
     },
@@ -8987,6 +9214,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Dumbledore family"],
       "books_featured_in": [7]
     },
@@ -9003,6 +9231,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Durmstrang Institute"],
       "books_featured_in": [4]
     },
@@ -9019,6 +9248,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Grunnings"],
       "books_featured_in": [1]
     },
@@ -9035,6 +9265,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Dursley family"],
       "books_featured_in": [1, 3, 5]
     },
@@ -9051,6 +9282,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Evans family", "Dursley family"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
@@ -9067,6 +9299,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["British Ministry of Magic", "Department of Magical Transportation", "Edgecombe family"],
       "books_featured_in": [5]
     },
@@ -9106,6 +9339,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -9122,6 +9356,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Evans family"],
       "books_featured_in": [1, 7]
     },
@@ -9172,6 +9407,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Dark Arts", "Avalon"],
       "books_featured_in": [1]
     },
@@ -9204,6 +9440,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Albus Dumbledore", "Order of the Phoenix", "Figg family"],
       "books_featured_in": [1, 4, 5, 6]
     },
@@ -9220,6 +9457,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Finch-Fletchley family"],
       "books_featured_in": [2]
     },
@@ -9253,6 +9491,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Flamel family", "Beauxbatons Academy of Magic"],
       "books_featured_in": [1]
     },
@@ -9269,6 +9508,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Hogsmeade"],
       "books_featured_in": [4]
     },
@@ -9302,6 +9542,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Honeydukes"],
       "books_featured_in": [3, 6]
     },
@@ -9318,6 +9559,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Hagrid family", "Giant colony"],
       "books_featured_in": [4, 5]
     },
@@ -9351,6 +9593,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Ministry of Magic (indirectly)", "Fudge family"],
       "books_featured_in": [4]
     },
@@ -9367,6 +9610,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["her family"],
       "books_featured_in": [7]
     },
@@ -9383,6 +9627,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Catholic Church"],
       "books_featured_in": [2]
     },
@@ -9399,6 +9644,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Gore family"],
       "books_featured_in": [2]
     },
@@ -9415,6 +9661,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [3]
     },
@@ -9495,6 +9742,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Granger family"],
       "books_featured_in": [1, 2, 3, 5, 7]
     },
@@ -9528,6 +9776,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -9578,6 +9827,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Gilderoy Lockhart", "Gudgeon family"],
       "books_featured_in": [2, 5]
     },
@@ -9633,6 +9883,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -9649,6 +9900,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Granger family"],
       "books_featured_in": [1]
     },
@@ -9665,6 +9917,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Hepzibah Smith"],
       "books_featured_in": [6]
     },
@@ -9698,6 +9951,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["British Ministry of Magic", "Improper Use of Magic Office", "Death Eaters (indirectly)"],
       "books_featured_in": [2, 5, 7]
     },
@@ -9731,6 +9985,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Lupin family"],
       "books_featured_in": [3, 7]
     },
@@ -9770,6 +10025,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Zoo"],
       "books_featured_in": [1]
     },
@@ -9786,6 +10042,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Bulgarian National Quidditch team"],
       "books_featured_in": [4]
     },
@@ -9890,6 +10147,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Jones family", "Order of the Phoenix", "Advance Guard", "Harry Potter"],
       "books_featured_in": [5, 7]
     },
@@ -9906,6 +10164,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -9945,6 +10204,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [3]
     },
@@ -9961,6 +10221,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -9977,6 +10238,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Kevin's family"],
       "books_featured_in": [4]
     },
@@ -9993,6 +10255,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Knockturn Alley"],
       "books_featured_in": [2]
     },
@@ -10009,6 +10272,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black",
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -10025,6 +10289,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Krum family"],
       "books_featured_in": [4]
     },
@@ -10075,6 +10340,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [
         "Longbottom family",
         "Ministry of Magic (formerly)",
@@ -10223,6 +10489,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -10239,6 +10506,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Magical Menagerie"],
       "books_featured_in": [3]
     },
@@ -10288,6 +10556,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Madam Malkin's Robes for All Occasions"],
       "books_featured_in": [1, 3, 5, 6, 7]
     },
@@ -10304,6 +10573,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["British Ministry of Magic", "Wizengamot", "Wizarding Examinations Authority"],
       "books_featured_in": [5]
     },
@@ -10320,6 +10590,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["The Knight Bus"],
       "books_featured_in": [3, 5]
     },
@@ -10336,6 +10607,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Wool's Orphanage"],
       "books_featured_in": [6]
     },
@@ -10352,6 +10624,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Mason family"],
       "books_featured_in": [2]
     },
@@ -10368,6 +10641,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -10384,6 +10658,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Beauxbatons Academy of Magic", "Order of the Phoenix", "Maxime family"],
       "books_featured_in": [4, 5, 6]
     },
@@ -10400,6 +10675,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Maxime family"],
       "books_featured_in": [4]
     },
@@ -10462,6 +10738,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Order of the Phoenix", "McKinnon family"],
       "books_featured_in": [1, 4, 5, 7]
     },
@@ -10478,6 +10755,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Meadowes family", "Order of the Phoenix"],
       "books_featured_in": [5]
     },
@@ -10545,6 +10823,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Montague family"],
       "books_featured_in": [5]
     },
@@ -10561,6 +10840,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -10611,6 +10891,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Irish National Quidditch team"],
       "books_featured_in": [4]
     },
@@ -10627,6 +10908,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Acromantula colony"],
       "books_featured_in": [2]
     },
@@ -10643,6 +10925,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Irish National Quidditch team"],
       "books_featured_in": [4]
     },
@@ -10659,6 +10942,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Black Lake Selkie Colony", "Merpeople village", "Albus Dumbledore"],
       "books_featured_in": [4, 6]
     },
@@ -10675,6 +10959,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Order of the Phoenix (indirectly)", "Prewett family", "Weasley family"],
       "books_featured_in": [6, 7]
     },
@@ -10691,6 +10976,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -10707,6 +10993,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [
         "Circus Arcanus (formerly)",
         "Credence Barebone (formerly)",
@@ -10728,6 +11015,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Nettles family"],
       "books_featured_in": [2]
     },
@@ -10744,6 +11032,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Quirinus Quirrell (as egg)", "Rubeus Hagrid", "Romanian Dragon Sanctuary"],
       "books_featured_in": [1, 2, 3, 4, 5, 7]
     },
@@ -10760,6 +11049,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Argus Filch (owner)", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
@@ -10792,6 +11082,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Ottery St Catchpole paper shop"],
       "books_featured_in": [6]
     },
@@ -10832,6 +11123,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Patil family"],
       "books_featured_in": [6]
     },
@@ -10899,6 +11191,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Pettigrew family", "Order of Merlin"],
       "books_featured_in": [3]
     },
@@ -10915,6 +11208,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [3, 4, 6, 7]
     },
@@ -10931,6 +11225,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Cadmus Peverell"],
       "books_featured_in": [7]
     },
@@ -10964,6 +11259,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": [],
       "books_featured_in": [1, 5]
     },
@@ -11003,6 +11299,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Prefects' bathroom"],
       "books_featured_in": [4]
     },
@@ -11019,6 +11316,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Potter family"],
       "books_featured_in": [1, 5]
     },
@@ -11082,6 +11380,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Prewett family"],
       "books_featured_in": [5]
     },
@@ -11098,6 +11397,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -11131,6 +11431,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -11147,6 +11448,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Madam Puddifoot's Tea Shop"],
       "books_featured_in": [5, 6, 7]
     },
@@ -11163,6 +11465,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["The Quibbler (presumed)"],
       "books_featured_in": [5]
     },
@@ -11247,6 +11550,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Riddle family"],
       "books_featured_in": [4, 6]
     },
@@ -11263,6 +11567,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": null,
       "house": "House of Gaunt (abandoned)",
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [2, 4, 5, 6, 7]
     },
@@ -11279,6 +11584,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Riddle family (formerly)"],
       "books_featured_in": [4]
     },
@@ -11295,6 +11601,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Riddle family"],
       "books_featured_in": [4, 6]
     },
@@ -11311,6 +11618,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Roberts family"],
       "books_featured_in": [4]
     },
@@ -11344,6 +11652,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["St. Grogory's Primary School"],
       "books_featured_in": [1]
     },
@@ -11360,6 +11669,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Three Broomsticks Inn", "Draco Malfoy (while under the Imperius Curse)"],
       "books_featured_in": [3, 4, 6]
     },
@@ -11376,6 +11686,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [2, 4]
     },
@@ -11443,6 +11754,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Godric's Hollow", "Rita Skeeter"],
       "books_featured_in": [7]
     },
@@ -11459,6 +11771,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Smeltings Academy"],
       "books_featured_in": [4]
     },
@@ -11475,6 +11788,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Gilderoy Lockhart"],
       "books_featured_in": [2]
     },
@@ -11570,6 +11884,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["St Mungo's Hospital for Magical Maladies and Injuries"],
       "books_featured_in": [5]
     },
@@ -11603,6 +11918,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["St Mungo's Hospital for Magical Maladies and Injuries", "Janus Thickey Ward"],
       "books_featured_in": [5]
     },
@@ -11619,6 +11935,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [3]
     },
@@ -11635,6 +11952,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Nott family"],
       "books_featured_in": [5, 6]
     },
@@ -11651,6 +11969,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Thomas family"],
       "books_featured_in": [5, 7]
     },
@@ -11667,6 +11986,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -11727,6 +12047,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Trelawney family"],
       "books_featured_in": [5, 6]
     },
@@ -11768,6 +12089,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Tremlett family"],
       "books_featured_in": [5]
     },
@@ -11818,6 +12140,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -11834,6 +12157,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [3]
     },
@@ -11867,6 +12191,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [3]
     },
@@ -11883,6 +12208,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Vance family", "Order of the Phoenix", "Advance Guard"],
       "books_featured_in": [5, 6]
     },
@@ -11916,6 +12242,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -11949,6 +12276,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Weasleys' Wizard Wheezes"],
       "books_featured_in": [6]
     },
@@ -11982,6 +12310,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -11998,6 +12327,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": ["Luchino Caffe"],
       "books_featured_in": [7]
     },
@@ -12014,6 +12344,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["British Ministry of Magic"],
       "books_featured_in": [7]
     },
@@ -12078,6 +12409,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -12172,6 +12504,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Septimus Weasley (paternal great-grandfather)",
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Weasley family", "Delacour family", "Prewett family"],
       "books_featured_in": [7]
     },
@@ -12188,6 +12521,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["St Mungo's Hospital for Magical Maladies and Injuries"],
       "books_featured_in": [5]
     },
@@ -12204,6 +12538,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [3]
     },
@@ -12242,6 +12577,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Crouch family"],
       "books_featured_in": [4]
     },
@@ -12258,6 +12594,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": ["Crouch family"],
       "books_featured_in": [4]
     },
@@ -12274,6 +12611,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -12290,6 +12628,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://cdn.pixabay.com/photo/2022/04/12/19/31/woman-7128718_960_720.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
