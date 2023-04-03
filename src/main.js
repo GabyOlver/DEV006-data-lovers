@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable indent */
 /* eslint-disable no-console */
 import data from './data/harrypotter/data.js';
 // import data from './data/rickandmorty/rickandmorty.js';
@@ -6,27 +8,27 @@ import data from './data/harrypotter/data.js';
 
 const characters = data.characters;
 
-const dataIsNull = characters.filter(function(characters){
-  return characters.death !== null;
-})
+const dataSinNull = characters.map(function (character) {
+    // eslint-disable-next-line no-unused-vars
+    return Object.fromEntries(Object.entries(character).filter(([_, v]) => v !== null));
+});
 
-dataIsNull.forEach(function(characters){
-  // eslint-disable-next-line no-console
-  console.log('ID', characters.id);
-  console.log('Nombre', characters.name);
-  console.log('Fecha de Nacimiento', characters.birth);
-  console.log('Muerte', characters.death);
-  console.log('Casa', characters.house);
+const tarjetitasContainer = document.getElementById("tarjetitas-container");
 
-})
-
-const spells = data.spells;
-spells.forEach(function(spells){
-  console.log('ID', characters.id);
-  console.log('Nombre', characters.name);
-  console.log('Pronunciacion', characters.pronunciation);
-})
-
-// const houseIsNull = characters.filter(function(characters){
-//   return characters.house !== null;
-// })
+dataSinNull.forEach(function (character) {
+    const characterContainer = document.createElement('div');
+    characterContainer.innerHTML = `
+<h3>ID: ${character.id}</h3>
+<img src="${character.img}" alt="Imagen de ${character.name}">
+<h3>Nombre: ${character.name}</h3>
+<p>Fecha de Nacimiento: ${character.birth}</p>
+<p>Fecha de Muerte: ${character.death}</p>
+<p>Especie: ${character.species}</p>
+<p>Genero: ${character.gender}</p>
+<p>Patronus: ${character.patronus}</p>
+<p>Casa: ${character.house}</p>
+<p>Grupos a los que esta asociado: ${character.associated_groups}</p>
+<p>Libros en los que aparece: ${character.books_featured_in}</p>
+`;
+tarjetitasContainer.appendChild(characterContainer);
+});
