@@ -183,6 +183,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "https://pm1.narvii.com/7040/b350a5c26c0d8b6907bdae556267c7931dbc51fer1-797-598v2_128.jpg",
       "associated_groups": ["Rubeus Hagrid", "Forbidden Forest Acromantula colony"],
       "books_featured_in": [2, 5, 6, 7]
     },
@@ -778,7 +779,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black (disowned posthumously)",
-      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
+      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -795,6 +796,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black",
+      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -811,6 +813,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black",
+      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -844,6 +847,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": "House of Black",
+      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
       "associated_groups": [],
       "books_featured_in": [5, 6, 7]
     },
@@ -3842,6 +3846,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black",
+      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -4123,6 +4128,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black (formerly)",
+      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
       "associated_groups": [],
       "books_featured_in": [5, 6, 7]
     },
@@ -8450,6 +8456,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black",
+      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -8466,6 +8473,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": "House of Black",
+      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
       "associated_groups": [],
       "books_featured_in": [5, 7]
     },
@@ -10272,7 +10280,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black",
-      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
+      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -10540,6 +10548,7 @@ export default {
       "wand": "Unknown 1st wand",
       "patronus": null,
       "house": "House of Black",
+      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
       "associated_groups": [],
       "books_featured_in": [1, 4, 5, 6, 7]
     },
