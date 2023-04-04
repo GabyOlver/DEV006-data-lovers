@@ -8,7 +8,7 @@ import data from './data/harrypotter/data.js';
 
 const characters = data.characters;
 
-const dataSinNull = characters.map(function (character) {
+const dataSinNull = characters.map(character => {
     // eslint-disable-next-line no-unused-vars
     return Object.fromEntries(Object.entries(character).filter(([_, v]) => v !== null));
 });
@@ -19,7 +19,7 @@ dataSinNull.forEach(function (character) {
     const characterContainer = document.createElement('div');
     characterContainer.innerHTML = `
 <h3>ID: ${character.id}</h3>
-<img src="${character.img}" alt="Imagen de ${character.name}">
+<img class="character-img" src="${character.img}" alt="Imagen de ${character.name}">
 <h3>Nombre: ${character.name}</h3>
 <p>Fecha de Nacimiento: ${character.birth}</p>
 <p>Fecha de Muerte: ${character.death}</p>
