@@ -1760,6 +1760,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": null,
+      "img": "",
       "associated_groups": [
         "British Ministry of Magic",
         "Department of Magical Law Enforcement",
@@ -2166,6 +2167,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [
         "Malfoy family (formerly)",
         "Harry Potter",
@@ -2423,6 +2425,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -2580,6 +2583,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [2, 4, 7]
     },
@@ -3204,6 +3208,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -3433,6 +3438,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -3466,7 +3472,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      
+      "img": "",
       "associated_groups": ["Gringotts Wizarding Bank"],
       "books_featured_in": [1, 7]
     },
@@ -3660,6 +3666,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": ["Knockturn Alley"],
       "books_featured_in": [2]
     },
@@ -4006,6 +4013,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -4022,6 +4030,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [3]
     },
@@ -4746,6 +4755,7 @@ export default {
       "wand": "Elm and dragon heartstring (formerly)",
       "patronus": "None",
       "house": "Malfoy family",
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
@@ -4779,6 +4789,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [3, 4, 5, 6, 7]
     },
@@ -5125,6 +5136,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": ["Arabella Figg"],
       "books_featured_in": [1]
     },
@@ -5141,7 +5153,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      
+      "img": "",
       "associated_groups": ["Arabella Figg"],
       "books_featured_in": [1, 5]
     },
@@ -6920,6 +6932,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -8265,6 +8278,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -8332,6 +8346,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [2]
     },
@@ -9432,6 +9447,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [3]
     },
@@ -11075,6 +11091,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
+      "img": "",
       "associated_groups": [],
       "books_featured_in": [4, 5]
     },
