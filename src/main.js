@@ -26,3 +26,22 @@ characters.forEach(function (character) {
 });
 
 // data.characters.map((el) => console.log(el.death != null ? el.death : "" ))
+
+const spells = data.spells;
+const spellsContainer = document.getElementById("spells-container");
+
+spells.forEach(function (spell) {
+  const spellContainer = document.createElement('div');
+  spellContainer.innerHTML = `
+  <h3> ID: ${spell.id} </h3>
+  <img class="spell-img" src=${spell.img}" alt="Imagen de ${spell.name}">
+  <h3> Nombre: ${spell.name !=null ? spell.name : "N/A"} </h3>
+  <p> Pronunciación: ${spell.pronunciation != null ? spell.pronunciation : "N/A"}</p>
+  <p> Tipo de hechizo: ${spell.spell_type != null ? spell.spell_type : "N/A"}</p>
+  <p> Descripción: ${spell.description != null ? spell.description : "N/A"}</p>
+  <p> Mención: ${spell.mention != null ? spell.mention : "N/A"}</p>
+  <p> Etimología: ${spell.etymology != null ? spell.etymology : "N/A"}</p>
+  <p> Nota: ${spell.note != null ? spell.note : "N/A"}</p>
+  `;
+    spellsContainer.appendChild(spellContainer);
+});
