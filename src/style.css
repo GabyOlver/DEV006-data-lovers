@@ -1,3 +1,7 @@
+* {
+margin: 0;
+padding: 0;
+}
 .character-img {
    width: 240px;
    height: 180px;
@@ -6,3 +10,60 @@
     width: 240px;
     height: 180px;
  }
+ .card-container {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .card-container > div {
+   margin: 10px;
+   padding: 10px;
+   border: 1px solid black;
+   width: 280px;
+ }
+ .card-text-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-text-container > div {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 280px;
+}
+.card-text-container {
+  display: none;
+}
+.card-text-container--visible {
+  display: block;
+}
+
+.spell-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spell-container > div {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 280px;
+}
+.spell-text-container {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.spell-text-container > div {
+ margin: 10px;
+ padding: 10px;
+ border: 1px solid black;
+ width: 280px;
+}
+.spell-text-container {
+  display: none;
+}
+.spell-text-container--visible {
+  display: block;
+}
