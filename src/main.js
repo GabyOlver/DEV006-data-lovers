@@ -8,6 +8,9 @@ import data from './data/harrypotter/data.js';
 const characters = data.characters;
 const charactersCards = document.getElementById("characters-cards");
 const charactersTextCards = document.getElementById("characters-text-cards");
+const spells = data.spells;
+const spellsCards = document.getElementById("spells-container");
+const spellsTextCards = document.getElementById("spells-text-container");
 
 const loadEvents = () => {
   const buttons = document.querySelectorAll('.button')
@@ -57,10 +60,6 @@ characters.forEach(function (character) {
 loadEvents();
 
 // data.characters.map((el) => console.log(el.death != null ? el.death : "" ))
-
-const spells = data.spells;
-const spellsCards = document.getElementById("spells-container");
-const spellsTextCards = document.getElementById("spells-text-container");
 
 const changeSpellCards = () => {
   const buttons = document.querySelectorAll('.button')
