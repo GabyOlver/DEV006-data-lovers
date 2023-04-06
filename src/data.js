@@ -1,6 +1,8 @@
 // estas funciones son de ejemplo
+import data from "../src/data/harrypotter"
 
-export const example = () => {
+export const filtrarData = () => {
+  console.log(data);
   return 'example';
 };
 

@@ -1,8 +1,33 @@
 * {
-margin: 0;
-padding: 0;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
+
+body{
+   color:black;
+   font-family: 'calibri';
+}
+
+.back {
+   position:absolute;
+   top: 0;
+   left:0;
+   width: 100%;
+   height: 250px;
+   z-index: -1;
+    }
+ 
+.front{
+   width: 100px;
+   height: 50px;
+   top: 50px;
+   left: 50px;
+   z-index: 1;
+}
+
 .character-img {
+   top: 1000px;
    width: 240px;
    height: 180px;
 }
@@ -10,6 +35,7 @@ padding: 0;
     width: 240px;
     height: 180px;
  }
+<<<<<<< HEAD
  .card-container {
    display: flex;
    flex-wrap: wrap;
@@ -67,3 +93,5 @@ padding: 0;
 .spell-text-container--visible {
   display: block ;
 }
+=======
+>>>>>>> 024840f (encabezado 2)
