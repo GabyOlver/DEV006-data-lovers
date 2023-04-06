@@ -35,7 +35,6 @@ body{
     width: 240px;
     height: 180px;
  }
-<<<<<<< HEAD
  .card-container {
    display: flex;
    flex-wrap: wrap;
@@ -93,5 +92,3 @@ body{
 .spell-text-container--visible {
   display: block ;
 }
-=======
->>>>>>> 024840f (encabezado 2)
