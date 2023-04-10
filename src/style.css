@@ -18,6 +18,12 @@ header {
    left: 50px;
    z-index: 1;
 }
+#filterOptions {
+  display: none;
+}
+#filterOptions.show {
+  display: block;
+}
 .character-img {
    width: 240px;
    height: 180px;

@@ -4,13 +4,18 @@ import data from './data/harrypotter/data.js';
 // import { example } from './data.js';
 // // import data from './data/lol/lol.js';
 
-
 const characters = data.characters;
 const charactersCards = document.getElementById("characters-cards");
 const charactersTextCards = document.getElementById("characters-text-cards");
 const spells = data.spells;
 const spellsCards = document.getElementById("spells-container");
 const spellsTextCards = document.getElementById("spells-text-container");
+const filterBtn = document.getElementById ("filtrosHarry");
+const filterOptions = document.getElementById("filterOptions");
+
+filterBtn.addEventListener('click', () => {
+  filterOptions.classList.toggle('show');
+});
 
 const loadEvents = () => {
   const buttons = document.querySelectorAll('.button')
@@ -53,6 +58,7 @@ characters.forEach(function (character) {
 <p>Genero: ${character.gender != null ? character.gender : "N/A"}</p>
 <p>Casa: ${character.house != null ? character.house : "N/A"}</p>
 <p>Libros en los que aparece: ${character.books_featured_in != null ? character.books_featured_in : "N/A"}</p>
+<button id="back-to-character-card-${character.id}" class="back-button">← Volver a la imagen</button>
 `;
   charactersTextCards.appendChild(characterTextCard);
 });
