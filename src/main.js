@@ -225,6 +225,7 @@ potions.forEach(function (potion) {
 (function () {
   const listElements = document.querySelectorAll('.menu_item--show');
   const list = document.querySelector('.menu_links');
+<<<<<<< HEAD
 
   const addClick = () => {
     listElements.forEach(element => {
@@ -243,6 +244,29 @@ potions.forEach(function (potion) {
         else if (subMenu == 2) {
           console.log("Ordenar de la Z-A");
         }
+=======
+  console.log(list);
+  const addClick = ()=> {
+    listElements.forEach(element =>{
+      console.log(element);
+      let i=[0];
+      let subMenu=element.children[i];
+      console.log(element.children[i]);
+      element.addEventListener('click', ()=>{
+        let menu = element.nextElementSibling;
+        console.log("menu");
+        if (menu=[0]){
+          console.log("Todos los personajes");
+        }
+        else if (menu=[1]){
+          console.log("A-Z");
+        }
+        else if (menu=[2]){
+          console.log("z-a");
+        }
+
+        });
+>>>>>>> 4e00d52f3c4877d88663ed9a9ce847b90c969e44
       });
     });
   };
