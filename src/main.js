@@ -219,3 +219,31 @@ potions.forEach(function (potion) {
 `;
   potionsTextCards.appendChild(potionTextCard);
 });
+
+// Código para seleccionar cada elemento de los menús
+
+(function(){
+  const listElements = document.querySelectorAll('.menu_item--show');
+  const list = document.querySelector('.menu_links');
+  
+  const addClick = ()=> {
+    listElements.forEach(element =>{
+      let i=[0];
+      let subMenu=element.children[i];
+      console.log(element.children[i]);
+      element.addEventListener('click', ()=>{
+        let menu = element.nextElementSibling;
+        console.log(menu);
+        if (subMenu == 0){
+          console.log("Todos los personajes");}
+        else if (subMenu ==1){
+          console.log("Ordenar de la A-Z");}
+        else if (subMenu ==2){
+            console.log("Ordenar de la Z-A");}
+        });
+      });
+    };
+  
+
+  addClick();
+})();

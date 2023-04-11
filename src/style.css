@@ -239,3 +239,10 @@ option {
   margin-left: 3px;
 }
 
+.menu_link--inside{
+  padding: 30px 100px 30px 20px;
+}
+
+.menu_link--inside:hover{
+  background-color: #798499;
+}
