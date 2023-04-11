@@ -18,6 +18,15 @@ header {
    left: 50px;
    z-index: 1;
 }
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+option {
+  display: inline-block;
+  margin-bottom: 10px;
+}
 #filterOptions {
   display: none;
 }
@@ -32,6 +41,14 @@ header {
     width: 240px;
     height: 180px;
  }
+ .funFact-img {
+  width: 240px;
+  height: 180px;
+}
+.potion-img {
+  width: 240px;
+  height: 180px;
+}
 .card-container {
    display: flex;
    flex-wrap: wrap;
@@ -88,3 +105,137 @@ header {
 .spell-text-container--visible {
   display: block ;
 }
+.funFact-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.funFact-container > div {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 280px;
+}
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-container > div {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 280px;
+}
+.book-text-container {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.book-text-container > div {
+ margin: 10px;
+ padding: 10px;
+ border: 1px solid black;
+ width: 280px;
+}
+.book-text-container {
+ display: none;
+}
+.book-text-container--visible {
+ display: block;
+}
+.potion-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.potion-container > div {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 280px;
+}
+.potion-text-container {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.potion-text-container > div {
+ margin: 10px;
+ padding: 10px;
+ border: 1px solid black;
+ width: 280px;
+}
+.potion-text-container {
+ display: none;
+}
+.potion-text-container--visible {
+ display: block;
+}
+.menu {
+  background-color: #1a202C;
+  color: white;
+  height: 70px;
+}
+
+.menu_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.menu_links {
+  height: 100%;
+  transition: transform .5s;
+  display: flex;
+}
+
+.menu_item {
+  list-style: none;
+  position: relative;
+  height: 100%;
+  --clip: polygon(0 0,100% 0,100% 0, 0 0);
+  --transform: rotate(-90deg);
+}
+
+.menu_item:hover{
+  --clip: polygon(0 0,100% 0,100% 100%, 0 100%);
+  --transform: rotate(0);
+}
+
+.menu_link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 30px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.menu_link:hover{
+  background-color: #5e7094;
+}
+
+.menu_in{
+  list-style: none;
+  transition: clip-path .3s;
+  clip-path: var(--clip);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: max-content;
+  transform: translateY(100%);
+  background-color: black;
+}
+
+.menu_arrow {
+  transform: var(--transform);
+  transition: transform .3s;
+  display: block;
+  margin-left: 3px;
+}
+

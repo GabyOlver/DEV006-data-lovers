@@ -1,30 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers - Harry Potter</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-    <header>
+<head>
+  <meta charset="utf-8">
+  <title>Data Lovers - Harry Potter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div>
+      <img class="back" src="fondo6.png">
+      <img class="front" src="logo1.png">
+    </div>
+  </header>
+  <main>
+
+    <nav class="menu">
+      <section class="menu_container">
+
+        <ul class="menu_links">
+          <li class="menu_item menu_item--show">
+            <a ref="#" class="menu_link">Personajes <img src="arrow.svg" class="menu_arrow"></a>
+            <ul class="menu_in">
+              <li class="menu_inside">
+                  <a href="#" class="menu_link menu_link--inside">Todos</a>
+              </li>
+              <li class="menu_inside">
+                <a href="#" class="menu_link menu_link--inside">Ordenar A - Z</a>
+              </li>
+              <li class="menu_inside">
+                <a href="#" class="menu_link menu_link--inside">Ordenar Z - A</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu_item menu_item--show">
+            <a ref="#" class="menu_link">Hechizos <img src="arrow.svg" class="menu_arrow"></a>
+            <ul class="menu_in">
+              <li class="menu_inside">
+                  <a href="#" class="menu_link menu_link--inside">Todos</a>
+              </li>
+              <li class="menu_inside">
+                <a href="#" class="menu_link menu_link--inside">Ordenar A - Z</a>
+              </li>
+              <li class="menu_inside">
+                <a href="#" class="menu_link menu_link--inside">Ordenar Z - A</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu_item menu_item--show">
+            <a ref="#" class="menu_link">Pociones <img src="arrow.svg" class="menu_arrow"></a>
+            <ul class="menu_in">
+              <li class="menu_inside">
+                  <a href="#" class="menu_link menu_link--inside">Todos</a>
+              </li>
+              <li class="menu_inside">
+                <a href="#" class="menu_link menu_link--inside">Ordenar A - Z</a>
+              </li>
+              <li class="menu_inside">
+                <a href="#" class="menu_link menu_link--inside">Ordenar Z - A</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu_item menu_item--show">
+            <a ref="#" class="menu_link">Libros <img src="arrow.svg" class="menu_arrow"></a>
+            <ul class="menu_in">
+              <li class="menu_inside">
+                  <a href="#" class="menu_link menu_link--inside">Todos</a>
+              </li>
+              <li class="menu_inside">
+                <a href="#" class="menu_link menu_link--inside">Ordenar A - Z</a>
+              </li>
+              <li class="menu_inside">
+                <a href="#" class="menu_link menu_link--inside">Ordenar Z - A</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu_item menu_item--show">
+            <a ref="#" class="menu_link">Datos curiosos <img src="arrow.svg" class="menu_arrow"></a>
+            <ul class="menu_in">
+              <li class="menu_inside">
+                  <a href="#" class="menu_link menu_link--inside">Todos</a>
+              </li>
+              
+            </ul>
+          </li>
+
+        </ul>
+
+      </section>
       
-      <div>
-          <img class= "back" src="fondo6.png">
-          <img class= "front" src="logo1.png">        
-      </div>
-    </header>
+    </nav>  
+  </main>
 
-    <body>
-    <button id="filtrosHarry">Filtrar:</button>
-    <ul id="filterOptions">
-      <li><a href="#">Personajes</a></li>
-      <li><a href="#">Hechizos</a></li>
-    </ul>
-    <div id="root"></div>
-    <div id="characters-cards"></div>
-    <div id="characters-text-cards"></div>
-    <div id="spells-container" ></div>
-    <div id="spells-text-container" ></div>
-    <script src="main.js" type="module"></script>
-  </body>
+  <div id="root"></div>
+  <h2>CHARACTERS:</h2>
+  <div id="characters-cards"></div>
+  <div id="characters-text-cards"></div>
+  <h2>SPELLS:</h2>
+  <div id="spells-container"></div>
+  <div id="spells-text-container"></div>
+  <h2>FUNFACTS:</h2>
+  <div id="funFacts-container" ></div>
+  <h2>POTIONS:</h2>
+  <div id="potions-container"></div>
+  <div id="potions-text-container"></div>
+  <h2>BOOKS:</h2>
+  <div id="books-container"></div>
+  <div id="books-text-container"></div>
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>

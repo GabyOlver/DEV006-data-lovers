@@ -12727,11 +12727,13 @@ export default {
     {
       "id": 1,
       "type": "Author",
+      "img": " ",
       "content": "J. K. Rowling"
     },
     {
       "id": 2,
       "type": "Protagonist",
+      "img": " ",
       "content": "Harry Potter"
     },
     {
@@ -12743,16 +12745,19 @@ export default {
     {
       "id": 4,
       "type": "Harry Potter's magic wand",
+      "img": " ",
       "content": "Harry Potter's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
     },
     {
       "id": 5,
       "type": "Lord Voldemort's magic wand",
+      "img": " ",
       "content": "Lord Voldemort's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
     },
     {
       "id": 6,
       "type": "Lord Voldemort's real name",
+      "img": " ",
       "content": "Tom Marvolo Riddle (mixing the letters it ends up being Lord Voldemort)"
     },
     {
@@ -12764,6 +12769,7 @@ export default {
     {
       "id": 8,
       "type": "Wands",
+      "img": " ",
       "content": "Harry's wand and Voldemort's wand were twins, that's why they couldn't kill each other"
     }
   ],
