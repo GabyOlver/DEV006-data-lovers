@@ -27,7 +27,7 @@ const booksTextCards = document.getElementById("books-text-container");
 // const gryffindor = characters.filter(character => character.house === 'Gryffindor');
 // console.log(gryffindor);
 
-//Se recorre la matriz characters y creamos elementos HTML para cada personaje, tambi'en se crea un `div` para cada personaje el cual tiene la imagen,este div se agrega al 
+//Se recorre la matriz characters y creamos elementos HTML para cada personaje, tambien se crea un `div` para cada personaje el cual tiene la imagen,este div se agrega al elemento HTML charactersCards. Se crea un evento click a cada elemento de character y este evento reemplaza el `div` de la imagen con el `div` de la informacion la cual se muestra en charactersTextCards. 
 
 characters.forEach(function (character) {
   const characterCard = document.createElement('div');
@@ -222,28 +222,31 @@ potions.forEach(function (potion) {
 
 // Código para seleccionar cada elemento de los menús
 
-(function(){
+(function () {
   const listElements = document.querySelectorAll('.menu_item--show');
   const list = document.querySelector('.menu_links');
-  
-  const addClick = ()=> {
-    listElements.forEach(element =>{
-      let i=[0];
-      let subMenu=element.children[i];
-      console.log(element.children[i]);
-      element.addEventListener('click', ()=>{
+
+  const addClick = () => {
+    listElements.forEach(element => {
+      element.addEventListener('click', () => {
+        let subMenu = element.children[i];
+        let i = [0];
+        console.log(element.children[i]);
         let menu = element.nextElementSibling;
         console.log(menu);
-        if (subMenu == 0){
-          console.log("Todos los personajes");}
-        else if (subMenu ==1){
-          console.log("Ordenar de la A-Z");}
-        else if (subMenu ==2){
-            console.log("Ordenar de la Z-A");}
-        });
+        if (subMenu == 0) {
+          console.log("Todos los personajes");
+        }
+        else if (subMenu == 1) {
+          console.log("Ordenar de la A-Z");
+        }
+        else if (subMenu == 2) {
+          console.log("Ordenar de la Z-A");
+        }
       });
-    };
-  
+    });
+  };
+
 
   addClick();
 })();
