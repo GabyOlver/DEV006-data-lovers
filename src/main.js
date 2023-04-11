@@ -4,7 +4,7 @@ import data from './data/harrypotter/data.js'; //Importamos los datos de Harry P
 // import { example } from './data.js';
 // // import data from './data/lol/lol.js';
 
-const characters = data.characters;//Se almacena los datos especificos 
+const characters = data.characters;//Se almacena los datos especificos del objeto en el array
 
 const funFacts = data.funFacts;
 
@@ -14,7 +14,7 @@ const potions = data.potions;
 
 const books = data.books;
 
-const charactersCards = document.getElementById("characters-cards");
+const charactersCards = document.getElementById("characters-cards"); // Se seleccionan elememtos del HTML y se almacenan en variables
 const charactersTextCards = document.getElementById("characters-text-cards");
 const spellsCards = document.getElementById("spells-container");
 const spellsTextCards = document.getElementById("spells-text-container");
@@ -26,6 +26,8 @@ const booksTextCards = document.getElementById("books-text-container");
 
 // const gryffindor = characters.filter(character => character.house === 'Gryffindor');
 // console.log(gryffindor);
+
+//Se recorre la matriz characters y creamos elementos HTML para cada personaje, tambi'en se crea un `div` para cada personaje el cual tiene la imagen,este div se agrega al 
 
 characters.forEach(function (character) {
   const characterCard = document.createElement('div');
