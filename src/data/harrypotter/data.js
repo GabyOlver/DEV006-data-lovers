@@ -12727,49 +12727,49 @@ export default {
     {
       "id": 1,
       "type": "Author",
-      "img": " ",
+      "img": "https://csq.com/wp-content/uploads/2017/10/rowling_300dpi.png",
       "content": "J. K. Rowling"
     },
     {
       "id": 2,
       "type": "Protagonist",
-      "img": " ",
+      "img": "https://eltallerdehector.com/wp-content/uploads/2023/02/harry-potter-broom-png.png",
       "content": "Harry Potter"
     },
     {
       "id": 3,
       "type": "Antatagonist",
-      "img": "https://images.firstpost.com/wp-content/uploads/2015/06/voldemort.png",
+      "img": "https://www.sosyncd.com/wp-content/uploads/2021/02/ENTJ-Voldemort.png",
       "content": "Lord Voldemort"
     },
     {
       "id": 4,
       "type": "Harry Potter's magic wand",
-      "img": " ",
+      "img": "https://www.pngimages.pics/images/quotes/english/general/harry-potter-wand-png-hd-52650-277070.png",
       "content": "Harry Potter's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
     },
     {
       "id": 5,
       "type": "Lord Voldemort's magic wand",
-      "img": " ",
+      "img": "",
       "content": "Lord Voldemort's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
     },
     {
       "id": 6,
       "type": "Lord Voldemort's real name",
-      "img": " ",
+      "img": "https://wizardswelcome.com/wp-content/uploads/2022/04/Tom-Riddle.png",
       "content": "Tom Marvolo Riddle (mixing the letters it ends up being Lord Voldemort)"
     },
     {
       "id": 7,
       "type": "Houses",
-      "img": "https://www.pngarts.com/files/11/Harry-Potter-PNG-High-Quality-Image.png",
+      "img": "https://p.kindpng.com/picc/s/176-1761438_harry-potter-houses-hd-png-download.png",
       "content": "At the school Hogwarts there are four houses: Gryffindor, Ravenclaw, Hufflepuff and Slytherin"
     },
     {
       "id": 8,
       "type": "Wands",
-      "img": " ",
+      "img": "https://www.hogwarts-school.net/wiki/images/f/f8/Wands.png",
       "content": "Harry's wand and Voldemort's wand were twins, that's why they couldn't kill each other"
     }
   ],

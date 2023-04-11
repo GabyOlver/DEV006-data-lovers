@@ -1,10 +1,10 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable no-console */
-import data from './data/harrypotter/data.js';
+import data from './data/harrypotter/data.js'; //Importamos los datos de Harry Potter 
 // import { example } from './data.js';
 // // import data from './data/lol/lol.js';
 
-const characters = data.characters;
+const characters = data.characters;//Se almacena los datos especificos 
 
 const funFacts = data.funFacts;
 
@@ -96,6 +96,10 @@ spells.forEach(function (spell) {
     if (spellTextCard) {
       spellsCards.replaceChild(spellTextCard, spellCard);
       spellTextCard.classList.add('spell-text-container--visible');
+      const closeButton = spellTextCard.querySelector('.close-button');
+      closeButton.addEventListener('click', () => {
+        spellsCards.replaceChild(spellCard, spellTextCard);
+      });
     }
   })
 });
@@ -105,6 +109,7 @@ spells.forEach(function (spell) {
   spellTextCard.id = `spell-text-card-${spell.id}`;
   spellsTextCards.classList.add("spell-text-container");
   spellTextCard.innerHTML = `
+  <button class="close-button">x<button>
   <h3> ID: ${spell.id} </h3>
   <h3> Nombre: ${spell.name != null ? spell.name : "N/A"} </h3>
   <p> Pronunciación: ${spell.pronunciation != null ? spell.pronunciation : "N/A"}</p>
@@ -150,6 +155,10 @@ books.forEach(function (book) {
     if (bookTextCard) {
       booksCards.replaceChild(bookTextCard, bookCard);
       bookTextCard.classList.add('book-text-container--visible');
+      const closeButton = bookTextCard.querySelector('.close-button');
+      closeButton.addEventListener('click', () => {
+        booksCards.replaceChild(bookCard, bookTextCard);
+      });
     }
   })
 });
@@ -159,6 +168,7 @@ books.forEach(function (book) {
   bookTextCard.id = `book-text-card-${book.id}`;
   booksTextCards.classList.add("book-text-container");
   bookTextCard.innerHTML = `
+  <button class="close-button">x<button>
 <h3># ${book.id}</h3>
 <h3>Titulo: ${book.title != null ? book.title : "N/A"}</h3>
 <p>Fecha de Publicacion: ${book.releaseDay != null ? book.releaseDay : "N/A"}</p>
@@ -187,6 +197,10 @@ potions.forEach(function (potion) {
     if (potionTextCard) {
       potionsCards.replaceChild(potionTextCard, potionCard);
       potionTextCard.classList.add('potion-text-container--visible');
+      const closeButton = potionTextCard.querySelector('.close-button');
+      closeButton.addEventListener('click', () => {
+        potionsCards.replaceChild(potionCard, potionTextCard);
+      });
     }
   })
 });
@@ -196,6 +210,7 @@ potions.forEach(function (potion) {
   potionTextCard.id = `potion-text-card-${potion.id}`;
   potionsTextCards.classList.add("potion-text-container");
   potionTextCard.innerHTML = `
+  <button class="close-button">x<button>
 <h3># ${potion.id}</h3>
 <h3>Nombre: ${potion.name != null ? potion.name : "N/A"}</h3>
 <p>Descripcion: ${potion.description != null ? potion.description : "N/A"}</p>
