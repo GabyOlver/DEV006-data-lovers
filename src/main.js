@@ -6,7 +6,7 @@ import data from './data/harrypotter/data.js'; //Importamos los datos de Harry P
 
 const characters = data.characters;//Se almacena los datos especificos del objeto en el array
 
-const funFacts = data.funFacts;
+const funFacts = data.funFacts; 
 
 const spells = data.spells;
 
@@ -222,55 +222,32 @@ potions.forEach(function (potion) {
 
 // Código para seleccionar cada elemento de los menús
 
-(function () {
-  const listElements = document.querySelectorAll('.menu_item--show');
-  const list = document.querySelector('.menu_links');
-<<<<<<< HEAD
+// (function () {
+//   const listElements = document.querySelectorAll('.menu_item--show');
+//   const list = document.querySelector('.menu_links');
+//   console.log(list);
+//   function addClick() {
+//     listElements.forEach(element => {
+//       console.log(element);
+//       let i = [0];
+//       let subMenu = element.children[i];
+//       console.log(element.children[i]);
+//       element.addEventListener('click', () => {
+//         let menu = element.nextElementSibling;
+//         console.log("menu");
+//         if (menu = [0]) {
+//           console.log("Todos los personajes");
+//         }
+//         else if (menu = [1]) {
+//           console.log("A-Z");
+//         }
+//         else if (menu = [2]) {
+//           console.log("z-a");
+//         }
 
-  const addClick = () => {
-    listElements.forEach(element => {
-      element.addEventListener('click', () => {
-        let subMenu = element.children[i];
-        let i = [0];
-        console.log(element.children[i]);
-        let menu = element.nextElementSibling;
-        console.log(menu);
-        if (subMenu == 0) {
-          console.log("Todos los personajes");
-        }
-        else if (subMenu == 1) {
-          console.log("Ordenar de la A-Z");
-        }
-        else if (subMenu == 2) {
-          console.log("Ordenar de la Z-A");
-        }
-=======
-  console.log(list);
-  const addClick = ()=> {
-    listElements.forEach(element =>{
-      console.log(element);
-      let i=[0];
-      let subMenu=element.children[i];
-      console.log(element.children[i]);
-      element.addEventListener('click', ()=>{
-        let menu = element.nextElementSibling;
-        console.log("menu");
-        if (menu=[0]){
-          console.log("Todos los personajes");
-        }
-        else if (menu=[1]){
-          console.log("A-Z");
-        }
-        else if (menu=[2]){
-          console.log("z-a");
-        }
+//       });
+//     });
+//   }
 
-        });
->>>>>>> 4e00d52f3c4877d88663ed9a9ce847b90c969e44
-      });
-    });
-  };
-
-
-  addClick();
-})();
+// addClick();
+// };
