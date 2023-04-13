@@ -23,14 +23,5 @@ export const getBooks = () => {
   return data.books;
   console.log(data.books)
 };
-// estas funciones son de ejemplo
 
-// export const example = () => {
-//   return 'example';
-// };
-
-// export const anotherExample = () => {
-//   return 'OMG';
-// };
-
-// export function filterCharacters(charactersFilter)
+// export const FiltrarPorCasa = (house, arrayCharacters)

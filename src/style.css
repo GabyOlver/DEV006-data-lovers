@@ -27,11 +27,107 @@ header {
   background-attachment: fixed;
   }
   
-.character-img {
+/* .character-img {
    width: 240px;
    height: 180px;
+} */
+/* #characters {
+  position: absolute;
+  background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/6wHncCI874vqZMgEeZUOLk/3f086d8665f06dfa1f9f0af585850d47/UOR_DiagonAlley_VB.jpg");
+  display: none;
+  background-size: contain;
+  padding-top: 8px;
+  width: 100%;
 }
-.spell-img {
+
+#charactersCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 40px 0;
+  padding: 0px 80px;
+} */
+.card {
+  background-color: transparent;
+  width: 200px;
+  height: 320px;
+  border-radius: 10px;
+  perspective: 1000px;
+  border-radius: 10px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: 7px 8px 7px -9px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  background-color: white;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.card-front {
+  border-radius: 10px;
+  overflow: hidden;
+  /* background-color: blue; */
+  /* color: black; */
+  display: flex;
+  padding-bottom: 10px;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  background-image: url("https://i.pinimg.com/474x/4a/00/5f/4a005fd9632d6ca43e574e06b3f54f22.jpg");
+  flex-wrap: wrap;
+
+}
+
+.card-back {
+  /* background-color: aqua; */
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg);
+  font-size: 20px;
+  background-image: url("https://i.pinimg.com/474x/4a/00/5f/4a005fd9632d6ca43e574e06b3f54f22.jpg");
+}
+.card-back p {
+  margin-bottom: 0;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.card-front img {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  height: 200px;
+  flex-grow: 1;
+  align-items: center;
+  object-fit: cover;
+}
+/* .spell-img {
     width: 240px;
     height: 180px;
  }
@@ -42,8 +138,8 @@ header {
 .potion-img {
   width: 240px;
   height: 180px;
-}
-.card-container {
+} */
+/* .card-container {
    display: flex;
    flex-wrap: wrap;
  }
@@ -112,94 +208,51 @@ header {
 }
 .card-text-container--visible {
   display: block;
+} */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-container > div {
+  margin: 10px;
+  padding: 10px;
+  width: 280px;
 }
 .spell-container {
   display: flex;
   flex-wrap: wrap;
 }
-
 .spell-container > div {
   margin: 10px;
   padding: 10px;
-  border: 1px solid black;
   width: 280px;
-}
-.spell-text-container {
- display: flex;
- flex-wrap: wrap;
- display: none;
-}
-
-.spell-text-container > div {
- margin: 10px;
- padding: 10px;
- border: 1px solid black;
- width: 280px;
-}
-.spell-text-container--visible {
-  display: block ;
 }
 .funFact-container {
   display: flex;
   flex-wrap: wrap;
 }
-
 .funFact-container > div {
   margin: 10px;
   padding: 10px;
-  border: 1px solid black;
   width: 280px;
 }
 .book-container {
   display: flex;
   flex-wrap: wrap;
 }
-
 .book-container > div {
   margin: 10px;
   padding: 10px;
-  border: 1px solid black;
   width: 280px;
-}
-.book-text-container {
- display: flex;
- flex-wrap: wrap;
- display: none;
-}
-.book-text-container > div {
- margin: 10px;
- padding: 10px;
- border: 1px solid black;
- width: 280px;
-}
-.book-text-container--visible {
- display: block;
 }
 .potion-container {
   display: flex;
   flex-wrap: wrap;
 }
-
 .potion-container > div {
   margin: 10px;
   padding: 10px;
-  border: 1px solid black;
   width: 280px;
-}
-.potion-text-container {
- display: flex;
- flex-wrap: wrap;
- display: none;
-}
-
-.potion-text-container > div {
- margin: 10px;
- padding: 10px;
- border: 1px solid black;
- width: 280px;
-}
-.potion-text-container--visible {
- display: block;
 }
 .menu {
   background-color: #1a202C;

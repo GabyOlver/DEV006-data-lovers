@@ -12727,7 +12727,7 @@ export default {
     {
       "id": 1,
       "type": "Author",
-      "img": "https://csq.com/wp-content/uploads/2017/10/rowling_300dpi.png",
+      "img": "https://eltallerdehector.com/wp-content/uploads/2023/02/harry-potter-broom-png.png",
       "content": "J. K. Rowling"
     },
     {
@@ -12739,37 +12739,37 @@ export default {
     {
       "id": 3,
       "type": "Antatagonist",
-      "img": "https://www.sosyncd.com/wp-content/uploads/2021/02/ENTJ-Voldemort.png",
+      "img": "https://eltallerdehector.com/wp-content/uploads/2023/02/harry-potter-broom-png.png",
       "content": "Lord Voldemort"
     },
     {
       "id": 4,
       "type": "Harry Potter's magic wand",
-      "img": "",
+      "img": "https://eltallerdehector.com/wp-content/uploads/2023/02/harry-potter-broom-png.png",
       "content": "Harry Potter's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
     },
     {
       "id": 5,
       "type": "Lord Voldemort's magic wand",
-      "img": "",
+      "img": "https://eltallerdehector.com/wp-content/uploads/2023/02/harry-potter-broom-png.png",
       "content": "Lord Voldemort's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
     },
     {
       "id": 6,
       "type": "Lord Voldemort's real name",
-      "img": "https://wizardswelcome.com/wp-content/uploads/2022/04/Tom-Riddle.png",
+      "img": "https://eltallerdehector.com/wp-content/uploads/2023/02/harry-potter-broom-png.png",
       "content": "Tom Marvolo Riddle (mixing the letters it ends up being Lord Voldemort)"
     },
     {
       "id": 7,
       "type": "Houses",
-      "img": "",
+      "img": "https://eltallerdehector.com/wp-content/uploads/2023/02/harry-potter-broom-png.png",
       "content": "At the school Hogwarts there are four houses: Gryffindor, Ravenclaw, Hufflepuff and Slytherin"
     },
     {
       "id": 8,
       "type": "Wands",
-      "img": "",
+      "img": "https://eltallerdehector.com/wp-content/uploads/2023/02/harry-potter-broom-png.png",
       "content": "Harry's wand and Voldemort's wand were twins, that's why they couldn't kill each other"
     }
   ],
