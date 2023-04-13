@@ -8,111 +8,96 @@
 </head>
 
 <body>
-  <header>
-    <div>
-      <img class="back" src="fondo6.png">
-      <img class="front" src="logo1.png">
-    </div>
-  </header>
+<header>
+  <div>
+    <img class="back" src="fondo6.png">
+    <img class="front" src="logo1.png">
+  </div>
+  
+</header>
+<div class="imagen-fondo">
   <main>
-
     <nav class="menu">
       <section class="menu_container">
 
         <ul class="menu_links">
           <li class="menu_item menu_item--show">
-            <a ref="#" class="menu_link">Personajes <img src="arrow.svg" class="menu_arrow"></a>
+            <a ref="#" class="menu_link" id="menuPersonajes">Personajes <img src="arrow.svg" class="menu_arrow"></a>
             <ul class="menu_in">
               <li class="menu_inside">
-                  <a href="#" class="menu_link menu_link--inside">Todos</a>
+                <a href="#" class="menu_link menu_link--inside" id="todosPersonajes">Todos</a>
               </li>
               <li class="menu_inside">
-                <a href="#" class="menu_link menu_link--inside">Ordenar A - Z</a>
+                <a href="#" class="menu_link menu_link--inside" id="azPersonajes">Ordenar A - Z</a>
               </li>
               <li class="menu_inside">
-                <a href="#" class="menu_link menu_link--inside">Ordenar Z - A</a>
-              </li>
-            </ul>
-          </li>
-       
-
-          <li class="menu_item menu_item--show">
-            <a ref="#" class="menu_link">Hechizos <img src="arrow.svg" class="menu_arrow"></a>
-            <ul class="menu_in">
-              <li class="menu_inside">
-                  <a href="#" class="menu_link menu_link--inside">Todos</a>
-              </li>
-              <li class="menu_inside">
-                <a href="#" class="menu_link menu_link--inside">Ordenar A - Z</a>
-              </li>
-              <li class="menu_inside">
-                <a href="#" class="menu_link menu_link--inside">Ordenar Z - A</a>
+                <a href="#" class="menu_link menu_link--inside" id="zaPersonajes">Ordenar Z - A</a>
               </li>
             </ul>
           </li>
 
+
           <li class="menu_item menu_item--show">
-            <a ref="#" class="menu_link">Pociones <img src="arrow.svg" class="menu_arrow"></a>
+            <a ref="#" class="menu_link" id="menuHechizos">Hechizos <img src="arrow.svg" class="menu_arrow"></a>
             <ul class="menu_in">
               <li class="menu_inside">
-                  <a href="#" class="menu_link menu_link--inside">Todos</a>
+                <a href="#" class="menu_link menu_link--inside" id="todosHechizos">Todos</a>
               </li>
               <li class="menu_inside">
-                <a href="#" class="menu_link menu_link--inside">Ordenar A - Z</a>
+                <a href="#" class="menu_link menu_link--inside" id="azHechizos">Ordenar A - Z</a>
               </li>
               <li class="menu_inside">
-                <a href="#" class="menu_link menu_link--inside">Ordenar Z - A</a>
+                <a href="#" class="menu_link menu_link--inside" id="zaHechizos">Ordenar Z - A</a>
               </li>
             </ul>
           </li>
 
           <li class="menu_item menu_item--show">
-            <a ref="#" class="menu_link">Libros <img src="arrow.svg" class="menu_arrow"></a>
+            <a ref="#" class="menu_link" id="menuPociones">Pociones <img src="arrow.svg" class="menu_arrow"></a>
             <ul class="menu_in">
               <li class="menu_inside">
-                  <a href="#" class="menu_link menu_link--inside">Todos</a>
+                <a href="#" class="menu_link menu_link--inside" id="todosPociones">Todos</a>
               </li>
               <li class="menu_inside">
-                <a href="#" class="menu_link menu_link--inside">Ordenar A - Z</a>
+                <a href="#" class="menu_link menu_link--inside" id="azPociones">Ordenar A - Z</a>
               </li>
               <li class="menu_inside">
-                <a href="#" class="menu_link menu_link--inside">Ordenar Z - A</a>
+                <a href="#" class="menu_link menu_link--inside" id="zaPociones">Ordenar Z - A</a>
               </li>
             </ul>
           </li>
 
           <li class="menu_item menu_item--show">
-            <a ref="#" class="menu_link">Datos curiosos <img src="arrow.svg" class="menu_arrow"></a>
-            <ul class="menu_in">
-              <li class="menu_inside">
-                  <a href="#" class="menu_link menu_link--inside">Todos</a>
-              </li>
-              
-            </ul>
+            <a ref="#" class="menu_link" id="menuLibros">Libros </a>
+          </li>
+
+          <li class="menu_item menu_item--show">
+            <a ref="#" class="menu_link" id="menuDatos">Datos curiosos </a>
+      
           </li>
 
         </ul>
 
       </section>
-      
-    </nav>  
-  </main>
 
-  <div id="root"></div>
-  <h2>CHARACTERS:</h2>
-  <div id="characters-cards"></div>
-  <div id="characters-text-cards"></div>
-  <h2>SPELLS:</h2>
-  <div id="spells-container"></div>
-  <div id="spells-text-container"></div>
-  <h2>FUNFACTS:</h2>
-  <div id="funFacts-container" ></div>
-  <h2>POTIONS:</h2>
-  <div id="potions-container"></div>
-  <div id="potions-text-container"></div>
-  <h2>BOOKS:</h2>
-  <div id="books-container"></div>
-  <div id="books-text-container"></div>
+    </nav>
+  </main>
+      <div id="root"></div>
+      <h2>CHARACTERS:</h2>
+      <div id="characters-cards"></div>
+      <div id="characters-text-cards"></div>
+      <h2>SPELLS:</h2>
+      <div id="spells-container"></div>
+      <div id="spells-text-container"></div>
+      <h2>FUNFACTS:</h2>
+      <div id="funFacts-container"></div>
+      <h2>POTIONS:</h2>
+      <div id="potions-container"></div>
+      <div id="potions-text-container"></div>
+      <h2>BOOKS:</h2>
+      <div id="books-container"></div>
+      <div id="books-text-container"></div>
+  </div>
   <script src="main.js" type="module"></script>
 </body>
 

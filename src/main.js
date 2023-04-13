@@ -1,18 +1,13 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable no-console */
 import data from './data/harrypotter/data.js'; //Importamos los datos de Harry Potter 
-// import { example } from './data.js';
-// // import data from './data/lol/lol.js';
+import { getCharacters, getSpells, getFunFacts, getPotions, getBooks} from './data.js';
 
-const characters = data.characters;//Se almacena los datos especificos del objeto en el array
-
-const funFacts = data.funFacts; 
-
-const spells = data.spells;
-
-const potions = data.potions;
-
-const books = data.books;
+const characters = getCharacters();
+const spells = getSpells();
+const funFacts = getFunFacts();
+const potions = getPotions();
+const books = getBooks();
 
 const charactersCards = document.getElementById("characters-cards"); // Se seleccionan elememtos del HTML y se almacenan en variables
 const charactersTextCards = document.getElementById("characters-text-cards");
@@ -124,8 +119,6 @@ spells.forEach(function (spell) {
   spellsTextCards.appendChild(spellTextCard);
 });
 
-// changeSpellCards()
-
 funFacts.forEach(function (funFact) {
   const funFactCard = document.createElement('div');
   funFactsCards.classList.add("funFact-container");
@@ -222,32 +215,23 @@ potions.forEach(function (potion) {
 
 // Código para seleccionar cada elemento de los menús
 
-// (function () {
-//   const listElements = document.querySelectorAll('.menu_item--show');
-//   const list = document.querySelector('.menu_links');
-//   console.log(list);
-//   function addClick() {
-//     listElements.forEach(element => {
-//       console.log(element);
-//       let i = [0];
-//       let subMenu = element.children[i];
-//       console.log(element.children[i]);
-//       element.addEventListener('click', () => {
-//         let menu = element.nextElementSibling;
-//         console.log("menu");
-//         if (menu = [0]) {
-//           console.log("Todos los personajes");
-//         }
-//         else if (menu = [1]) {
-//           console.log("A-Z");
-//         }
-//         else if (menu = [2]) {
-//           console.log("z-a");
-//         }
+// (function(){
+//   const listElements = document.querySelectorAll('.menu_links').value;
+  
+//const list = document.querySelector ('.menu_links');
 
-//       });
-//     });
+//   const addClick = ()=>{
+//     listElements.forEach(element =>{
+//       element.addEventListener('click', ()=>{
+//         console.log(element);
+//         const menu_Personajes=document.getElementById("menuPersonajes");
+//         console.log(menu_Personajes);
+//         const menu_Hechizos=document.getElementById("menuHechizos");
+//         if (menu_Personajes === "Personajes"){ console.log("Personajes")}
+//         else if (menu_Hechizos === "Hechizos"){ console.log("Hechizos")}
+//       })  
+//     })
 //   }
 
-// addClick();
-// };
+//   addClick();
+// })();

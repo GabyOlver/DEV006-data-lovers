@@ -268,7 +268,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn.photofunia.com/effects/hogwarts_letter/icons/medium.jpg",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [6]
     },
@@ -12745,7 +12745,7 @@ export default {
     {
       "id": 4,
       "type": "Harry Potter's magic wand",
-      "img": "https://www.pngimages.pics/images/quotes/english/general/harry-potter-wand-png-hd-52650-277070.png",
+      "img": "",
       "content": "Harry Potter's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
     },
     {
@@ -12763,13 +12763,13 @@ export default {
     {
       "id": 7,
       "type": "Houses",
-      "img": "https://p.kindpng.com/picc/s/176-1761438_harry-potter-houses-hd-png-download.png",
+      "img": "",
       "content": "At the school Hogwarts there are four houses: Gryffindor, Ravenclaw, Hufflepuff and Slytherin"
     },
     {
       "id": 8,
       "type": "Wands",
-      "img": "https://www.hogwarts-school.net/wiki/images/f/f8/Wands.png",
+      "img": "",
       "content": "Harry's wand and Voldemort's wand were twins, that's why they couldn't kill each other"
     }
   ],
