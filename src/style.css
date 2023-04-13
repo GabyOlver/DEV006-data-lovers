@@ -19,9 +19,9 @@ header {
    left: 50px;
    z-index: 1;
 }
-.imagen-fondo {
+body {
   background-image:linear-gradient(to bottom, rgba(100,100,100,100) 0%,rgba(100,100,100,0.5) 50%,rgba(100,100,100,100) 100%), url('https://images5.alphacoders.com/339/thumb-1920-339227.jpg');
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -276,6 +276,7 @@ header {
   transition: transform .5s;
   display: flex;
   font-size: x-large;
+  z-index: 1;
 }
 
 .menu_item {

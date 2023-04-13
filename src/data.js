@@ -2,7 +2,6 @@
 /* eslint-disable no-console */
 import data from './data/harrypotter/data.js';
 
-
 export const getCharacters = () => {
   return data.characters;
   console.log(data.characters)
@@ -24,4 +23,4 @@ export const getBooks = () => {
   console.log(data.books)
 };
 
-// export const FiltrarPorCasa = (house, arrayCharacters)
+// export const FiltrarPersonajes = (house, arrayCharacters)
