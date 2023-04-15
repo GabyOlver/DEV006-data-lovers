@@ -1,7 +1,7 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable no-console */
 import data from './data/harrypotter/data.js'; //Importamos los datos de Harry Potter 
-import { getCharacters, getSpells, getFunFacts, getPotions, getBooks } from './data.js';
+import { getCharacters, getSpells, getFunFacts, getPotions, getBooks} from './data.js';
 
 const characters = getCharacters();
 const spells = getSpells();
@@ -47,7 +47,7 @@ funFacts.forEach((funFact) => {
   showfunFacts(funFact)
 });
 
-function showCharacters(character) {
+function showCharacters(character){
 
   charactersCards.classList.add("card-container");
   const card = document.createElement('div');
@@ -63,7 +63,7 @@ function showCharacters(character) {
   const house = document.createElement('p');
   const booksCharacters = document.createElement('p');
   const death = document.createElement('p');
-
+ 
   name.innerHTML = character.name;
   nameBack.innerHTML = character.name;
   img.src = character.img;
@@ -95,7 +95,7 @@ function showCharacters(character) {
   cardBack.className = "card-back"
 }
 
-function showSpells(spell) {
+function showSpells(spell){
 
   spellsCards.classList.add("spell-container");
   const card = document.createElement('div');
@@ -137,7 +137,7 @@ function showSpells(spell) {
   cardBack.className = "card-back"
 }
 
-function showPotions(potion) {
+function showPotions(potion){
 
   potionsCards.classList.add("potion-container");
   const card = document.createElement('div');
@@ -170,7 +170,7 @@ function showPotions(potion) {
   cardBack.className = "card-back"
 }
 
-function showBooks(book) {
+function showBooks(book){
 
   booksCards.classList.add("book-container");
   const card = document.createElement('div');
@@ -209,7 +209,7 @@ function showBooks(book) {
   cardBack.className = "card-back"
 }
 
-function showfunFacts(funFact) {
+function showfunFacts(funFact){
 
   funFactsCards.classList.add("funFact-container");
   const card = document.createElement('div');
@@ -242,12 +242,12 @@ function showfunFacts(funFact) {
   cardBack.className = "card-back"
 }
 
-function botones_personajes() {
+function botones_personajes(){
 
   const personajesMenu = document.querySelectorAll(".menu_personajes");
   personajesMenu.forEach((opcion) => {
-    opcion.addEventListener('click', () => {
-      if (opcion.innerText === 'Todos') {
+    opcion.addEventListener('click',() => {
+      if(opcion.innerText === 'Todos'){
         charactersCardsDad.style.display = 'block';
         spellsCardsDad.style.display = 'none';
         funFactsCardsDad.style.display = 'none';
@@ -257,7 +257,7 @@ function botones_personajes() {
     })
   })
 
-}
+} 
 botones_personajes();
 
 
@@ -266,7 +266,7 @@ function botones_hechizos() {
   console.log(hechizosMenu)
   hechizosMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
-      if (opcion.innerText === 'Todos') {
+      if(opcion.innerText === 'Todos'){
         charactersCardsDad.style.display = 'none';
         spellsCardsDad.style.display = 'block';
         funFactsCardsDad.style.display = 'none';
@@ -285,7 +285,7 @@ function botones_pociones() {
   console.log(pocionesMenu)
   pocionesMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
-      if (opcion.innerText === 'Todos') {
+      if(opcion.innerText === 'Todos'){
         charactersCardsDad.style.display = 'none';
         spellsCardsDad.style.display = 'none';
         funFactsCardsDad.style.display = 'none';
