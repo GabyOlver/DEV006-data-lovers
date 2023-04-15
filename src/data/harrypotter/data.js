@@ -13,7 +13,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
-      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [5]
     },
@@ -30,7 +30,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Ravenclaw",
-      "img": "https://www.pngmart.com/files/12/Ravenclaw-House-PNG-Clipart.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -183,7 +183,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://pm1.narvii.com/7040/b350a5c26c0d8b6907bdae556267c7931dbc51fer1-797-598v2_128.jpg",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Rubeus Hagrid", "Forbidden Forest Acromantula colony"],
       "books_featured_in": [2, 5, 6, 7]
     },
@@ -268,7 +268,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://cdn.photofunia.com/effects/hogwarts_letter/icons/medium.jpg",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [6]
     },
@@ -285,7 +285,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
-      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Avery family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -308,7 +308,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": "Slytherin",
-      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Avery family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -348,7 +348,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
-      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -365,7 +365,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [2]
     },
@@ -439,7 +439,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Forbidden Forest Centaur colony", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [1, 5, 7]
     },
@@ -558,7 +558,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Order of Merlin", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [6]
     },
@@ -575,7 +575,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Ravenclaw",
-      "img": "https://www.pngmart.com/files/12/Ravenclaw-House-PNG-Clipart.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Ravenclaw", "Slug Club", "Belby family"],
       "books_featured_in": [6]
     },
@@ -592,7 +592,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Ravenclaw (likely)",
-      "img": "https://www.pngmart.com/files/12/Ravenclaw-House-PNG-Clipart.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Belby family"],
       "books_featured_in": [6]
     },
@@ -643,7 +643,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
-      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor", "Dumbledore's Army"],
       "books_featured_in": [3, 5]
     },
@@ -728,7 +728,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Binns family"],
       "books_featured_in": [1, 2, 3, 4, 5, 7]
     },
@@ -745,7 +745,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Wool's Orphanage"],
       "books_featured_in": [6]
     },
@@ -762,7 +762,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [1]
     },
@@ -779,7 +779,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black (disowned posthumously)",
-      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -796,7 +796,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black",
-      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -813,7 +813,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black",
-      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -830,7 +830,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Hogwarts School of Witchcraft and Wizardry",
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5, 6, 7]
     },
@@ -847,7 +847,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": "House of Black",
-      "img": "https://i.pinimg.com/originals/3f/81/83/3f8183277caaa4df5128f6512e13ebc7.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5, 6, 7]
     },
@@ -864,7 +864,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
-      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Black family (formerly)",
         "Potter family",
@@ -888,7 +888,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
-      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Slytherin",
@@ -910,7 +910,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
-      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Slytherin"],
       "books_featured_in": [1, 2, 4, 5, 7]
     },
@@ -995,7 +995,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
-      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Bole family", "Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Slytherin Quidditch team"],
       "books_featured_in": [3, 5]
     },
@@ -1029,7 +1029,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Hufflepuff (likely)",
-      "img": "https://i.pinimg.com/originals/3d/db/2f/3ddb2f1758b2c930a3100aa3c99cd6c7.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Bones family"],
       "books_featured_in": [1]
     },
@@ -1046,7 +1046,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": null,
       "house": "Hufflepuff (possibly)",
-      "img": "https://i.pinimg.com/originals/3d/db/2f/3ddb2f1758b2c930a3100aa3c99cd6c7.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Bones family", "Order of the Phoenix"],
       "books_featured_in": [1, 5]
     },
@@ -1080,7 +1080,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Ravenclaw",
-      "img": "https://www.pngmart.com/files/12/Ravenclaw-House-PNG-Clipart.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Boot family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -1137,7 +1137,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [4]
     },
@@ -1188,7 +1188,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor (possibly)",
-      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Brown family"],
       "books_featured_in": [3]
     },
@@ -1205,7 +1205,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["St Brutus's Secure Centre for Incurably Criminal Boys"],
       "books_featured_in": [3, 4, 5]
     },
@@ -1222,7 +1222,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Riddle family (formerly)",
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [4, 6]
     },
@@ -1239,7 +1239,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Order of the Phoenix",
         "Rubeus Hagrid (owner)",
@@ -1281,7 +1281,7 @@ export default {
       "wand": "Blackthorn and troll whisker, 9\", combustible (according to legend)",
       "patronus": null,
       "house": "Gryffindor",
-      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["King Arthur", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [3, 4, 5, 7]
     },
@@ -1298,7 +1298,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Hufflepuff",
-      "img": "https://i.pinimg.com/originals/3d/db/2f/3ddb2f1758b2c930a3100aa3c99cd6c7.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts", "Hufflepuff Quidditch team", "Hufflepuff"],
       "books_featured_in": [6]
     },
@@ -1315,7 +1315,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Ravenclaw",
-      "img": "https://www.pngmart.com/files/12/Ravenclaw-House-PNG-Clipart.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Ravenclaw"],
       "books_featured_in": [5]
     },
@@ -1332,7 +1332,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "None",
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Carrow family", "Death Eaters", "Lord Voldemort", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [6, 7]
     },
@@ -1366,7 +1366,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -1417,7 +1417,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Hufflepuff",
-      "img": "https://i.pinimg.com/originals/3d/db/2f/3ddb2f1758b2c930a3100aa3c99cd6c7.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [4]
     },
@@ -1451,7 +1451,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Ravenclaw",
-      "img": "https://www.pngmart.com/files/12/Ravenclaw-House-PNG-Clipart.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Ravenclaw", "Ravenclaw Quidditch team"],
       "books_featured_in": [5]
     },
@@ -1468,7 +1468,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Ravenclaw",
-      "img": "https://i.pinimg.com/originals/af/7c/e4/af7ce45ecd9cb3a5a15a1bf074894c02.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Chang family"],
       "books_featured_in": [5]
     },
@@ -1485,7 +1485,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [6]
     },
@@ -1536,7 +1536,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
-      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor", "Gryffindor Quidditch team"],
       "books_featured_in": [6]
     },
@@ -1553,7 +1553,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": "Ravenclaw",
-      "img": "https://www.pngmart.com/files/12/Ravenclaw-House-PNG-Clipart.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Corner family", "Hogwarts School of Witchcraft and Wizardry", "Ravenclaw", "Dumbledore's Army"],
       "books_featured_in": [5, 6, 7]
     },
@@ -1570,7 +1570,7 @@ export default {
       "wand": null,
       "patronus": "None",
       "house": "Slytherin (likely)",
-      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Crabbe family", "Lord Voldemort", "Death Eaters"],
       "books_featured_in": [4, 5, 7]
     },
@@ -1587,7 +1587,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "None",
       "house": "Slytherin",
-      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Slytherin",
@@ -1613,7 +1613,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
-      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Creevey family",
         "Dumbledore's Army",
@@ -1636,7 +1636,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Gryffindor",
-      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Dumbledore's Army", "Creevey family", "Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [4, 5, 6]
     },
@@ -1653,7 +1653,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Creevey family"],
       "books_featured_in": [2]
     },
@@ -1687,7 +1687,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Ministry of Magic",
         "Goblin Liaison Office",
@@ -1743,7 +1743,7 @@ export default {
       "wand": "Harry Potter's wand (briefly)",
       "patronus": "None",
       "house": null,
-      "img": "https://wizardswelcome.com/wp-content/uploads/2022/05/Screenshot-at-May-04-04-41-17.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Lord Voldemort", "Death Eaters", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [4, 5, 6]
     },
@@ -1760,7 +1760,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": null,
-      "img": "",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "British Ministry of Magic",
         "Department of Magical Law Enforcement",
@@ -1849,7 +1849,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Ravenclaw",
-      "img": "https://www.pngmart.com/files/12/Ravenclaw-House-PNG-Clipart.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Davies family", "Hogwarts School of Witchcraft and Wizardry", "Ravenclaw", "Ravenclaw Quidditch team"],
       "books_featured_in": [3, 4, 5, 7]
     },
@@ -1934,7 +1934,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Headless Hunt", "Podmore family", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [2, 7]
     },
@@ -1951,7 +1951,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Dudley Dursley's gang"],
       "books_featured_in": [1, 5]
     },
@@ -1968,7 +1968,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [3]
     },
@@ -1985,7 +1985,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "Slytherin",
-      "img": "https://logos-world.net/wp-content/uploads/2022/02/Slytherin-Symbol.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Slytherin", "Slytherin Quidditch team"],
       "books_featured_in": [3, 5]
     },
@@ -2036,7 +2036,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "British Ministry of Magic",
         "Department for the Regulation and Control of Magical Creatures",
@@ -2058,7 +2058,7 @@ export default {
       "wand": "12¼\", Ash, unicorn hair",
       "patronus": null,
       "house": "Hufflepuff",
-      "img": "https://i.pinimg.com/originals/3d/db/2f/3ddb2f1758b2c930a3100aa3c99cd6c7.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Diggory family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -2116,7 +2116,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [5]
     },
@@ -2133,7 +2133,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [2, 5, 6, 7]
     },
@@ -2167,7 +2167,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Malfoy family (formerly)",
         "Harry Potter",
@@ -2267,7 +2267,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [7]
     },
@@ -2301,7 +2301,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Weird Sisters", "McCormack family", "Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [4]
     },
@@ -2357,7 +2357,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.tafce.com/images/e/e1/Dudley_Dursley_3_-_Edited.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Dursley family", "Evans family", "Smeltings Academy", "His gang (formerly)"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
@@ -2374,7 +2374,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Dursley family", "Grunnings"],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
@@ -2425,7 +2425,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1]
     },
@@ -2476,7 +2476,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5]
     },
@@ -2493,7 +2493,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Evans family"],
       "books_featured_in": [1, 7]
     },
@@ -2510,7 +2510,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [5, 6]
     },
@@ -2527,7 +2527,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://www.clipartmax.com/png/small/9-99931_harry-potter-minus-hermione-granger-clip-art.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Order of the Phoenix",

@@ -1,7 +1,7 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable no-console */
 import data from './data/harrypotter/data.js'; //Importamos los datos de Harry Potter 
-import { getCharacters, getSpells, getFunFacts, getPotions, getBooks} from './data.js';
+import { getCharacters, getSpells, getFunFacts, getPotions, getBooks } from './data.js';
 
 const characters = getCharacters();
 const spells = getSpells();
@@ -9,17 +9,45 @@ const funFacts = getFunFacts();
 const potions = getPotions();
 const books = getBooks();
 
+const charactersCardsDad = document.getElementById("characters-cards-dad");
+const spellsCardsDad = document.getElementById("spells-container-dad");
+const funFactsCardsDad = document.getElementById("funFacts-container-dad");
+const potionsCardsDad = document.getElementById("potions-container-dad");
+const booksCardsDad = document.getElementById("books-container-dad");
+
 const charactersCards = document.getElementById("characters-cards"); // Se seleccionan elememtos del HTML y se almacenan en variables
 const spellsCards = document.getElementById("spells-container");
 const funFactsCards = document.getElementById("funFacts-container");
 const potionsCards = document.getElementById("potions-container");
 const booksCards = document.getElementById("books-container");
 
-// characters.forEach((character) => {
-//   showCharacters(character);
-// });
+charactersCardsDad.style.display = 'none';
+spellsCardsDad.style.display = 'none';
+funFactsCardsDad.style.display = 'none';
+potionsCardsDad.style.display = 'none';
+booksCardsDad.style.display = 'none';
 
-function showCharacters(character){
+characters.forEach((character) => {
+  showCharacters(character);
+});
+
+spells.forEach((spell) => {
+  showSpells(spell)
+});
+
+potions.forEach((potion) => {
+  showPotions(potion)
+});
+
+books.forEach((book) => {
+  showBooks(book)
+});
+
+funFacts.forEach((funFact) => {
+  showfunFacts(funFact)
+});
+
+function showCharacters(character) {
 
   charactersCards.classList.add("card-container");
   const card = document.createElement('div');
@@ -35,7 +63,7 @@ function showCharacters(character){
   const house = document.createElement('p');
   const booksCharacters = document.createElement('p');
   const death = document.createElement('p');
- 
+
   name.innerHTML = character.name;
   nameBack.innerHTML = character.name;
   img.src = character.img;
@@ -67,11 +95,7 @@ function showCharacters(character){
   cardBack.className = "card-back"
 }
 
-// spells.forEach((spell) => {
-//   showSpells(spell)
-// });
-
-function showSpells(sp){
+function showSpells(spell) {
 
   spellsCards.classList.add("spell-container");
   const card = document.createElement('div');
@@ -86,12 +110,12 @@ function showSpells(sp){
   const img = document.createElement('img');
   const description = document.createElement('p');
 
-  nameSpell.innerHTML = sp.name;
-  otherNameSpell.innerHTML = sp.other_name;
-  pronunciation.innerHTML = sp.pronunciation
-  spellType.innerHTML = sp.spell_type;
-  img.src = sp.img;
-  description.innerHTML = sp.description;
+  nameSpell.innerHTML = spell.name;
+  otherNameSpell.innerHTML = spell.other_name;
+  pronunciation.innerHTML = spell.pronunciation
+  spellType.innerHTML = spell.spell_type;
+  img.src = spell.img;
+  description.innerHTML = spell.description;
 
   spellsCards.appendChild(card);
 
@@ -113,11 +137,7 @@ function showSpells(sp){
   cardBack.className = "card-back"
 }
 
-// potions.forEach((potion) => {
-//   showPotions(potion)
-// });
-
-function showPotions(pot){
+function showPotions(potion) {
 
   potionsCards.classList.add("potion-container");
   const card = document.createElement('div');
@@ -129,9 +149,9 @@ function showPotions(pot){
   const img = document.createElement('img');
   const descriptionPot = document.createElement('p');
 
-  namePot.innerHTML = pot.name;
-  img.src = pot.img;
-  descriptionPot.innerHTML = pot.description;
+  namePot.innerHTML = potion.name;
+  img.src = potion.img;
+  descriptionPot.innerHTML = potion.description;
 
   potionsCards.appendChild(card);
 
@@ -150,11 +170,7 @@ function showPotions(pot){
   cardBack.className = "card-back"
 }
 
-// books.forEach((book) => {
-//   showBooks(book)
-// });
-
-function showBooks(bk){
+function showBooks(book) {
 
   booksCards.classList.add("book-container");
   const card = document.createElement('div');
@@ -168,11 +184,11 @@ function showBooks(bk){
   const releaseDay = document.createElement('p');
   const descriptionBook = document.createElement('p');
 
-  titleBook.innerHTML = bk.title;
-  img.src = bk.img;
-  author.innerHTML = bk.author;
-  releaseDay.innerHTML = bk.releaseDay;
-  descriptionBook.innerHTML = bk.description;
+  titleBook.innerHTML = book.title;
+  img.src = book.img;
+  author.innerHTML = book.author;
+  releaseDay.innerHTML = book.releaseDay;
+  descriptionBook.innerHTML = book.description;
 
   booksCards.appendChild(card);
 
@@ -193,11 +209,7 @@ function showBooks(bk){
   cardBack.className = "card-back"
 }
 
-// funFacts.forEach((funFact) => {
-//   showfunFacts(funFact)
-// });
-
-function showfunFacts(ff){
+function showfunFacts(funFact) {
 
   funFactsCards.classList.add("funFact-container");
   const card = document.createElement('div');
@@ -209,9 +221,9 @@ function showfunFacts(ff){
   const img = document.createElement('img');
   const content = document.createElement('p');
 
-  typeFF.innerHTML = ff.type;
-  img.src = ff.img;
-  content.innerHTML = ff.content;
+  typeFF.innerHTML = funFact.type;
+  img.src = funFact.img;
+  content.innerHTML = funFact.content;
 
   funFactsCards.appendChild(card);
 
@@ -230,63 +242,22 @@ function showfunFacts(ff){
   cardBack.className = "card-back"
 }
 
-// Código para seleccionar cada elemento de los menús
+function botones_personajes() {
 
-// (function(){
-//   const listElements = document.querySelectorAll('.menu_links').value;
-  
-// const list = document.querySelector ('.menu_links');
-
-//   const addClick = ()=>{
-//     listElements.forEach(element =>{
-//       element.addEventListener('click', ()=>{
-//         console.log(element);
-//         const menu_Personajes=document.getElementById("menuPersonajes");
-//         console.log(menu_Personajes);
-//         const menu_Hechizos=document.getElementById("menuHechizos");
-//         if (menu_Personajes === "Personajes"){ console.log("Personajes")}
-//         else if (menu_Hechizos === "Hechizos"){ console.log("Hechizos")}
-//       })  
-//     })
-//   }
-
-//   addClick();
-// })();
-
-// const gryffindor = characters.filter(character => character.house === 'Gryffindor');
-// console.log(gryffindor);
-
-
-// (function () {
-//   console.log(personajesMenu)
-//   // if(personajesMenu === "Todos") {
-//   //   characters.forEach((character) => {
-//   //     showCharacters(character);
-//   //   });
-//   // }
-//   // if("botonLibros" === "Todos"){
-//   //   // return ejecutar
-//   // }
-
-//   // // Todas las funciones qque recuperan esa data
-
-// })()
-
-
-function botones_personajes(){
   const personajesMenu = document.querySelectorAll(".menu_personajes");
-  console.log(personajesMenu)
   personajesMenu.forEach((opcion) => {
-    opcion.addEventListener('click',() => {
-      if(opcion.innerText === "Todos"){
-        characters.forEach((character) => {
-          showCharacters(character);
-        });
+    opcion.addEventListener('click', () => {
+      if (opcion.innerText === 'Todos') {
+        charactersCardsDad.style.display = 'block';
+        spellsCardsDad.style.display = 'none';
+        funFactsCardsDad.style.display = 'none';
+        potionsCardsDad.style.display = 'none';
+        booksCardsDad.style.display = 'none';
       }
     })
   })
 
-} 
+}
 botones_personajes();
 
 
@@ -295,10 +266,12 @@ function botones_hechizos() {
   console.log(hechizosMenu)
   hechizosMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
-      if (opcion.innerText === "Todos") {
-        spells.forEach((spell) => {
-          showSpells(spell)
-        });
+      if (opcion.innerText === 'Todos') {
+        charactersCardsDad.style.display = 'none';
+        spellsCardsDad.style.display = 'block';
+        funFactsCardsDad.style.display = 'none';
+        potionsCardsDad.style.display = 'none';
+        booksCardsDad.style.display = 'none';
       }
     })
   })
@@ -312,10 +285,12 @@ function botones_pociones() {
   console.log(pocionesMenu)
   pocionesMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
-      if (opcion.innerText === "Todos") {
-        potions.forEach((potion) => {
-          showPotions(potion)
-        });
+      if (opcion.innerText === 'Todos') {
+        charactersCardsDad.style.display = 'none';
+        spellsCardsDad.style.display = 'none';
+        funFactsCardsDad.style.display = 'none';
+        potionsCardsDad.style.display = 'block';
+        booksCardsDad.style.display = 'none';
       }
     })
   })
@@ -323,34 +298,34 @@ function botones_pociones() {
 }
 botones_pociones();
 
+
+
 function botones_libros() {
   const librosMenu = document.querySelectorAll(".menu_libros");
   console.log(librosMenu)
   librosMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
-      if (opcion.innerText === "Libros") {
-        books.forEach((book) => {
-          showBooks(book)
-        });
-      }
+      charactersCardsDad.style.display = 'none';
+      spellsCardsDad.style.display = 'none';
+      funFactsCardsDad.style.display = 'none';
+      potionsCardsDad.style.display = 'none';
+      booksCardsDad.style.display = 'block';
     })
   })
 
 }
 botones_libros();
 
-function botones_funFacts() {
-  const funFactsMenu = document.querySelectorAll(".menu_funFacts");
-  console.log(funFactsMenu)
-  funFactsMenu.forEach((opcion) => {
+function botones_datosCuriosos() {
+  const datosCuriososMenu = document.querySelectorAll(".menu_datosCuriosos");
+  datosCuriososMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
-      if (opcion.innerText === "Datos curiosos") {
-        funFacts.forEach((funFact) => {
-          showfunFacts(funFact)
-        });
-      }
+      charactersCardsDad.style.display = 'none';
+      spellsCardsDad.style.display = 'none';
+      funFactsCardsDad.style.display = 'block';
+      potionsCardsDad.style.display = 'none';
+      booksCardsDad.style.display = 'none';
     })
   })
-
 }
-botones_funFacts();
+botones_datosCuriosos();

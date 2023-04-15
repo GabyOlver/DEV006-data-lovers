@@ -23,4 +23,5 @@ export const getBooks = () => {
   console.log(data.books)
 };
 
+
 // export const FiltrarPersonajes = (house, arrayCharacters)
