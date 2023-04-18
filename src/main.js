@@ -1,12 +1,17 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable no-console */
-import data from './data/harrypotter/data.js'; //Importamos los datos de Harry Potter 
+// import data from './data/harrypotter/data.js'; //Importamos los datos de Harry Potter 
 import { getCharacters, getSpells, getFunFacts, getPotions, getBooks} from './data.js';
+import { getCharactersCopy, getSpellsCopy, getPotionsCopy} from './data.js';
+import { dataAZ, dataZA} from './data.js'
 
 const characters = getCharacters();
+const charactersCopy = getCharactersCopy ();
+const spellsCopy = getSpellsCopy ();
 const spells = getSpells();
 const funFacts = getFunFacts();
 const potions = getPotions();
+const potionsCopy = getPotionsCopy();
 const books = getBooks();
 
 const charactersCardsDad = document.getElementById("characters-cards-dad");
@@ -21,23 +26,17 @@ const funFactsCards = document.getElementById("funFacts-container");
 const potionsCards = document.getElementById("potions-container");
 const booksCards = document.getElementById("books-container");
 
-charactersCardsDad.style.display = 'none';
-spellsCardsDad.style.display = 'none';
-funFactsCardsDad.style.display = 'none';
-potionsCardsDad.style.display = 'none';
-booksCardsDad.style.display = 'none';
+// characters.forEach((character) => {
+//   showCharacters(character);
+// });
 
-characters.forEach((character) => {
-  showCharacters(character);
-});
+// spells.forEach((spell) => {
+//   showSpells(spell)
+// });
 
-spells.forEach((spell) => {
-  showSpells(spell)
-});
-
-potions.forEach((potion) => {
-  showPotions(potion)
-});
+// potions.forEach((potion) => {
+//   showPotions(potion)
+// });
 
 books.forEach((book) => {
   showBooks(book)
@@ -61,7 +60,6 @@ function showCharacters(character){
   const birth = document.createElement('p');
   const gender = document.createElement('p');
   const house = document.createElement('p');
-  const booksCharacters = document.createElement('p');
   const death = document.createElement('p');
  
   name.innerHTML = character.name;
@@ -71,7 +69,6 @@ function showCharacters(character){
   death.innerHTML = character.death;
   gender.innerHTML = character.gender;
   house.innerHTML = character.house;
-  booksCharacters.innerHTML = character.books_featured_in;
 
   charactersCards.appendChild(card);
 
@@ -87,7 +84,6 @@ function showCharacters(character){
   cardBack.appendChild(death);
   cardBack.appendChild(gender);
   cardBack.appendChild(house);
-  cardBack.appendChild(booksCharacters);
 
   card.className = "card";
   showCards.className = "card-inner";
@@ -108,14 +104,12 @@ function showSpells(spell){
   const pronunciation = document.createElement('p');
   const spellType = document.createElement('p');
   const img = document.createElement('img');
-  const description = document.createElement('p');
 
   nameSpell.innerHTML = spell.name;
   otherNameSpell.innerHTML = spell.other_name;
   pronunciation.innerHTML = spell.pronunciation
   spellType.innerHTML = spell.spell_type;
   img.src = spell.img;
-  description.innerHTML = spell.description;
 
   spellsCards.appendChild(card);
 
@@ -129,7 +123,6 @@ function showSpells(spell){
   cardBack.appendChild(otherNameSpell);
   cardBack.appendChild(pronunciation);
   cardBack.appendChild(spellType);
-  cardBack.appendChild(description);
 
   card.className = "card";
   showCards.className = "card-inner";
@@ -182,13 +175,11 @@ function showBooks(book){
   const img = document.createElement('img');
   const author = document.createElement('h2');
   const releaseDay = document.createElement('p');
-  const descriptionBook = document.createElement('p');
 
   titleBook.innerHTML = book.title;
   img.src = book.img;
   author.innerHTML = book.author;
   releaseDay.innerHTML = book.releaseDay;
-  descriptionBook.innerHTML = book.description;
 
   booksCards.appendChild(card);
 
@@ -201,7 +192,6 @@ function showBooks(book){
 
   cardBack.appendChild(author);
   cardBack.appendChild(releaseDay);
-  cardBack.appendChild(descriptionBook);
 
   card.className = "card";
   showCards.className = "card-inner";
@@ -242,17 +232,40 @@ function showfunFacts(funFact){
   cardBack.className = "card-back"
 }
 
+charactersCardsDad.style.display = 'none';
+spellsCardsDad.style.display = 'none';
+funFactsCardsDad.style.display = 'none';
+potionsCardsDad.style.display = 'none';
+booksCardsDad.style.display = 'none';
+
 function botones_personajes(){
 
   const personajesMenu = document.querySelectorAll(".menu_personajes");
   personajesMenu.forEach((opcion) => {
     opcion.addEventListener('click',() => {
-      if(opcion.innerText === 'Todos'){
-        charactersCardsDad.style.display = 'block';
-        spellsCardsDad.style.display = 'none';
-        funFactsCardsDad.style.display = 'none';
-        potionsCardsDad.style.display = 'none';
-        booksCardsDad.style.display = 'none';
+      if(opcion.innerText === 'A - Z'){
+        const ordenarCharacter = dataAZ(characters);
+        charactersCards.innerHTML = "";
+        ordenarCharacter.forEach((character) => {
+          showCharacters(character)
+          charactersCardsDad.style.display = 'block';
+          spellsCardsDad.style.display = 'none';
+          funFactsCardsDad.style.display = 'none';
+          potionsCardsDad.style.display = 'none';
+          booksCardsDad.style.display = 'none';
+        })
+      }
+      if(opcion.innerText === 'Z - A'){
+        const ordenarCharacterZA = dataZA(charactersCopy);
+        charactersCards.innerHTML = "";
+        ordenarCharacterZA.forEach((characterCopy) => {
+          showCharacters(characterCopy);
+          charactersCardsDad.style.display = 'block';
+          spellsCardsDad.style.display = 'none';
+          funFactsCardsDad.style.display = 'none';
+          potionsCardsDad.style.display = 'none';
+          booksCardsDad.style.display = 'none';
+        })
       }
     })
   })
@@ -266,12 +279,29 @@ function botones_hechizos() {
   console.log(hechizosMenu)
   hechizosMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
-      if(opcion.innerText === 'Todos'){
-        charactersCardsDad.style.display = 'none';
-        spellsCardsDad.style.display = 'block';
-        funFactsCardsDad.style.display = 'none';
-        potionsCardsDad.style.display = 'none';
-        booksCardsDad.style.display = 'none';
+      if(opcion.innerText === 'A - Z'){
+        const ordenarSpells = dataAZ(spells);
+        spellsCards.innerHTML = "";
+        ordenarSpells.forEach((spell) => {
+          showSpells(spell)
+          charactersCardsDad.style.display = 'none';
+          spellsCardsDad.style.display = 'block';
+          funFactsCardsDad.style.display = 'none';
+          potionsCardsDad.style.display = 'none';
+          booksCardsDad.style.display = 'none';
+        })
+      }
+      if(opcion.innerText === 'Z - A'){
+        const ordenarSpellsZA = dataZA(spellsCopy);
+        spellsCards.innerHTML = "";
+        ordenarSpellsZA.forEach((spellCopy) => {
+          showSpells(spellCopy);
+          charactersCardsDad.style.display = 'none';
+          spellsCardsDad.style.display = 'block';
+          funFactsCardsDad.style.display = 'none';
+          potionsCardsDad.style.display = 'none';
+          booksCardsDad.style.display = 'none';
+        })
       }
     })
   })
@@ -285,12 +315,29 @@ function botones_pociones() {
   console.log(pocionesMenu)
   pocionesMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
-      if(opcion.innerText === 'Todos'){
-        charactersCardsDad.style.display = 'none';
-        spellsCardsDad.style.display = 'none';
-        funFactsCardsDad.style.display = 'none';
-        potionsCardsDad.style.display = 'block';
-        booksCardsDad.style.display = 'none';
+      if(opcion.innerText === 'A - Z'){
+        const ordenarPotions = dataAZ(potions);
+        potionsCards.innerHTML = "";
+        ordenarPotions.forEach((potion) => {
+          showPotions(potion)
+          charactersCardsDad.style.display = 'none';
+          spellsCardsDad.style.display = 'none';
+          funFactsCardsDad.style.display = 'none';
+          potionsCardsDad.style.display = 'block';
+          booksCardsDad.style.display = 'none';
+        })
+      }
+      if(opcion.innerText === 'Z - A'){
+        const ordenarPotionsTwo = dataZA(potionsCopy);
+        potionsCards.innerHTML = "";
+        ordenarPotionsTwo.forEach((potionCopy) => {
+          showPotions(potionCopy)
+          charactersCardsDad.style.display = 'none';
+          spellsCardsDad.style.display = 'none';
+          funFactsCardsDad.style.display = 'none';
+          potionsCardsDad.style.display = 'block';
+          booksCardsDad.style.display = 'none';
+        })
       }
     })
   })

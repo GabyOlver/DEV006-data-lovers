@@ -91,13 +91,14 @@ body {
   justify-content: center;
   align-items: center;
   transform: rotateY(180deg);
-  font-size: 20px;
+  font-size: 15px;
   background-image: url("https://i.pinimg.com/474x/4a/00/5f/4a005fd9632d6ca43e574e06b3f54f22.jpg");
 }
 .card-back p {
   margin-bottom: 0;
   word-wrap: break-word;
   white-space: pre-wrap;
+  overflow: auto;
 }
 .card-front img {
   display: block;

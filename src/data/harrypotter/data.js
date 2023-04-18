@@ -12738,7 +12738,7 @@ export default {
     },
     {
       "id": 3,
-      "type": "Antatagonist",
+      "type": "Antagonist",
       "img": "https://www.pngarts.com/files/11/Harry-Potter-PNG-High-Quality-Image.png",
       "content": "Lord Voldemort"
     },
@@ -17074,7 +17074,7 @@ export default {
     },
     {
       "id": 107,
-      "name": "Potion N. 220",
+      "name": "Potion No. 220",
       "img": "https://encantoos.com/10428-large_default/lampara-caldero-pociones-harry-potter.jpg",
       "description": ""
     },
@@ -17315,7 +17315,7 @@ export default {
     {
       "id": 147,
       "name": "Wideye Potion",
-      "img": "https://encantoos.com/10428-large_default/lampara-caldero-pociones-harry-potter.jpg",
+      "img": "https://encantoos.com/10428-large_default/lampara-caldereleaseDayro-pociones-harry-potter.jpg",
       "description": "Prevents the drinker from falling asleep. Also awakens from drugging or concussion."
     },
     {
@@ -17358,7 +17358,7 @@ export default {
       "id": 3,
       "title": "Harry Potter and the Prisoner of Azkaban",
       "img": "https://www.gandhi.com.mx/media/catalog/product/9/7/9786073193023_ac77.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
-      "releseDay": "July 8, 1999",
+      "releaseDay": "July 8, 1999",
       "author": "J. K. Rowling",
       "description": "Harry's third year of studies at Hogwarts is threatened by Sirius Black's escape from Azkaban prison. Apparently, it is a dangerous wizard who was an accomplice of Lord Voldemort and who will try to take revenge on Harry Potter."
     },

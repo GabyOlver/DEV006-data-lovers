@@ -4,24 +4,53 @@ import data from './data/harrypotter/data.js';
 
 export const getCharacters = () => {
   return data.characters;
-  console.log(data.characters)
 };  
+export const getCharactersCopy = () => {
+  return data.characters.slice()
+}
 export const getSpells = () => {
   return data.spells;
-  console.log(data.spells)
+};
+export const getSpellsCopy = () => {
+  return data.spells.slice();
 };
 export const getFunFacts = () => {
   return data.funFacts;
-  console.log(data.funFacts)
 };
 export const getPotions = () => {
   return data.potions;
-  console.log(data.potions)
+};
+export const getPotionsCopy = () => {
+  return data.potions.slice();
 };
 export const getBooks = () => {
   return data.books;
-  console.log(data.books)
 };
 
+export function dataAZ(data) {
+  return data.sort((a,b) => {
+    const nameA = a.name.toLocaleLowerCase();
+    const nameB = b.name.toLocaleLowerCase();
+    if(nameA < nameB) {
+      return -1;
+    }
+    if(nameA > nameB){
+      return 1;
+    }
+    return 0;
+  })
+}
 
-// export const FiltrarPersonajes = (house, arrayCharacters)
+export function dataZA(data) {
+  return data.sort((a,b) => {
+    const nameA = a.name.toLocaleLowerCase();
+    const nameB = b.name.toLocaleLowerCase();
+    if(nameA > nameB) {
+      return -1;
+    }
+    if(nameA < nameB){
+      return 1;
+    }
+    return 0;
+  })
+}
