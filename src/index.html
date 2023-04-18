@@ -9,104 +9,25 @@
 
 <body>
   <header>
-    <div>
-      <img class="back" src="fondo6.png">
-      <!-- <img class="front" src="logo3.png"> -->
+    <div class="hp-img">
+      <img class="back" src="hp1.png">
     </div>
   </header>
   <main>
-    <nav class="menu" id="menu">
-      <section class="menu_container">
-
-        <ul class="menu_links">
-          <li class="menu_item menu_item--show">
-            <a href="index.html" class="menu_link" id="menuPersonajes">Personajes<img src="arrow.svg"
-                class="menu_arrow"></a>
-            <ul class="menu_in">
-              <!-- <li class="menu_inside menu_personajes">
-                <a href="#" class="menu_link menu_link--inside" id="todosPersonajes">Todos</a>
-              </li> -->
-              <li class="menu_inside menu_personajes">
-                <a href="#" class="menu_link menu_link--inside" id="azPersonajes">A - Z</a>
-              </li>
-              <li class="menu_inside menu_personajes">
-                <a href="#" class="menu_link menu_link--inside" id="zaPersonajes">Z - A</a>
-              </li>
-            </ul>
-          </li>
-
-
-          <li class="menu_item menu_item--show">
-            <a href="index.html" class="menu_link" id="menuHechizos">Hechizos <img src="arrow.svg"
-                class="menu_arrow"></a>
-            <ul class="menu_in">
-              <!-- <li class="menu_inside menu_hechizos">
-
-                <a href="#" class="menu_link menu_link--inside" id="todosHechizos">Todos</a>
-              </li> -->
-              <li class="menu_inside menu_hechizos">
-                <a href="#" class="menu_link menu_link--inside" id="azHechizos">A - Z</a>
-              </li>
-              <li class="menu_inside menu_hechizos">
-                <a href="#" class="menu_link menu_link--inside" id="zaHechizos">Z - A</a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="menu_item menu_item--show">
-            <a href="index.html" class="menu_link" id="menuPociones">Pociones <img src="arrow.svg"
-                class="menu_arrow"></a>
-            <ul class="menu_in">
-              <!-- <li class="menu_inside menu_pociones">
-                <a href="#" class="menu_link menu_link--inside" id="todosPociones">Todos</a>
-              </li> -->
-              <li class="menu_inside menu_pociones">
-                <a href="#" class="menu_link menu_link--inside" id="azPociones">A - Z</a>
-              </li>
-              <li class="menu_inside menu_pociones">
-                <a href="#" class="menu_link menu_link--inside" id="zaPociones">Z - A</a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="menu_item menu_item--show">
-            <a href="#" class="menu_link menu_libros" id="menuLibros">Libros </a>
-          </li>
-
-          <li class="menu_item menu_item--show">
-            <a href="#" class="menu_link menu_datosCuriosos" id="menuDatos">Datos curiosos</a>
-
-          </li>
-
-        </ul>
-
-      </section>
-
-    </nav>
+    <div class="bienvenida-container">
+      <p class="msj-bienvenida">Harry Potter es una serie de novelas fantásticas escrita por la autora británica J. K.
+        Rowling, en la que se describen las aventuras del joven aprendiz de magia y hechicería Harry Potter y sus amigos
+        durante los años que pasan en el Colegio Hogwarts de Magia y Hechicería. El argumento se centra en la lucha
+        entre Harry Potter y el malvado mago lord Voldemort, quien asesinó a los padres de Harry en su afán de
+        conquistar el mundo mágico.</p>
+    </div>
+    <div class="btn-pagina1">
+      <nav>
+        <a href="cards.html" class="btn_iniciar">Comenzar</a>
+      </nav>
+    </div>
   </main>
-  <div id="root"></div>
-  <div class="tarjetas-data" id="tarjetasData">
-    <div id="characters-cards-dad">
-      <h2>CHARACTERS:</h2>
-      <div id="characters-cards"></div>
-    </div>
-    <div id="spells-container-dad">
-      <h2>SPELLS:</h2>
-      <div id="spells-container"></div>
-    </div>
-    <div id="potions-container-dad">
-      <h2>POTIONS:</h2>
-      <div id="potions-container"></div>
-    </div>
-    <div id="books-container-dad">
-      <h2>BOOKS:</h2>
-      <div id="books-container"></div>
-    </div>
-    <div id="funFacts-container-dad">
-      <h2>FUNFACTS:</h2>
-      <div id="funFacts-container"></div>
-    </div>
-  </div>
+
   <script src="main.js" type="module"></script>
 </body>
 
