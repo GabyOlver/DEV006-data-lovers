@@ -333,14 +333,13 @@
 }
 
 .menu_in {
-  list-style: none;
+  list-style:none;
   transition: clip-path .3s;
   clip-path: var(--clip);
-  position: absolute;
+  position:absolute;
   right: 0;
   bottom: 0;
   width: max-content;
-  border-radius: 20px;
   transform: translateY(100%);
   background-color: #3b0405bd;
 }
@@ -354,7 +353,6 @@
 
 .menu_link--inside {
   padding: 10px 60px 10px 5px;
-  font-size: 1rem;
 }
 
 .menu_link--inside:hover {
