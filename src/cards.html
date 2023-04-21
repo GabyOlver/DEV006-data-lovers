@@ -5,11 +5,14 @@
   <meta charset="utf-8">
   <title>Data Lovers - Harry Potter</title>
   <link rel="stylesheet" href="style.css" />
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
 </head>
 </head>
 
-<main>
+<body>
+
   <div class="contenedor-menu-cards">
     <nav class="menu" id="menu">
       <section class="menu_container">
@@ -77,6 +80,10 @@
 
     </nav>
 
+    <div class="mi-grafica">
+      <canvas id="miGrafica" width="50" height="50"></canvas>
+    </div>
+
     <div id="root"></div>
     <div class="tarjetas-data" id="tarjetasData">
       <div id="characters-cards-dad">
@@ -93,7 +100,7 @@
       </div>
       <div id="books-container-dad">
         <h1 class="title-cards">BOOKS:</h1>
-        <div  id="books-container"></div>
+        <div id="books-container"></div>
       </div>
       <div id="funFacts-container-dad">
         <h1 class="title-cards">FUNFACTS:</h1>
@@ -101,7 +108,10 @@
       </div>
     </div>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
   <script src="main.js" type="module"></script>
-</main>
+  <script src="grafica.js" type="module"></script>
+</body>
 
 </html>

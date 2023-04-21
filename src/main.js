@@ -3,7 +3,11 @@
 // import data from './data/harrypotter/data.js'; //Importamos los datos de Harry Potter 
 import { getCharacters, getSpells, getFunFacts, getPotions, getBooks} from './data.js';
 import { getCharactersCopy, getSpellsCopy, getPotionsCopy} from './data.js';
-import { dataAZ, dataZA} from './data.js'
+import { dataAZ, dataZA } from './data.js'
+
+// import { mostrarGrafica } from './grafica.js';
+
+// const mostrarGrafica = mostrarGrafica()
 
 const characters = getCharacters();
 const charactersCopy = getCharactersCopy ();

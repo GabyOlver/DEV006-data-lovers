@@ -54,3 +54,13 @@ export function dataZA(data) {
     return 0;
   })
 }
+
+export const getColors = opacity => {
+  const colors = ['#740001', '#1a472a', '#946b2d', '#222f5b']
+  return colors.map(color => opacity ? `${color + opacity}` : color)
+}
+ 
+export const getBorderColors = opacity => {
+  const colors = ['#726255', '#946b2d', '#726255', '#946b2d']
+  return colors.map(color => opacity ? `${color + opacity}` : color)
+}
