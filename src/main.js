@@ -173,8 +173,8 @@ function showBooks(book){
 
   const titleBook = document.createElement('h2');
   const img = document.createElement('img');
-  const author = document.createElement('h2');
-  const releaseDay = document.createElement('p');
+  const author = document.createElement('h1');
+  const releaseDay = document.createElement('h2');
 
   titleBook.innerHTML = book.title;
   img.src = book.img;

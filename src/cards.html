@@ -5,17 +5,12 @@
   <meta charset="utf-8">
   <title>Data Lovers - Harry Potter</title>
   <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
 </head>
 
-<body>
-  
-  <!-- <header>
-    <div>
-      <!-- <img class="back" src="fondo6.png"> -->
-      <!-- <img class="front" src="logo3.png"> -->
-    <!-- </div>
-  </header> --> 
-  <main>
+<main>
+  <div class="contenedor-menu-cards">
     <nav class="menu" id="menu">
       <section class="menu_container">
 
@@ -24,9 +19,6 @@
             <a href="index.html" class="menu_link" id="menuPersonajes">Personajes<img src="arrow.svg"
                 class="menu_arrow"></a>
             <ul class="menu_in">
-              <!-- <li class="menu_inside menu_personajes">
-                <a href="#" class="menu_link menu_link--inside" id="todosPersonajes">Todos</a>
-              </li> -->
               <li class="menu_inside menu_personajes">
                 <a href="#" class="menu_link menu_link--inside" id="azPersonajes">A - Z</a>
               </li>
@@ -84,31 +76,32 @@
       </section>
 
     </nav>
-  </main>
-  <!-- <div id="root"></div> -->
-  <div class="tarjetas-data" id="tarjetasData">
-    <div id="characters-cards-dad">
-      <h1 style="color: white;">CHARACTERS:</h1>
-      <div id="characters-cards"></div>
-    </div>
-    <div id="spells-container-dad">
-      <h1 style="color: white;">SPELLS:</h1>
-      <div id="spells-container"></div>
-    </div>
-    <div id="potions-container-dad">
-      <h1 style="color: white;">POTIONS:</h1>
-      <div id="potions-container"></div>
-    </div>
-    <div id="books-container-dad">
-      <h1 style="color: white;">BOOKS:</h1>
-      <div id="books-container"></div>
-    </div>
-    <div id="funFacts-container-dad">
-      <h1 style="color: white;">FUNFACTS:</h1>
-      <div id="funFacts-container"></div>
+
+    <div id="root"></div>
+    <div class="tarjetas-data" id="tarjetasData">
+      <div id="characters-cards-dad">
+        <h1 class="title-cards">CHARACTERS:</h1>
+        <div id="characters-cards"></div>
+      </div>
+      <div id="spells-container-dad">
+        <h1 class="title-cards">SPELLS:</h1>
+        <div id="spells-container"></div>
+      </div>
+      <div id="potions-container-dad">
+        <h1 class="title-cards">POTIONS:</h1>
+        <div id="potions-container"></div>
+      </div>
+      <div id="books-container-dad">
+        <h1 class="title-cards">BOOKS:</h1>
+        <div  id="books-container"></div>
+      </div>
+      <div id="funFacts-container-dad">
+        <h1 class="title-cards">FUNFACTS:</h1>
+        <div id="funFacts-container"></div>
+      </div>
     </div>
   </div>
   <script src="main.js" type="module"></script>
-</body>
+</main>
 
 </html>

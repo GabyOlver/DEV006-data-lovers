@@ -12746,13 +12746,13 @@ export default {
       "id": 4,
       "type": "Harry Potter's magic wand",
       "img": "https://www.pngarts.com/files/11/Harry-Potter-PNG-High-Quality-Image.png",
-      "content": "Harry Potter's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
+      "content": "Harry Potter's wand was 11 long, made of holly, and possessed a phoenix feather core. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
     },
     {
       "id": 5,
       "type": "Lord Voldemort's magic wand",
       "img": "https://www.pngarts.com/files/11/Harry-Potter-PNG-High-Quality-Image.png",
-      "content": "Lord Voldemort's wand was 11 long, made of holly, and possessed a phoenix feather core. This was described by Garrick Ollivander to be an unusual combination of wand core and wood. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
+      "content": "Lord Voldemort's wand was 11 long, made of holly, and possessed a phoenix feather core. The feather was donated by Fawkes, Albus Dumbledore's phoenix."
     },
     {
       "id": 6,
@@ -16488,7 +16488,7 @@ export default {
       "id": 9,
       "name": "Armadillo Bile Mixture",
       "img": "https://encantoos.com/10428-large_default/lampara-caldero-pociones-harry-potter.jpg",
-      "description": "Unknown"
+      "description": "Potion"
     },
     {
       "id": 10,
