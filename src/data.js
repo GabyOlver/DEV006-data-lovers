@@ -56,7 +56,7 @@ export function dataZA(data) {
 }
 
 export const getColors = opacity => {
-  const colors = ['#740001', '#1a472a', '#946b2d', '#222f5b']
+  const colors = ['#740001', '#1a472a', '#946b2d', '#222f5b', '#2b1a19', '#5e1b4a', '#5e242f', '#245e5c', '#170275', '#FFFF00']
   return colors.map(color => opacity ? `${color + opacity}` : color)
 }
  

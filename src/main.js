@@ -30,6 +30,8 @@ const funFactsCards = document.getElementById("funFacts-container");
 const potionsCards = document.getElementById("potions-container");
 const booksCards = document.getElementById("books-container");
 
+const misGraficas = document.getElementById("misGraficas");
+
 // characters.forEach((character) => {
 //   showCharacters(character);
 // });
@@ -241,6 +243,7 @@ spellsCardsDad.style.display = 'none';
 funFactsCardsDad.style.display = 'none';
 potionsCardsDad.style.display = 'none';
 booksCardsDad.style.display = 'none';
+misGraficas.style.display = 'block';
 
 function botones_personajes(){
 
@@ -257,6 +260,7 @@ function botones_personajes(){
           funFactsCardsDad.style.display = 'none';
           potionsCardsDad.style.display = 'none';
           booksCardsDad.style.display = 'none';
+          misGraficas.style.display = 'none';
         })
       }
       if(opcion.innerText === 'Z - A'){
@@ -269,6 +273,7 @@ function botones_personajes(){
           funFactsCardsDad.style.display = 'none';
           potionsCardsDad.style.display = 'none';
           booksCardsDad.style.display = 'none';
+          misGraficas.style.display = 'none';
         })
       }
     })
@@ -293,6 +298,7 @@ function botones_hechizos() {
           funFactsCardsDad.style.display = 'none';
           potionsCardsDad.style.display = 'none';
           booksCardsDad.style.display = 'none';
+          misGraficas.style.display = 'none';
         })
       }
       if(opcion.innerText === 'Z - A'){
@@ -305,6 +311,7 @@ function botones_hechizos() {
           funFactsCardsDad.style.display = 'none';
           potionsCardsDad.style.display = 'none';
           booksCardsDad.style.display = 'none';
+          misGraficas.style.display = 'none';
         })
       }
     })
@@ -329,6 +336,7 @@ function botones_pociones() {
           funFactsCardsDad.style.display = 'none';
           potionsCardsDad.style.display = 'block';
           booksCardsDad.style.display = 'none';
+          misGraficas.style.display = 'none';
         })
       }
       if(opcion.innerText === 'Z - A'){
@@ -341,6 +349,7 @@ function botones_pociones() {
           funFactsCardsDad.style.display = 'none';
           potionsCardsDad.style.display = 'block';
           booksCardsDad.style.display = 'none';
+          misGraficas.style.display = 'none';
         })
       }
     })
@@ -361,6 +370,7 @@ function botones_libros() {
       funFactsCardsDad.style.display = 'none';
       potionsCardsDad.style.display = 'none';
       booksCardsDad.style.display = 'block';
+      misGraficas.style.display = 'none';
     })
   })
 
@@ -376,6 +386,7 @@ function botones_datosCuriosos() {
       funFactsCardsDad.style.display = 'block';
       potionsCardsDad.style.display = 'none';
       booksCardsDad.style.display = 'none';
+      misGraficas.style.display = 'none';
     })
   })
 }
