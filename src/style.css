@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=IM+Fell+English:ital@1&family=Old+Standard+TT:ital@1&display=swap');
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
 
-@font-face {
-  font-family: 'Harry P';
-  src: url("C:\Users\gabyo\Downloads\harry-p-font\HarryP.ttf");
-}
 .mis-graficas {
   display: flex;
   justify-content: space-between;
@@ -108,7 +106,8 @@
   background-image: linear-gradient(to bottom, #12151bb4,  #0c131bb7);
   width: fit-content;
   border-radius: 10px;
-  font-size: 45px;
+  font-size: 37px;
+  font-family: 'Harry Potter', sans-serif;
   color: #000000;
   text-align: center;
   text-shadow: 0px 0px 10px rgb(255, 255, 255);
@@ -274,6 +273,7 @@
   height: 70px;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 10px;
 }
 
 .menu_container {
@@ -288,11 +288,11 @@
 }
 
 .menu_links {
-  font-family: 'Harry P', sans-serif;
+  font-family: 'IM Fell English', serif;
   height: 100%;
   transition: transform .5s;
   display: flex;
-  font-size: medium;
+  font-size: 28px;
   z-index: 1;
   box-sizing: border-box;
 }
@@ -319,6 +319,7 @@
   color: #946b2d;
   text-decoration: none;
   padding: 0 20px;
+  margin-right: 10px;
   display: flex;
   height: 100%;
   align-items: center;
