@@ -32,6 +32,10 @@ const booksCards = document.getElementById("books-container");
 
 const misGraficas = document.getElementById("misGraficas");
 
+const listElements = document.querySelectorAll('.menu_item--show');
+const list = document.querySelector('.menu_links');
+const menu = document.querySelector('.menu_hamburger');
+
 // characters.forEach((character) => {
 //   showCharacters(character);
 // });
@@ -254,7 +258,8 @@ function botones_personajes(){
         const ordenarCharacter = dataAZ(characters);
         charactersCards.innerHTML = "";
         ordenarCharacter.forEach((character) => {
-          showCharacters(character)
+          showCharacters(character);
+          list.classList.toggle('menu_links--show');
           charactersCardsDad.style.display = 'block';
           spellsCardsDad.style.display = 'none';
           funFactsCardsDad.style.display = 'none';
@@ -268,6 +273,7 @@ function botones_personajes(){
         charactersCards.innerHTML = "";
         ordenarCharacterZA.forEach((characterCopy) => {
           showCharacters(characterCopy);
+          list.classList.toggle('menu_links--show');
           charactersCardsDad.style.display = 'block';
           spellsCardsDad.style.display = 'none';
           funFactsCardsDad.style.display = 'none';
@@ -292,7 +298,8 @@ function botones_hechizos() {
         const ordenarSpells = dataAZ(spells);
         spellsCards.innerHTML = "";
         ordenarSpells.forEach((spell) => {
-          showSpells(spell)
+          showSpells(spell);
+          list.classList.toggle('menu_links--show');
           charactersCardsDad.style.display = 'none';
           spellsCardsDad.style.display = 'block';
           funFactsCardsDad.style.display = 'none';
@@ -306,6 +313,7 @@ function botones_hechizos() {
         spellsCards.innerHTML = "";
         ordenarSpellsZA.forEach((spellCopy) => {
           showSpells(spellCopy);
+          list.classList.toggle('menu_links--show');
           charactersCardsDad.style.display = 'none';
           spellsCardsDad.style.display = 'block';
           funFactsCardsDad.style.display = 'none';
@@ -330,20 +338,23 @@ function botones_pociones() {
         const ordenarPotions = dataAZ(potions);
         potionsCards.innerHTML = "";
         ordenarPotions.forEach((potion) => {
-          showPotions(potion)
+          showPotions(potion);
+          list.classList.toggle('menu_links--show');
           charactersCardsDad.style.display = 'none';
           spellsCardsDad.style.display = 'none';
           funFactsCardsDad.style.display = 'none';
           potionsCardsDad.style.display = 'block';
           booksCardsDad.style.display = 'none';
           misGraficas.style.display = 'none';
+
         })
       }
       if(opcion.innerText === 'Z - A'){
         const ordenarPotionsTwo = dataZA(potionsCopy);
         potionsCards.innerHTML = "";
         ordenarPotionsTwo.forEach((potionCopy) => {
-          showPotions(potionCopy)
+          showPotions(potionCopy);
+          list.classList.toggle('menu_links--show');
           charactersCardsDad.style.display = 'none';
           spellsCardsDad.style.display = 'none';
           funFactsCardsDad.style.display = 'none';
@@ -365,6 +376,7 @@ function botones_libros() {
   //console.log(librosMenu)
   librosMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
+      list.classList.toggle('menu_links--show');
       charactersCardsDad.style.display = 'none';
       spellsCardsDad.style.display = 'none';
       funFactsCardsDad.style.display = 'none';
@@ -381,6 +393,7 @@ function botones_datosCuriosos() {
   const datosCuriososMenu = document.querySelectorAll(".menu_datosCuriosos");
   datosCuriososMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
+      list.classList.toggle('menu_links--show');
       charactersCardsDad.style.display = 'none';
       spellsCardsDad.style.display = 'none';
       funFactsCardsDad.style.display = 'block';
@@ -393,10 +406,7 @@ function botones_datosCuriosos() {
 botones_datosCuriosos();
 
 (function(){
-  const listElements = document.querySelectorAll('.menu_item--show');
-  const list = document.querySelector('.menu_links');
-  console.log(list);
-  const menu = document.querySelector('.menu_hamburger');
+  
   const addClick = ()=>{
     listElements.forEach(element =>{
       element.addEventListener('click',()=>{
