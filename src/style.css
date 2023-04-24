@@ -4,8 +4,6 @@
   font-family: 'Harry P';
   src: url("C:\Users\gabyo\Downloads\harry-p-font\HarryP.ttf");
 }
-/* header {
-} */
 .mis-graficas {
   display: flex;
   justify-content: space-between;
@@ -43,7 +41,7 @@
   height: 0 auto;
 }
 .bienvenida-container {
-  background-image: linear-gradient(to bottom, #12151b9a,  #151e2788, #08253886, #03122e5d);
+  background-image: linear-gradient(to bottom, #12151bd7,  #151e27d3, #082538cc, #03122ead);
   border-radius: 20px;
   width: 60%;
   font-size: 25px;
@@ -107,13 +105,13 @@
   align-items: center;
 }
 .title-cards {
-  background-image: linear-gradient(to bottom, #12151b73,  #0c131b67);
+  background-image: linear-gradient(to bottom, #12151bb4,  #0c131bb7);
   width: fit-content;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 45px;
   color: #000000;
   text-align: center;
-  text-shadow: 0px 0px 20px rgb(255, 251, 0);
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
   margin: 0 auto;
 }
 .card {
@@ -314,7 +312,7 @@
 
 .menu_link {
   background-color: #3b0405ef;
-  border-radius: 20px;
+  border-radius: 10px;
   width: fit-content;  /*Indica que el ancho del fondo de color se debe adaptar a su contenido */
   color: #946b2d;
   text-decoration: none;
@@ -340,9 +338,9 @@
   right: 0;
   bottom: 0;
   width: max-content;
-  border-radius: 20px;
+  border-radius: 2px;
   transform: translateY(100%);
-  background-color: #3b0405bd;
+  /* background-color: #3b0405bd; */
 }
 
 .menu_arrow {
@@ -362,7 +360,7 @@
 }
 @media (max-width: 1500px){
     body {
-      background-image: url("https://fondosmil.com/fondo/38466.jpg");
+      background-image: url("https://fondosmil.com/fondo/38514.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -395,7 +393,7 @@
 
   @media (max-width: 1100px){
     body {
-      background-image: url("https://fondosmil.com/fondo/38466.jpg");
+      background-image: url("https://fondosmil.com/fondo/38514.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -429,7 +427,7 @@
 
   @media (max-width: 950px){
     body {
-      background-image: url("https://fondosmil.com/fondo/38440.jpg");
+      background-image: url("https://fondosmil.com/fondo/38514.jpg");
       object-fit: contain;
     } 
     .hp-img {
@@ -474,7 +472,7 @@
 
   @media (max-width: 600px){
     body {
-      background-image: url("https://fondosmil.com/fondo/38431.jpg");
+      background-image: url("https://fondosmil.com/fondo/38459.png");
       object-fit: contain;
     } 
     .hp-img {
@@ -520,7 +518,7 @@
 
   @media (max-width: 400px){
     body {
-      background-image: url("https://fondosmil.com/fondo/23800.jpg");
+      background-image: url("https://fondosmil.com/fondo/38459.png");
       object-fit: contain;
     }
     .hp-img {
@@ -572,7 +570,7 @@
       object-fit: contain;
     }
     body {
-      background-image: url(https://fondosmil.com/fondo/38464.jpg);
+      background-image: url('https://fondosmil.com/fondo/38459.png');
       width: 100%;
       object-fit: cover;
     }
