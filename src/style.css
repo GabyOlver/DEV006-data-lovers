@@ -338,7 +338,7 @@
   width: max-content;
   border-radius: 2px;
   transform: translateY(100%);
-  background-color: #3b0405bd;
+  /* background-color: #3b0405bd; */
 }
 
 .menu_arrow {
