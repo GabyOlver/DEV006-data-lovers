@@ -285,7 +285,7 @@ botones_personajes();
 
 function botones_hechizos() {
   const hechizosMenu = document.querySelectorAll(".menu_hechizos");
-  console.log(hechizosMenu)
+  //console.log(hechizosMenu)
   hechizosMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
       if(opcion.innerText === 'A - Z'){
@@ -323,7 +323,7 @@ botones_hechizos();
 
 function botones_pociones() {
   const pocionesMenu = document.querySelectorAll(".menu_pociones");
-  console.log(pocionesMenu)
+  //console.log(pocionesMenu)
   pocionesMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
       if(opcion.innerText === 'A - Z'){
@@ -362,7 +362,7 @@ botones_pociones();
 
 function botones_libros() {
   const librosMenu = document.querySelectorAll(".menu_libros");
-  console.log(librosMenu)
+  //console.log(librosMenu)
   librosMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
       charactersCardsDad.style.display = 'none';
@@ -391,3 +391,48 @@ function botones_datosCuriosos() {
   })
 }
 botones_datosCuriosos();
+
+(function(){
+  const listElements = document.querySelectorAll('.menu_item--show');
+  const list = document.querySelector('.menu_links');
+  console.log(list);
+  const menu = document.querySelector('.menu_hamburger');
+  const addClick = ()=>{
+    listElements.forEach(element =>{
+      element.addEventListener('click',()=>{
+        const subMenu= element.children[1]; 
+        let height=0;
+        element.classList.toggle('menu_item--active');
+        if(subMenu.clientHeight === 0){
+          height = subMenu.scrollHeight;
+        }
+        subMenu.style.height = `${height}px`;
+      });
+    })
+  }
+  addClick();
+  const deleteStyleHeight = ()=>{
+    listElements.forEach(element=>{
+      if(element.children[1].getAttribute('style')){
+        element.children[1].removeAttribute('style');
+        element.classList.remove('menu_item--active');
+      }
+    });
+  }
+
+  window.addEventListener('resize', ()=>{
+    if(window.innerWidth > 800){
+      deleteStyleHeight();
+      // if (list.classList.contains('menu_links--show'));
+      // list.classList.remove('menu_links--show');
+    }
+    else {
+      addClick();
+    }
+  });
+  if(window.innerWidth <=800){
+    addClick();
+  }
+  menu.addEventListener('click', ()=> list.classList.toggle('menu_links--show'));
+//   //console.log(menu_links--show);
+})();
