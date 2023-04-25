@@ -34,9 +34,6 @@ export function dataAZ(data) {
     if(nameA < nameB) {
       return -1;
     }
-    if(nameA > nameB){
-      return 1;
-    }
     return 0;
   })
 }
@@ -47,9 +44,6 @@ export function dataZA(data) {
     const nameB = b.name.toLocaleLowerCase();
     if(nameA > nameB) {
       return -1;
-    }
-    if(nameA < nameB){
-      return 1;
     }
     return 0;
   })

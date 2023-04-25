@@ -185,8 +185,17 @@ const salidaZA = [{name: "Stewart Ackerley"},{name: "Euan Abercrombie"}]
 describe("descendente", ()=>{
   it ("Ordena en orden descendente", ()=>{
     expect(dataZA(entradaZA)).toEqual(salidaZA);
+  });
+  it('Se debe respetar el ordenado sin importar si es mayuscula o minuscula', () => {
+    const mayuscMinus = [{name: "euan Abercrombie"},{name:"Stewart Ackerley"}];
+    const ordenarMayuscMin = [{name: "Stewart Ackerley"},{name: "euan Abercrombie"}];
+    expect(dataZA(mayuscMinus)).toEqual(ordenarMayuscMin);
+  });
+  it('Si hay dos nombres iguales, tambien se tiene que respetar el orden', () => {
+    const iguales = [{name: "euan Abercrombie"},{name:"Stewart Ackerley"}, {name: "Euan Abercrombie"}];
+    const ordenarIguales = [{name: "Stewart Ackerley"},{name: "euan Abercrombie"}, {name: "Euan Abercrombie"}];
+    expect(dataZA(iguales)).toEqual(ordenarIguales);
   })
-
 });
 
 const colors = ['#726255', '#946b2d', '#726255', '#946b2d'];
@@ -195,99 +204,11 @@ describe("borderColors", ()=>{
   it ("Devuelve los valores de entrada si no se especifica la opacidad", ()=>{
     expect(result).toEqual(colors);
   });
+  it('Devuelve los colores con opacidad en caso de darle un valor', () => {
+    const colorsOpacity = getBorderColors(30);
+    expect(colorsOpacity).toEqual(['#72625530', '#946b2d30', '#72625530', '#946b2d30'])
+  });
 });
-
-
-
-
-
-// const salidaZA = [
-//   {
-//     "id": 2,
-//     "name": "Stewart Ackerley",
-//     "birth": "between 1 September 1982and 31 August 1983",
-//     "death": null,
-//     "species": "Human",
-//     "ancestry": null,
-//     "gender": "Male",
-//     "hair_color": null,
-//     "eye_color": null,
-//     "wand": null,
-//     "patronus": null,
-//     "house": "Ravenclaw",
-//     "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
-//     "associated_groups": [],
-//     "books_featured_in": [4]
-//   },
-//   {
-//     "id": 1,
-//     "name": "euan Abercrombie",
-//     "birth": "between 1 September 1983 and 31 August 1984",
-//     "death": null,
-//     "species": "Human",
-//     "ancestry": null,
-//     "gender": "Male",
-//     "hair_color": null,
-//     "eye_color": null,
-//     "wand": null,
-//     "patronus": null,
-//     "house": "Gryffindor",
-//     "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
-//     "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
-//     "books_featured_in": [5]
-//   },
-//   {
-//     "id": 5,
-//     "name": "Cornelius Agrippa",
-//     "birth": "1486",
-//     "death": "1535 (aged 48 - 49)",
-//     "species": "Human",
-//     "ancestry": null,
-//     "gender": "Male",
-//     "hair_color": "Brown",
-//     "eye_color": "Green",
-//     "wand": null,
-//     "patronus": null,
-//     "house": null,
-//     "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
-//     "associated_groups": [],
-//     "books_featured_in": [1]
-//   },
-//   {
-//     "id": 4,
-//     "name": "Agnes's son",
-//     "birth": null,
-//     "death": null,
-//     "species": "Human",
-//     "ancestry": null,
-//     "gender": "Male",
-//     "hair_color": null,
-//     "eye_color": null,
-//     "wand": null,
-//     "patronus": null,
-//     "house": null,
-//     "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
-//     "associated_groups": [],
-//     "books_featured_in": [5]
-//   },
-//   {
-//     "id": 3,
-//     "name": "African prince",
-//     "birth": null,
-//     "death": null,
-//     "species": "Human",
-//     "ancestry": "Muggle-born or half-blood (possibly)",
-//     "gender": "Male",
-//     "hair_color": null,
-//     "eye_color": null,
-//     "wand": null,
-//     "patronus": null,
-//     "house": null,
-//     "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
-//     "associated_groups": ["Africa"],
-//     "books_featured_in": [1]
-//   },
-// ]
 
 describe('dataAZ', () => {
   it('ordenar de A-Z la data por nombre', () => {
@@ -322,40 +243,6 @@ describe('dataAZ', () => {
     ]);
   });
 });
-
-// describe('dataZA', () => {
-//   it('ordenar de Z-A la data por nombre', () => {
-//     expect(dataZA(entrada)).toEqual(salidaZA)
-//   })
-//   it('Se va ordenar la data sin distinguir mayusculas o minusculas', () => {
-//     const mayuscMin = [
-//       { name: 'Johana' },
-//       { name: 'Carmen' },
-//       { name: 'alicia' },
-//     ];
-//     const respetarMinMayusc = dataZA(mayuscMin);
-//     expect(dataZA(respetarMinMayusc)).toEqual([
-//       { name: 'Johana' },
-//       { name: 'Carmen' },
-//       { name: 'alicia' },
-//     ]);
-//   });
-//   it('debe manejar datos con nombres idénticos', () => {
-//     const nombres = [
-//       { name: 'Johana' },
-//       { name: 'Alicia' },
-//       { name: 'Carmen' },
-//       { name: 'alicia' },
-//     ];
-//     const ordenar = dataZA(nombres);
-//     expect(ordenar).toEqual([
-//       { name: 'Johana' },
-//       { name: 'Carmen' },
-//       { name: 'Alicia' },
-//       { name: 'alicia' },
-//     ]);
-//   });
-// });
 
 describe('getCharacters', () => {
   const personajes = getCharacters();
@@ -468,24 +355,6 @@ describe('getColors', () => {
   });
 })
 
-// describe('getBorderColors', () => {
-//   it('Debe retornar un array de colores', () => {
-//     const colors = getBorderColors();
-//     expect(Array.isArray(colors)).toBe(true);
-//   });
-//   it('Debe retornar un array de colores con opacidad si se le da un valor de opacidad', () => {
-//     const colors = getBorderColors(20);
-//     expect(colors).toEqual([
-//       '#72625520', '#946b2d20', '#72625520', '#946b2d20'
-//     ]);
-//   });
-//   it('Debe retornar un array de colores sin opacidad si no se le da un valor de opacidad', () => {
-//     const colors = getBorderColors();
-//     expect(colors).toEqual([
-//       '#726255', '#946b2d', '#726255', '#946b2d'
-//     ]);
-//   });
-// })
 
 // describe('dataZA', () => {
 //     it('Ordenar data de Z-A usando la propiedad .name', => {})
