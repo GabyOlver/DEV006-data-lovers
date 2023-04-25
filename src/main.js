@@ -259,7 +259,7 @@ function botones_personajes(){
         charactersCards.innerHTML = "";
         ordenarCharacter.forEach((character) => {
           showCharacters(character);
-          list.classList.toggle('menu_links--show');
+          list.classList.remove('menu_links--show');
           charactersCardsDad.style.display = 'block';
           spellsCardsDad.style.display = 'none';
           funFactsCardsDad.style.display = 'none';
@@ -273,7 +273,7 @@ function botones_personajes(){
         charactersCards.innerHTML = "";
         ordenarCharacterZA.forEach((characterCopy) => {
           showCharacters(characterCopy);
-          list.classList.toggle('menu_links--show');
+          list.classList.remove('menu_links--show');
           charactersCardsDad.style.display = 'block';
           spellsCardsDad.style.display = 'none';
           funFactsCardsDad.style.display = 'none';
@@ -299,7 +299,7 @@ function botones_hechizos() {
         spellsCards.innerHTML = "";
         ordenarSpells.forEach((spell) => {
           showSpells(spell);
-          list.classList.toggle('menu_links--show');
+          list.classList.remove('menu_links--show');
           charactersCardsDad.style.display = 'none';
           spellsCardsDad.style.display = 'block';
           funFactsCardsDad.style.display = 'none';
@@ -312,8 +312,9 @@ function botones_hechizos() {
         const ordenarSpellsZA = dataZA(spellsCopy);
         spellsCards.innerHTML = "";
         ordenarSpellsZA.forEach((spellCopy) => {
+          console.log(list);          
           showSpells(spellCopy);
-          list.classList.toggle('menu_links--show');
+          list.classList.remove('menu_links--show');
           charactersCardsDad.style.display = 'none';
           spellsCardsDad.style.display = 'block';
           funFactsCardsDad.style.display = 'none';
@@ -331,6 +332,8 @@ botones_hechizos();
 
 function botones_pociones() {
   const pocionesMenu = document.querySelectorAll(".menu_pociones");
+ 
+
   //console.log(pocionesMenu)
   pocionesMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
@@ -338,8 +341,9 @@ function botones_pociones() {
         const ordenarPotions = dataAZ(potions);
         potionsCards.innerHTML = "";
         ordenarPotions.forEach((potion) => {
+          console.log(list);
           showPotions(potion);
-          list.classList.toggle('menu_links--show');
+          list.classList.remove('menu_links--show');
           charactersCardsDad.style.display = 'none';
           spellsCardsDad.style.display = 'none';
           funFactsCardsDad.style.display = 'none';
@@ -354,7 +358,7 @@ function botones_pociones() {
         potionsCards.innerHTML = "";
         ordenarPotionsTwo.forEach((potionCopy) => {
           showPotions(potionCopy);
-          list.classList.toggle('menu_links--show');
+          list.classList.remove('menu_links--show');
           charactersCardsDad.style.display = 'none';
           spellsCardsDad.style.display = 'none';
           funFactsCardsDad.style.display = 'none';
@@ -376,7 +380,7 @@ function botones_libros() {
   //console.log(librosMenu)
   librosMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
-      list.classList.toggle('menu_links--show');
+      list.classList.remove('menu_links--show');
       charactersCardsDad.style.display = 'none';
       spellsCardsDad.style.display = 'none';
       funFactsCardsDad.style.display = 'none';
@@ -393,7 +397,7 @@ function botones_datosCuriosos() {
   const datosCuriososMenu = document.querySelectorAll(".menu_datosCuriosos");
   datosCuriososMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
-      list.classList.toggle('menu_links--show');
+      list.classList.remove('menu_links--show');
       charactersCardsDad.style.display = 'none';
       spellsCardsDad.style.display = 'none';
       funFactsCardsDad.style.display = 'block';
