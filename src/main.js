@@ -350,9 +350,9 @@ function botones_pociones() {
         })
       }
       if(opcion.innerText === 'Z - A'){
-        const ordenarPotionsTwo = dataZA(potionsCopy);
+        const ordenarPotionsCopy = dataZA(potionsCopy);
         potionsCards.innerHTML = "";
-        ordenarPotionsTwo.forEach((potionCopy) => {
+        ordenarPotionsCopy.forEach((potionCopy) => {
           showPotions(potionCopy);
           list.classList.toggle('menu_links--show');
           charactersCardsDad.style.display = 'none';
@@ -405,7 +405,7 @@ function botones_datosCuriosos() {
 }
 botones_datosCuriosos();
 
-(function(){
+function ocultarOpciones(){
   
   const addClick = ()=>{
     listElements.forEach(element =>{
@@ -445,4 +445,5 @@ botones_datosCuriosos();
   }
   menu.addEventListener('click', ()=> list.classList.toggle('menu_links--show'));
 //   //console.log(menu_links--show);
-})();
+} 
+ocultarOpciones();
