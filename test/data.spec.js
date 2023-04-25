@@ -1,4 +1,7 @@
-import { dataAZ, dataZA, getColors, getBorderColors, getBooks, getCharacters, getCharactersCopy } from '../src/data.js';
+
+import { dataAZ, dataZA, getColors, getBorderColors, getBooks, getCharacters, getCharactersCopy, getSpells, getSpellsCopy, getPotions, getPotionsCopy, getFunFacts } from '../src/data.js';
+import data from '../src/data/harrypotter/data.js';
+
 
 const entrada = [
   {
@@ -355,24 +358,96 @@ describe('dataAZ', () => {
 // });
 
 describe('getCharacters', () => {
-  it('Debe retornar un array de datos de HP, especificamente a los personajes', () => {
-    const personajes = getCharacters();
+  const personajes = getCharacters();
+  it('Debe retornar un array', () => {
     expect(Array.isArray(personajes)).toBe(true);
   });
+  it('Debe retornar un array con los personajes de HP', () => {
+    expect(personajes).toEqual(data.characters);
+  })
 })
 
 describe('getCharactersCopy', () => {
-  it('Debe retornar una copia del array que nos proporciona los datos de HP, personajes', () => {
-    const copiaPersonajes = getCharactersCopy();
+  const originalPersonajes = data.characters;
+  const copiaPersonajes = getCharactersCopy();
+  it('Debe retornar una copia de un array', () => {
     expect(Array.isArray(copiaPersonajes)).toBe(true);
+  });
+  it('La copia debe ser igual al array original', () => {
+    expect(copiaPersonajes).toEqual(originalPersonajes);
+  });
+  it('La copia debe ser un objeto diferente al array original', () => {
+    expect(copiaPersonajes).not.toBe(originalPersonajes);
   })
-})
-describe('getBooks', () => {
-  it('Debe retornar un array de datos de Harry Potter, especificamente libros', () => {
-    const libros = getBooks();
-    expect(Array.isArray(libros)).toBe(true);
+});
+
+describe('getSpells', () => {
+  const hechizos = getSpells();
+  it('Debe retornar un array', () => {
+    expect(Array.isArray(hechizos)).toBe(true);
+  });
+  it('Debe retornar un array de los hechizos que se encuentran en la data de HP', () => {
+    expect(hechizos).toEqual(data.spells);
   });
 })
+
+describe('getSpellsCopy', () => {
+  const hechizosOriginal = data.spells;
+  const hechizosCopia = getSpellsCopy();
+  it('Debe retornar un array', () => {
+    expect(Array.isArray(hechizosCopia)).toBe(true);
+  });
+  it('Debe ser una copia del array original de hechizos', () => {
+    expect(hechizosCopia).toEqual(hechizosOriginal);
+  });
+  it('Debe ser un objeto diferente del array original', () => {
+    expect(hechizosCopia).not.toBe(hechizosOriginal);
+  });
+});
+
+describe('getPotions', () => {
+  const pociones = getPotions();
+  it('Debe ser un array', () => {
+    expect(Array.isArray(pociones)).toBe(true);
+  });
+  it('Debe ser un array que contenga los spells de data', () => {
+    expect(pociones).toEqual(data.potions);
+  });
+});
+
+describe('getPotionsCopy', () => {
+  const pocionesOriginal = data.potions;
+  const pocionesCopia = getPotionsCopy();
+  it('Debe ser un array', () => {
+    expect(Array.isArray(pocionesCopia)).toBe(true);
+  });
+  it('Debe ser una igual al array original', () => {
+    expect(pocionesCopia).toEqual(pocionesOriginal);
+  });
+  it('Debe ser un objeto diferente al array original', () => {
+    expect(pocionesCopia).not.toBe(pocionesOriginal);
+  });
+});
+
+describe('getBooks', () => {
+  const libros = getBooks();
+  it('Debe retornar un array', () => {
+    expect(Array.isArray(libros)).toBe(true);
+  });
+  it('Debe retornar un array de los libros de HP', () => {
+    expect(libros).toEqual(data.books);
+  });
+});
+
+describe('getFunFacts', () => {
+  const datosCuriosos = getFunFacts();
+  it('Debe retornar un array', () => {
+    expect(Array.isArray(datosCuriosos)).toBe(true);
+  });
+  it('Debe retornar un array que contenga los datos curiosos de la data HP', () => {
+    expect(datosCuriosos).toEqual(data.funFacts);
+  });
+});
 
 describe('getColors', () => {
   it('Debe retornar un array de colores', () => {
@@ -411,6 +486,7 @@ describe('getColors', () => {
 //     ]);
 //   });
 // })
+
 // describe('dataZA', () => {
 //     it('Ordenar data de Z-A usando la propiedad .name', => {})
 // })
