@@ -7,15 +7,12 @@ export const getCharacters = () => {
 };  
 export const getCharactersCopy = () => {
   return data.characters.slice()
-}
+};
 export const getSpells = () => {
   return data.spells;
 };
 export const getSpellsCopy = () => {
   return data.spells.slice();
-};
-export const getFunFacts = () => {
-  return data.funFacts;
 };
 export const getPotions = () => {
   return data.potions;
@@ -25,6 +22,9 @@ export const getPotionsCopy = () => {
 };
 export const getBooks = () => {
   return data.books;
+};
+export const getFunFacts = () => {
+  return data.funFacts;
 };
 
 export function dataAZ(data) {
