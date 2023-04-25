@@ -1,5 +1,7 @@
-import { dataAZ, getColors, getBooks, getCharacters, getCharactersCopy, getSpells, getSpellsCopy, getPotions, getPotionsCopy, getFunFacts } from '../src/data.js';
+
+import { dataAZ, dataZA, getColors, getBorderColors, getBooks, getCharacters, getCharactersCopy, getSpells, getSpellsCopy, getPotions, getPotionsCopy, getFunFacts } from '../src/data.js';
 import data from '../src/data/harrypotter/data.js';
+
 
 const entrada = [
   {
@@ -176,6 +178,28 @@ const salidaAZ = [
     "books_featured_in": [4]
   }
 ]
+
+const entradaZA = [{name: "Euan Abercrombie"},{name:"Stewart Ackerley"}]
+const salidaZA = [{name: "Stewart Ackerley"},{name: "Euan Abercrombie"}]
+
+describe("descendente", ()=>{
+  it ("Ordena en orden descendente", ()=>{
+    expect(dataZA(entradaZA)).toEqual(salidaZA);
+  })
+
+});
+
+const colors = ['#726255', '#946b2d', '#726255', '#946b2d'];
+const result = getBorderColors();
+describe("borderColors", ()=>{
+  it ("Devuelve los valores de entrada si no se especifica la opacidad", ()=>{
+    expect(result).toEqual(colors);
+  });
+});
+
+
+
+
 
 // const salidaZA = [
 //   {
