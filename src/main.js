@@ -455,7 +455,7 @@ function ocultarOpciones(){
 ocultarOpciones();
 
 
-const buscador = document.getElementById('search'); //Se obtiene el elemento HTML
+const buscador = document.getElementById('search-characters'); //Se obtiene el elemento HTML
 
 buscador.addEventListener('keyup', () => { //Se agrega un escuchador de eventos al input del buscador que se activa cada que el usuario suelta una tecla
   const buscarData = buscador.value.toLowerCase().trim(); //Se obtiene el valor actual del input, se convierte en minusculas y se eliminan los espacios en blanco al inicio y al final del string con .trim(), el resultado se almacena en buscarData
@@ -468,4 +468,37 @@ buscador.addEventListener('keyup', () => { //Se agrega un escuchador de eventos 
   dataFiltrada.forEach(character => {
     showCharacters(character);
   }); // Se recorre el array de personajes filtrados (dataFiltrada) y se llama a showCharacters para mostrar cada personaje en la pagina
-})
+});
+
+const buscadorHechizos = document.getElementById('search-spells');
+
+buscadorHechizos.addEventListener('keyup', () => {
+  const buscarHechizos = buscadorHechizos.value.toLowerCase().trim();
+
+  const hechizosFiltrados = spells.filter(spell => {
+    return spell.name.toLowerCase().includes(buscarHechizos);
+  });
+
+  spellsCards.innerHTML = '';
+  hechizosFiltrados.forEach(spell => {
+    showSpells(spell);
+  });
+});
+
+const buscadorPociones = document.getElementById('search-potions');
+
+buscadorPociones.addEventListener('keyup', () => {
+  const buscarPociones = buscadorPociones.value.toLowerCase().trim();
+
+  const pocionesFiltradas = potions.filter(potion => {
+    return potion.name.toLowerCase().includes(buscarPociones);
+  });
+
+  potionsCards.innerHTML = '';
+  pocionesFiltradas.forEach(potion => {
+    showPotions(potion);
+  });
+});
+
+
+

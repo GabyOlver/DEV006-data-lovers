@@ -59,6 +59,7 @@ export const getBorderColors = opacity => {
   return colors.map(color => opacity ? `${color + opacity}` : color)
 }
 
+
 // export function filtrarData(datos, contenedor) {
 //   const buscador = document.getElementById('search');
 

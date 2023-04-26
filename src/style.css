@@ -115,6 +115,30 @@
   text-shadow: 0px 0px 10px rgb(255, 255, 255);
   margin-top: 10px;
   margin: 0 auto;
+  margin-bottom: 10px;
+}
+.buscador-container {
+  text-align: center;
+  margin: 0 auto;
+}
+.buscador {
+  background-color: #ada4a4;
+  border: 3px solid black;
+  box-shadow: 2px 2px 10px #000000;
+  border-radius: 5px;
+  height: 20px;
+  width: 150px;
+  outline: none;
+  font-size: 15px;
+}
+.etiqueta-buscador {
+  font-family: 'IM Fell English', serif;
+  font-size: 25px;
+  color: #000000;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+.buscador:hover {
+  background-color: #796666;
 }
 .card {
   background-color: transparent;
@@ -335,7 +359,7 @@
   box-shadow: 2px 2px 10px #000000;
 }
 
-.menu_link:hover {
+.menu_link:hover, .menu_link:hover .menu_arrow {
   background-color: #4e3819;
 }
 
