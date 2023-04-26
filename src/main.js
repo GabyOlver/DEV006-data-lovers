@@ -1,3 +1,5 @@
+/* eslint-disable indent */
+/* eslint-disable no-empty */
 /* eslint-disable eqeqeq */
 /* eslint-disable no-console */
 // import data from './data/harrypotter/data.js'; //Importamos los datos de Harry Potter 
@@ -451,3 +453,30 @@ function ocultarOpciones(){
 //   //console.log(menu_links--show);
 } 
 ocultarOpciones();
+
+
+const buscador = document.querySelector('#search');
+const boton = document.querySelector('#boton');
+const resultado = document.querySelector('#resultado');
+
+const filtrar = () => {
+
+  resultado.innerHTML = '';
+
+  const texto = buscador.value.toLowerCase();
+
+  for(const character of characters){
+    const nombre = character.name.toLowerCase();
+    if(nombre.indexOf(texto) !== -1){
+      resultado.innerHTML += `
+      <li>${character.name}</li>
+      `
+    }
+}
+if(resultado.innerHTML === ''){
+  resultado.innerHTML += `
+  <li>Personaje no encontrado...</li>
+  `
+}
+}
+boton.addEventListener('click', filtrar);

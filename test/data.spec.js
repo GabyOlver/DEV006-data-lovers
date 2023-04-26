@@ -251,7 +251,7 @@ describe('getCharacters', () => {
   });
   it('Debe retornar un array con los personajes de HP', () => {
     expect(personajes).toEqual(data.characters);
-  })
+  });
 })
 
 describe('getCharactersCopy', () => {

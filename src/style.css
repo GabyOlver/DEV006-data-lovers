@@ -502,7 +502,7 @@
 
   @media (max-width: 600px){
     body {
-      background-image: url("https://fondosmil.com/fondo/38459.png");
+      background-image: url("https://fondosmil.com/fondo/15598.jpg");
       object-fit: contain;
     } 
     .hp-img {
@@ -548,7 +548,7 @@
 
   @media (max-width: 400px){
     body {
-      background-image: url("https://fondosmil.com/fondo/38459.png");
+      background-image: url("https://fondosmil.com/fondo/15598.jpg");
       object-fit: contain;
     }
     .hp-img {
@@ -600,7 +600,7 @@
       object-fit: contain;
     }
     body {
-      background-image: url('https://fondosmil.com/fondo/38459.png');
+      background-image: url('https://fondosmil.com/fondo/15598.jpg');
       width: 100%;
       object-fit: cover;
     }
@@ -650,6 +650,10 @@
   
 
   @media (max-width:800px){
+    body {
+      background-image: url("https://fondosmil.com/fondo/15598.jpg");
+      object-fit: contain;
+    } 
     .menu_hamburger{
       display: flex;
       margin-left: 10px;
