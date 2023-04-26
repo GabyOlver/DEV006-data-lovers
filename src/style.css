@@ -9,14 +9,14 @@
   flex-wrap: wrap;
 }
 .mi-grafica{
-  background-color: #0c0e14e5;
+  background-color: #0f0f0ff6;
   margin: 1%;
   margin-left: 8%;
   padding: 1%;
   width: 35%;
 }
 .otra-grafica {
-  background-color: #0c0e14e5;
+  background-color: #0f0f0ff6;
   margin: 1%;
   margin-right: 8%;
   padding: 1%;
@@ -111,7 +111,7 @@
   color: #000000;
   text-align: center;
   text-shadow: 0px 0px 10px rgb(255, 255, 255);
-  margin-top: 8px;
+  margin-top: 10px;
   margin: 0 auto;
 }
 .card {
@@ -277,7 +277,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .menu_container {
@@ -326,9 +326,12 @@
   text-decoration: none;
   padding: 0 20px;
   margin-right: 10px;
+  margin-bottom: 20px;
   display: flex;
   height: 100%;
   align-items: center;
+  border: 3px solid black;
+  box-shadow: 2px 2px 10px #000000;
 }
 
 .menu_link:hover {
@@ -535,6 +538,9 @@
       width: 90%;
       height: 0 auto;
     }
+    .title-cards {
+      background-image: linear-gradient(to bottom, #7180acd7,  #8bafdfb7);
+    }
     .tarjetas-data{
       display: flex;
       flex-wrap: wrap;
@@ -581,6 +587,9 @@
       margin: 1%;
       width: 100%;
       height: 0 auto;
+    }
+    .title-cards {
+      background-image: linear-gradient(to bottom, #7180acd7,  #8bafdfb7);
     }
     .tarjetas-data{
       display: flex;
@@ -636,6 +645,9 @@
       width: 100%;
       height: 0 auto;
     }
+    .title-cards {
+      background-image: linear-gradient(to bottom, #7180acd7,  #8bafdfb7);
+    }
     .tarjetas-data{
       display: flex;
       flex-wrap: wrap;
@@ -654,6 +666,9 @@
       background-image: url("https://fondosmil.com/fondo/15598.jpg");
       object-fit: contain;
     } 
+    .title-cards {
+      background-image: linear-gradient(to bottom, #637eced7,  #8bafdfb7);
+    }
     .menu_hamburger{
       display: flex;
       margin-left: 10px;

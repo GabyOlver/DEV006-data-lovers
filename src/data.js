@@ -58,3 +58,22 @@ export const getBorderColors = opacity => {
   const colors = ['#726255', '#946b2d', '#726255', '#946b2d']
   return colors.map(color => opacity ? `${color + opacity}` : color)
 }
+
+// export function filtrarData(datos, contenedor) {
+//   const buscador = document.getElementById('search');
+
+//   buscador.addEventListener('keyup', () => {
+//     const buscarData = buscador.value.toLowerCase().trim();
+
+//     const dataFiltrada = datos.filter(data => {
+//       return data.name.toLowerCase().includes(buscarData);
+//     });
+
+//     contenedor.innerHTML = '';
+//     dataFiltrada.forEach(data => {
+//       showDatos(data)
+//     })
+//   })
+// }
+
+

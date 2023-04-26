@@ -455,28 +455,17 @@ function ocultarOpciones(){
 ocultarOpciones();
 
 
-const buscador = document.querySelector('#search');
-const boton = document.querySelector('#boton');
-const resultado = document.querySelector('#resultado');
+const buscador = document.getElementById('search'); //Se obtiene el elemento HTML
 
-const filtrar = () => {
+buscador.addEventListener('keyup', () => { //Se agrega un escuchador de eventos al input del buscador que se activa cada que el usuario suelta una tecla
+  const buscarData = buscador.value.toLowerCase().trim(); //Se obtiene el valor actual del input, se convierte en minusculas y se eliminan los espacios en blanco al inicio y al final del string con .trim(), el resultado se almacena en buscarData
 
-  resultado.innerHTML = '';
+  const dataFiltrada = characters.filter(character => {
+    return character.name.toLowerCase().includes(buscarData);
+  }); //Se filtran los personajes y se almacenan en buscarData usando el 'name'. El resultado se almacena en dataFiltrada
 
-  const texto = buscador.value.toLowerCase();
-
-  for(const character of characters){
-    const nombre = character.name.toLowerCase();
-    if(nombre.indexOf(texto) !== -1){
-      resultado.innerHTML += `
-      <li>${character.name}</li>
-      `
-    }
-}
-if(resultado.innerHTML === ''){
-  resultado.innerHTML += `
-  <li>Personaje no encontrado...</li>
-  `
-}
-}
-boton.addEventListener('click', filtrar);
+  charactersCards.innerHTML = ''; // Se limpia el contenedor para mostrar los personajes filtrados y no se acumulen
+  dataFiltrada.forEach(character => {
+    showCharacters(character);
+  }); // Se recorre el array de personajes filtrados (dataFiltrada) y se llama a showCharacters para mostrar cada personaje en la pagina
+})
