@@ -13,39 +13,39 @@
 
 ## 1. Definición del producto
 
-Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 millones de terabytes de datos, una cifra sin
-precedentes.
+El objetivo de esta aplicación es cubrir las necesidades de los fans de la saga de Harry Potter de conocer más acerca de ella. Para desarrollar esta aplicación se llevo a cabo una investigación de la cual se obtuvieron los siguientes resultados:
 
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
+* Para los usuarios es importante conocer a los personajes de la saga Harry Potter, en especial los siguientes datos: Nombre, casa, género, fecha de nacimiento y fecha de muerte.
 
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por las
-usuarias, al lado derecho.
+* Para los usuarios es importante conocer los hechizos y las pociones utilizadas a lo largo de la saga y algunos datos extra sobre ellos.
 
-![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+* Para los usuarios es importante conocer los libros que componen la saga de Harry Potter además de ciertos datos como autor y fecha de publicación.
 
+* Finalmente se incluyen algunos datos adicionales para que el usuario pueda conocer un poco más sobre esta interesante saga.
 ## 2. Historias de Usuario
 
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
-necesit
+Con base en las entrevista realizadas a diferentes usuario se obtuvieron Historias de Usuario que fueron fundamentales para el desarrollo de esta aplicación.
+
+H1. Diseño de la página principal.
+El objetivo fue realizar una página principal que nos introduzca a la saga de Harry Potter mediante una pequeña introducción y de esta manera quien no tenga mucha información pueda conocer un poco de la misma y así comprender un poco mejor toda la información que el usuario verá más adelante dando click al botón.
+
+H2. Desplegar data en la pantalla.
+Al realizar las entrevistas conocimos que el usuario deseaba visualizar la data mediante cards para que la información que va a obtener sea más dinámica y fácil de comprender.
+La data desplegada comienza dandole al usuario el nombre de la card ya sea "character", "spell", "potion" o "book" para decidir si es la información requerida y en este caso al mantener el puntero sobre la card o en caso de usar otro dispositivo al dar click sobre la card esta le muestre al usuario más información.
+
+H3. Realizar un filtrado separando la data por "characters", "spells", "potions", "books" y "funfacts".
+La data que el usuario va a obtener se encuentra clasificada mediante un menu que le da al usuario las opciones de ver "characters", "spells", "potions", "books" y "funfacts" lo que le permitirá navegar en estas categorías para poder visualizar la información que necesita.
+
+H4. Realizar un filtrado que ordene la data de forma ascendente y descendente.
+Dentro del menu el usuario también tendrá la opción de ordenar la data de forma alfabética ya sea de A-Z o de Z-A.
+Esta opción únicamente se encuentra en los apartados de "characters", "spells" y "potions".
+
+H5. Realizar un cálculo agregado desplegado en gráficas.
+Para dar mayor información al usuario se agregaron dos gráficas tomando en cuenta lo que para ellos es importante conocer acerca de la saga como son personajes por casa y origenes mágicos de los personajes.
+
+H6. Realizar un buscador.
+Para facilitar la navegación dentro de la página se agregó un buscador para que el usuario pueda localizar más rapidamente la información que desea conocer. Al comenzar a ingresar las letras el buscador descartará la data que no las contenga. 
 ## 3. Prototipo de baja fidelidad
-
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
-
-### HTML
-
-- [ ] **Uso de HTML semántico**
-
-  <dntos del DOM (listeners, propagación, delegación)**
-
-  * [Estructuras condicionales y repetitivas](https://curriculum.laboratoria.la/es/topics/javascript/
-- [ ] **Pruebas unitarias (unit tests)**
 
 
 ## 4. Prototipo de alta fidelidad
