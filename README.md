@@ -47,6 +47,12 @@ H6. Realizar un buscador.
 Para facilitar la navegación dentro de la página se agregó un buscador para que el usuario pueda localizar más rapidamente la información que desea conocer. Al comenzar a ingresar las letras el buscador descartará la data que no las contenga. 
 ## 3. Prototipo de baja fidelidad
 
+![Prototipo de baja fidelidad](/src/img/P-bajaF%201.jpg);
+![Prototipo de baja fidelidad](/src/img/P-bajaF%202.jpg);
+![Prototipo de baja fidelidad](/src/img/P-bajaF%203.jpg);
+![Prototipo de baja fidelidad](/src/img/P-bajaF%20(1).jpg);
+![Prototipo de baja fidelidad](/src/img/P-bajaF%20(2).jpg);
+![Prototipo de baja fidelidad](/src/img/P-bajaF%20(3).jpg)
 
 ## 4. Prototipo de alta fidelidad
 
