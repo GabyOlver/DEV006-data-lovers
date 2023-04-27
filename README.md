@@ -26,46 +26,46 @@ El objetivo de esta aplicación es cubrir las necesidades de los fans de la saga
 
 Con base en las entrevista realizadas a diferentes usuario se obtuvieron Historias de Usuario que fueron fundamentales para el desarrollo de esta aplicación.
 
-H1. Diseño de la página principal.
+* H1. Diseño de la página principal.
 El objetivo fue realizar una página principal que nos introduzca a la saga de Harry Potter mediante una pequeña introducción y de esta manera quien no tenga mucha información pueda conocer un poco de la misma y así comprender un poco mejor toda la información que el usuario verá más adelante dando click al botón.
 
-H2. Desplegar data en la pantalla.
+* H2. Desplegar data en la pantalla.
 Al realizar las entrevistas conocimos que el usuario deseaba visualizar la data mediante cards para que la información que va a obtener sea más dinámica y fácil de comprender.
 La data desplegada comienza dandole al usuario el nombre de la card ya sea "character", "spell", "potion" o "book" para decidir si es la información requerida y en este caso al mantener el puntero sobre la card o en caso de usar otro dispositivo al dar click sobre la card esta le muestre al usuario más información.
 
-H3. Realizar un filtrado separando la data por "characters", "spells", "potions", "books" y "funfacts".
+* H3. Realizar un filtrado separando la data por "characters", "spells", "potions", "books" y "funfacts".
 La data que el usuario va a obtener se encuentra clasificada mediante un menu que le da al usuario las opciones de ver "characters", "spells", "potions", "books" y "funfacts" lo que le permitirá navegar en estas categorías para poder visualizar la información que necesita.
 
-H4. Realizar un filtrado que ordene la data de forma ascendente y descendente.
+* H4. Realizar un filtrado que ordene la data de forma ascendente y descendente.
 Dentro del menu el usuario también tendrá la opción de ordenar la data de forma alfabética ya sea de A-Z o de Z-A.
 Esta opción únicamente se encuentra en los apartados de "characters", "spells" y "potions".
 
-H5. Realizar un cálculo agregado desplegado en gráficas.
+* H5. Realizar un cálculo agregado desplegado en gráficas.
 Para dar mayor información al usuario se agregaron dos gráficas tomando en cuenta lo que para ellos es importante conocer acerca de la saga como son personajes por casa y origenes mágicos de los personajes.
 
-H6. Realizar un buscador.
+* H6. Realizar un buscador.
 Para facilitar la navegación dentro de la página se agregó un buscador para que el usuario pueda localizar más rapidamente la información que desea conocer. Al comenzar a ingresar las letras el buscador descartará la data que no las contenga. 
 ## 3. Prototipo de baja fidelidad
 
-![Prototipo de baja fidelidad](/src/img/P-bajaF%202.jpg);
-![Prototipo de baja fidelidad](/src/img/P-bajaF%20(2).jpg);
+![Prototipo de baja fidelidad](/src/img/P-bajaF%202.jpg)
+![Prototipo de baja fidelidad](/src/img/P-bajaF%20(2).jpg)
 
 ## 4. Prototipo de alta fidelidad
 
-![Prototipo de alta fidelidad](/src/img/PAFprincipal.png);
-![Prototipo de alta fidelidad](/src/img/PAFmenu.png);
+![Prototipo de alta fidelidad](/src/img/PAFprincipal.png)
+![Prototipo de alta fidelidad](/src/img/PAFmenu.png)
 
 Link a figma: https://www.figma.com/file/UiNnNkE06i74b8RHR6TmVC/Harry-Potter?node-id=48-98&t=RNxtwiLoo4usftBm-0
 
 ## 5. Tests de usabilidad
 
--Mejorar redacción.
--Dar estilo a textos.
--Modificar colores para tener mejor contraste.
--Ajustar el tamaño de las imagenes.
--Eliminar botones no necesarios.
--Hacer visible el menu.
--Poner fondos que permitan ver el contenido sin problemas.
+* Mejorar redacción.
+* Dar estilo a textos.
+* Modificar colores para tener mejor contraste.
+* Ajustar el tamaño de las imagenes.
+* Eliminar botones no necesarios.
+* Hacer visible el menu.
+* Poner fondos que permitan ver el contenido sin problemas.
 ## 6. Interfaz de usuario
 
 Aquí mostramos como se visualiza, después de las modificaciones realizadas a los prototipos, el proyecto terminado.
