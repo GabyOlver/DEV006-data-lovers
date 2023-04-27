@@ -52,4 +52,13 @@ const verOtraGrafica = new Chart(otraGrafica, {
       borderWidth: 4,
     }]
   },
+  options: {
+    plugins: {
+      legend: {
+        labels: {
+          boxWidth: 0,
+        }
+      }
+    }
+  }
 })
