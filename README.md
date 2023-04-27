@@ -47,30 +47,26 @@ H6. Realizar un buscador.
 Para facilitar la navegación dentro de la página se agregó un buscador para que el usuario pueda localizar más rapidamente la información que desea conocer. Al comenzar a ingresar las letras el buscador descartará la data que no las contenga. 
 ## 3. Prototipo de baja fidelidad
 
-![Prototipo de baja fidelidad](/src/img/P-bajaF%201.jpg);
 ![Prototipo de baja fidelidad](/src/img/P-bajaF%202.jpg);
-![Prototipo de baja fidelidad](/src/img/P-bajaF%203.jpg);
-![Prototipo de baja fidelidad](/src/img/P-bajaF%20(1).jpg);
 ![Prototipo de baja fidelidad](/src/img/P-bajaF%20(2).jpg);
-![Prototipo de baja fidelidad](/src/img/P-bajaF%20(3).jpg)
 
 ## 4. Prototipo de alta fidelidad
 
-* Este proyecto se debe resolver en duplas.
-* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
+![Prototipo de alta fidelidad](/src/img/PAFprincipal.png);
+![Prototipo de alta fidelidad](/src/img/PAFmenu.png);
+
+Link a figma: https://www.figma.com/file/UiNnNkE06i74b8RHR6TmVC/Harry-Potter?node-id=48-98&t=RNxtwiLoo4usftBm-0
 
 ## 5. Tests de usabilidad
 
-Los criterios para considerar que has completado este proyecto son:
-
-Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
-_User Interface_). Para eso debes aprender a utilizar alguna he ser un card, una tabla, una lista,
-   e
+-Mejorar redacción.
+-Dar estilo a textos.
+-Modificar colores para tener mejor contraste.
+-Ajustar el tamaño de las imagenes.
+-Eliminar botones no necesarios.
+-Hacer visible el menu.
+-Poner fondos que permitan ver el contenido sin problemas.
 ## 6. Interfaz de usuario
 
-Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
-con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
-profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+Aquí mostramos como se visualiza, después de las modificaciones realizadas a los prototipos, el proyecto terminado.
 
