@@ -1,15 +1,6 @@
-/* eslint-disable indent */
-/* eslint-disable no-empty */
-/* eslint-disable eqeqeq */
-/* eslint-disable no-console */
-// import data from './data/harrypotter/data.js'; //Importamos los datos de Harry Potter 
 import { getCharacters, getSpells, getFunFacts, getPotions, getBooks} from './data.js';
 import { getCharactersCopy, getSpellsCopy, getPotionsCopy} from './data.js';
-import { dataAZ, dataZA } from './data.js'
-
-// import { mostrarGrafica } from './grafica.js';
-
-// const mostrarGrafica = mostrarGrafica()
+import { dataAZ, dataZA } from './data.js';
 
 const characters = getCharacters();
 const charactersCopy = getCharactersCopy ();
@@ -37,18 +28,6 @@ const misGraficas = document.getElementById("misGraficas");
 const listElements = document.querySelectorAll('.menu_item--show');
 const list = document.querySelector('.menu_links');
 const menu = document.querySelector('.menu_hamburger');
-
-// characters.forEach((character) => {
-//   showCharacters(character);
-// });
-
-// spells.forEach((spell) => {
-//   showSpells(spell)
-// });
-
-// potions.forEach((potion) => {
-//   showPotions(potion)
-// });
 
 books.forEach((book) => {
   showBooks(book)
@@ -99,8 +78,8 @@ function showCharacters(character){
 
   card.className = "card";
   showCards.className = "card-inner";
-  cardFront.className = "card-front"
-  cardBack.className = "card-back"
+  cardFront.className = "card-front";
+  cardBack.className = "card-back";
 }
 
 function showSpells(spell){
@@ -119,7 +98,7 @@ function showSpells(spell){
 
   nameSpell.innerHTML = spell.name;
   otherNameSpell.innerHTML = spell.other_name;
-  pronunciation.innerHTML = spell.pronunciation
+  pronunciation.innerHTML = spell.pronunciation;
   spellType.innerHTML = spell.spell_type;
   img.src = spell.img;
 
@@ -138,8 +117,8 @@ function showSpells(spell){
 
   card.className = "card";
   showCards.className = "card-inner";
-  cardFront.className = "card-front"
-  cardBack.className = "card-back"
+  cardFront.className = "card-front";
+  cardBack.className = "card-back";
 }
 
 function showPotions(potion){
@@ -171,8 +150,8 @@ function showPotions(potion){
 
   card.className = "card";
   showCards.className = "card-inner";
-  cardFront.className = "card-front"
-  cardBack.className = "card-back"
+  cardFront.className = "card-front";
+  cardBack.className = "card-back";
 }
 
 function showBooks(book){
@@ -207,8 +186,8 @@ function showBooks(book){
 
   card.className = "card";
   showCards.className = "card-inner";
-  cardFront.className = "card-front"
-  cardBack.className = "card-back"
+  cardFront.className = "card-front";
+  cardBack.className = "card-back";
 }
 
 function showfunFacts(funFact){
@@ -240,8 +219,8 @@ function showfunFacts(funFact){
 
   card.className = "card";
   showCards.className = "card-inner";
-  cardFront.className = "card-front"
-  cardBack.className = "card-back"
+  cardFront.className = "card-front";
+  cardBack.className = "card-back";
 }
 
 charactersCardsDad.style.display = 'none';
@@ -268,7 +247,7 @@ function botones_personajes(){
           potionsCardsDad.style.display = 'none';
           booksCardsDad.style.display = 'none';
           misGraficas.style.display = 'none';
-        })
+        });
       }
       if(opcion.innerText === 'Z - A'){
         const ordenarCharacterZA = dataZA(charactersCopy);
@@ -282,10 +261,10 @@ function botones_personajes(){
           potionsCardsDad.style.display = 'none';
           booksCardsDad.style.display = 'none';
           misGraficas.style.display = 'none';
-        })
+        });
       }
-    })
-  })
+    });
+  });
 
 } 
 botones_personajes();
@@ -293,7 +272,6 @@ botones_personajes();
 
 function botones_hechizos() {
   const hechizosMenu = document.querySelectorAll(".menu_hechizos");
-  //console.log(hechizosMenu)
   hechizosMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
       if(opcion.innerText === 'A - Z'){
@@ -308,13 +286,12 @@ function botones_hechizos() {
           potionsCardsDad.style.display = 'none';
           booksCardsDad.style.display = 'none';
           misGraficas.style.display = 'none';
-        })
+        });
       }
       if(opcion.innerText === 'Z - A'){
         const ordenarSpellsZA = dataZA(spellsCopy);
         spellsCards.innerHTML = "";
-        ordenarSpellsZA.forEach((spellCopy) => {
-          console.log(list);          
+        ordenarSpellsZA.forEach((spellCopy) => {        
           showSpells(spellCopy);
           list.classList.remove('menu_links--show');
           charactersCardsDad.style.display = 'none';
@@ -323,10 +300,10 @@ function botones_hechizos() {
           potionsCardsDad.style.display = 'none';
           booksCardsDad.style.display = 'none';
           misGraficas.style.display = 'none';
-        })
+        });
       }
-    })
-  })
+    });
+  });
 
 }
 botones_hechizos();
@@ -335,15 +312,12 @@ botones_hechizos();
 function botones_pociones() {
   const pocionesMenu = document.querySelectorAll(".menu_pociones");
  
-
-  //console.log(pocionesMenu)
   pocionesMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
       if(opcion.innerText === 'A - Z'){
         const ordenarPotions = dataAZ(potions);
         potionsCards.innerHTML = "";
         ordenarPotions.forEach((potion) => {
-          console.log(list);
           showPotions(potion);
           list.classList.remove('menu_links--show');
           charactersCardsDad.style.display = 'none';
@@ -352,8 +326,7 @@ function botones_pociones() {
           potionsCardsDad.style.display = 'block';
           booksCardsDad.style.display = 'none';
           misGraficas.style.display = 'none';
-
-        })
+        });
       }
       if(opcion.innerText === 'Z - A'){
         const ordenarPotionsCopy = dataZA(potionsCopy);
@@ -367,10 +340,10 @@ function botones_pociones() {
           potionsCardsDad.style.display = 'block';
           booksCardsDad.style.display = 'none';
           misGraficas.style.display = 'none';
-        })
+        });
       }
-    })
-  })
+    });
+  });
 
 }
 botones_pociones();
@@ -379,7 +352,6 @@ botones_pociones();
 
 function botones_libros() {
   const librosMenu = document.querySelectorAll(".menu_libros");
-  //console.log(librosMenu)
   librosMenu.forEach((opcion) => {
     opcion.addEventListener('click', () => {
       list.classList.remove('menu_links--show');
@@ -389,8 +361,8 @@ function botones_libros() {
       potionsCardsDad.style.display = 'none';
       booksCardsDad.style.display = 'block';
       misGraficas.style.display = 'none';
-    })
-  })
+    });
+  });
 
 }
 botones_libros();
@@ -406,8 +378,8 @@ function botones_datosCuriosos() {
       potionsCardsDad.style.display = 'none';
       booksCardsDad.style.display = 'none';
       misGraficas.style.display = 'none';
-    })
-  })
+    });
+  });
 }
 botones_datosCuriosos();
 
@@ -424,7 +396,7 @@ function ocultarOpciones(){
         }
         subMenu.style.height = `${height}px`;
       });
-    })
+    });
   }
   addClick();
   const deleteStyleHeight = ()=>{
@@ -439,8 +411,6 @@ function ocultarOpciones(){
   window.addEventListener('resize', ()=>{
     if(window.innerWidth > 800){
       deleteStyleHeight();
-      // if (list.classList.contains('menu_links--show'));
-      // list.classList.remove('menu_links--show');
     }
     else {
       addClick();
@@ -450,7 +420,6 @@ function ocultarOpciones(){
     addClick();
   }
   menu.addEventListener('click', ()=> list.classList.toggle('menu_links--show'));
-//   //console.log(menu_links--show);
 } 
 ocultarOpciones();
 
@@ -478,7 +447,7 @@ buscadorHechizos.addEventListener('keyup', () => {
   const hechizosFiltrados = spells.filter(spell => {
     return spell.name.toLowerCase().includes(buscarHechizos);
   });
-
+  
   spellsCards.innerHTML = '';
   hechizosFiltrados.forEach(spell => {
     showSpells(spell);

@@ -60,21 +60,3 @@ export const getBorderColors = opacity => {
 }
 
 
-// export function filtrarData(datos, contenedor) {
-//   const buscador = document.getElementById('search');
-
-//   buscador.addEventListener('keyup', () => {
-//     const buscarData = buscador.value.toLowerCase().trim();
-
-//     const dataFiltrada = datos.filter(data => {
-//       return data.name.toLowerCase().includes(buscarData);
-//     });
-
-//     contenedor.innerHTML = '';
-//     dataFiltrada.forEach(data => {
-//       showDatos(data)
-//     })
-//   })
-// }
-
-

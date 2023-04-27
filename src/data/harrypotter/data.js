@@ -2980,7 +2980,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": null,
-      "img": "https://www.tafce.com/images/b/b4/Cornelius_Fudge_3_-_Edited.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Order of Merlin",
         "British Ministry of Magic",
@@ -3421,7 +3421,7 @@ export default {
       "wand": "Unknown wood, core material and length",
       "patronus": null,
       "house": null,
-      "img": "https://images6.fanpop.com/image/photos/41600000/-Johnny-depp-Gellert-Grindelwald-2-FB1-gellert-grindelwald-41614956-340-453.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["The Alliance", "Acolytes", "Durmstrang Institute"],
       "books_featured_in": [1, 7]
     },
@@ -3540,7 +3540,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
-      "img": "https://gamepress.gg/wizardsunite/sites/wizardsunite/files/2019-08/Portrait%20of%20Godric%20Gryffindor-foundable.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry", "Gryffindor"],
       "books_featured_in": [1, 2, 5, 7]
     },
@@ -4098,7 +4098,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": null,
-      "img": "https://toppng.com/uploads/preview/male-user-filled-icon-man-icon-115533970576b3erfsss1.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["King's Cross Station"],
       "books_featured_in": [1, 2]
     },
@@ -4468,7 +4468,7 @@ export default {
       "wand": "Father's wand (formerly)",
       "patronus": "Non-corporeal",
       "house": "Gryffindor",
-      "img": "https://1000marcas.net/wp-content/uploads/2021/11/Gryffindor-Logo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Longbottom family",
         "Hogwarts School of Witchcraft and Wizardry",
@@ -4738,7 +4738,7 @@ export default {
       "wand": "10\", Hawthorn, unicorn hair (formerly)",
       "patronus": "None",
       "house": "Slytherin",
-      "img": "https://i.pinimg.com/originals/c8/53/1e/c8531ec0108fbdf100d8fab0c254844a.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [1, 2, 3, 4, 5, 6, 7]
     },
@@ -5062,7 +5062,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": "Unknown",
-      "img": "https://mealsinspiredby.co.uk/wp-content/uploads/2022/08/Eye.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Order of the Phoenix",
         "Advance Guard",
@@ -5796,7 +5796,7 @@ export default {
       "wand": "11\", Holly, phoenix feather",
       "patronus": "Stag",
       "house": "Gryffindor",
-      "img": "https://media.revistagq.com/photos/5eb13e411c7a78d7f484ced3/3:4/w_576,h_768,c_limit/harry-potter.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Potter family",
         "Weasley family",
@@ -5827,7 +5827,7 @@ export default {
       "wand": "11\", Mahogany, unknown core",
       "patronus": "Stag",
       "house": "Gryffindor",
-      "img": "https://i.pinimg.com/originals/71/a7/42/71a7422e1998bc1e27defe6b2dbdc13f.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Potter family",
         "Evans family",
@@ -6226,7 +6226,7 @@ export default {
       "wand": "13½\", Yew, phoenix feather core",
       "patronus": "None",
       "house": "Slytherin",
-      "img": "https://images.firstpost.com/wp-content/uploads/2015/06/voldemort.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Death Eaters",
         "Hogwarts School of Witchcraft and Wizardry (formerly)",
@@ -7657,7 +7657,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Weasel",
       "house": "Gryffindor",
-      "img": "https://i.pinimg.com/originals/8d/85/ba/8d85ba8676f914ad35070d4d3b2ed3bf.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Weasley family",
         "Prewett family",
@@ -7728,7 +7728,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Magpie",
       "house": "Gryffindor",
-      "img": "https://i.pinimg.com/originals/fa/97/17/fa971749992eea30eb63b51109d8e7da.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Circle of Khanna",
         "Dumbledore's Army",
@@ -7756,7 +7756,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Magpie",
       "house": "Gryffindor",
-      "img": "https://i.pinimg.com/originals/fd/9f/b1/fd9fb1aad4f87e40e62517feecb17cdf.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Circle of Khanna",
         "Dumbledore's Army",
@@ -9094,7 +9094,7 @@ export default {
       "wand": "9½\", Rosewood, veela hair",
       "patronus": "Non-corporeal",
       "house": null,
-      "img": "https://www.tafce.com/images/4/4d/Fleur_Delacour_-_Edited.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Delacour family",
         "Weasley family",
@@ -9736,7 +9736,7 @@ export default {
       "wand": "10¾\", vine wood, dragon heartstring",
       "patronus": "Otter",
       "house": "Gryffindor",
-      "img": "https://www.pngkey.com/png/full/195-1954866_hermione-granger-harry-potter-costume-hermione.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Granger family",
         "Weasley family",
@@ -9958,7 +9958,7 @@ export default {
       "wand": "Unknown length, wood and core",
       "patronus": "Non-corporeal",
       "house": null,
-      "img": "https://www.pngmart.com/files/8/Hogwarts-Logo-PNG-Transparent-Photo.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": ["Hogwarts School of Witchcraft and Wizardry"],
       "books_featured_in": [1, 2, 3, 5, 6]
     },
@@ -10026,7 +10026,7 @@ export default {
       "wand": null,
       "patronus": "Non-corporeal",
       "house": "Hufflepuff",
-      "img": "https://gamepress.gg/wizardsunite/sites/wizardsunite/files/2019-08/Portrait%20of%20Helga%20Hufflepuff-foundable.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Hogwarts School of Witchcraft and Wizardry",
         "Hufflepuff",
@@ -10347,7 +10347,7 @@ export default {
       "wand": "12¾\", Walnut, dragon heartstring",
       "patronus": "None",
       "house": "House of Black",
-      "img": "https://pbs.twimg.com/media/EdLEYg_WAAAvv3C.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [4, 5, 6, 7]
     },
@@ -10403,7 +10403,7 @@ export default {
       "wand": "Unknown 1st wand",
       "patronus": "Hare",
       "house": "Ravenclaw",
-      "img": "https://www.tafce.com/images/f/f9/Luna_Lovegood_-_Edited.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Lovegood family",
         "Scamander family",
@@ -11382,7 +11382,7 @@ export default {
       "wand": "10¼\", Willow, unknown core",
       "patronus": "Doe",
       "house": "Gryffindor",
-      "img": "https://i.pinimg.com/originals/71/a7/42/71a7422e1998bc1e27defe6b2dbdc13f.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Evans family",
         "Potter family",
@@ -12029,7 +12029,7 @@ export default {
       "wand": null,
       "patronus": null,
       "house": "House of Black (formerly)",
-      "img": "https://i.pinimg.com/originals/da/3a/f9/da3af99f8e402a5ebde1b638cf5175d8.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5, 7]
     },
@@ -12200,7 +12200,7 @@ export default {
       "wand": "8\", Birch, dragon heartstring (formerly)",
       "patronus": "Persian cat",
       "house": "Slytherin",
-      "img": "https://cdn.personalitylist.com/avatars/2946.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [],
       "books_featured_in": [5, 6, 7]
     },
@@ -12705,7 +12705,7 @@ export default {
       "wand": "Unknown length, wood and core (formerly)",
       "patronus": "Phoenix",
       "house": "Gryffindor",
-      "img": "https://www.tafce.com/images/2/24/Albus_Dumbledore_HPATOOTP_-_Edited.png",
+      "img": "https://cdn-icons-png.flaticon.com/512/1600/1600953.png",
       "associated_groups": [
         "Order of Merlin",
         "Order of the Phoenix",
