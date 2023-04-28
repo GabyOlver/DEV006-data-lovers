@@ -27,10 +27,12 @@
 
 .descripción-graficas {
   font-family: 'IM Fell English', serif;
+  color: rgb(255, 246, 246);
+  text-shadow: 1px 1px 8px rgb(0, 0, 0);
   border-radius: 10px;
   text-align: center; 
   font-size: 25px;
-  background-color: #4e4c4cd8;
+  background-image: linear-gradient(to bottom, #12151bd7,  #151e27d3, #082538cc, #03122ead);
   width: 20%;
   height: 35%;
   display: inline-block; /* Hace que la descripcion se vea alineada con las graficas */
