@@ -70,3 +70,5 @@ Link a figma: https://www.figma.com/file/UiNnNkE06i74b8RHR6TmVC/Harry-Potter?nod
 
 Aquí mostramos como se visualiza, después de las modificaciones realizadas a los prototipos, el proyecto terminado.
 
+![Proyecto final](/src/img/Pagina%20prin%20final.png)
+![Proyecto final](/src/img/Cards.png)
