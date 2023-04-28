@@ -311,7 +311,6 @@
 .menu_links {
   font-family: 'IM Fell English', serif;
   height: 100%;
-  transition: transform .5s;
   display: flex;
   font-size: 28px;
   z-index: 1;
