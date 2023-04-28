@@ -2,29 +2,34 @@ import { getCharacters, getSpells, getFunFacts, getPotions, getBooks} from './da
 import { getCharactersCopy, getSpellsCopy, getPotionsCopy} from './data.js';
 import { dataAZ, dataZA } from './data.js';
 
-const characters = getCharacters();
-const charactersCopy = getCharactersCopy ();
-const spellsCopy = getSpellsCopy ();
+//Creamos una costante que almacena cada funcion que contiene cada uno nuestros arrays
+const characters = getCharacters(); //A-Z
+const charactersCopy = getCharactersCopy (); //Z-A
 const spells = getSpells();
-const funFacts = getFunFacts();
+const spellsCopy = getSpellsCopy ();
 const potions = getPotions();
 const potionsCopy = getPotionsCopy();
+const funFacts = getFunFacts();
 const books = getBooks();
 
+//Llamamos a los contenedores padre de las cards para usarlos en la funcion de botones
 const charactersCardsDad = document.getElementById("characters-cards-dad");
 const spellsCardsDad = document.getElementById("spells-container-dad");
 const funFactsCardsDad = document.getElementById("funFacts-container-dad");
 const potionsCardsDad = document.getElementById("potions-container-dad");
 const booksCardsDad = document.getElementById("books-container-dad");
 
+//Llamamos a los contenedores vacios de las cards para poderlos manipular
 const charactersCards = document.getElementById("characters-cards"); // Se seleccionan elememtos del HTML y se almacenan en variables
 const spellsCards = document.getElementById("spells-container");
 const funFactsCards = document.getElementById("funFacts-container");
 const potionsCards = document.getElementById("potions-container");
 const booksCards = document.getElementById("books-container");
 
+//Llamamos al contenedor de las graficas para poderlo ocultar en la funcion de botones
 const misGraficas = document.getElementById("misGraficas");
 
+//Se asignan las variables para el menu principal y el submenu y usarlas en ocultarOpciones
 const listElements = document.querySelectorAll('.menu_item--show');
 const list = document.querySelector('.menu_links');
 const menu = document.querySelector('.menu_hamburger');
@@ -61,8 +66,10 @@ function showCharacters(character){
   gender.innerHTML = character.gender;
   house.innerHTML = character.house;
 
+  //contenedor de HTML se le crea un elemento hijo que va a ser la const card
   charactersCards.appendChild(card);
 
+  //dentro del elemento card se crea un elemento hijo que va a ser showcards, dentro de showcards se crean dos elementos hijos que son cardFront y cardBack
   card.appendChild(showCards);
   showCards.appendChild(cardFront);
   showCards.appendChild(cardBack);
@@ -223,6 +230,7 @@ function showfunFacts(funFact){
   cardBack.className = "card-back";
 }
 
+//Ocultamos todas las cards para que solo se muestren cuando el usuario de click a lo que desea ver en el menu
 charactersCardsDad.style.display = 'none';
 spellsCardsDad.style.display = 'none';
 funFactsCardsDad.style.display = 'none';
@@ -230,6 +238,7 @@ potionsCardsDad.style.display = 'none';
 booksCardsDad.style.display = 'none';
 misGraficas.style.display = 'block';
 
+//Funcion que llama a la data dependiendo de lo que el usuario quiera, la data se llama con la clase que tiene en HTML y en casi de la data ordenada se llama con innerText que es el texto que tiene el boton
 function botones_personajes(){
 
   const personajesMenu = document.querySelectorAll(".menu_personajes");
@@ -240,7 +249,7 @@ function botones_personajes(){
         charactersCards.innerHTML = "";
         ordenarCharacter.forEach((character) => {
           showCharacters(character);
-          list.classList.remove('menu_links--show');
+          list.classList.remove('menu_links--show'); // Cuando se da click y se despliegan las cards se oculta el submenu
           charactersCardsDad.style.display = 'block';
           spellsCardsDad.style.display = 'none';
           funFactsCardsDad.style.display = 'none';
@@ -383,6 +392,7 @@ function botones_datosCuriosos() {
 }
 botones_datosCuriosos();
 
+// 
 function ocultarOpciones(){
   
   const addClick = ()=>{

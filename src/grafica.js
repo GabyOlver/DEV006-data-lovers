@@ -31,7 +31,7 @@ const verGrafica = new Chart(miGrafica, {
       legend: { position: 'left' }
     }
   }
-})
+});
 
 const otraGrafica = document.getElementById('otraGrafica').getContext('2d');
 const verOtraGrafica = new Chart(otraGrafica, {

@@ -29,8 +29,8 @@ export const getFunFacts = () => {
 
 export function dataAZ(data) {
   return data.sort((a,b) => {
-    const nameA = a.name.toLocaleLowerCase();
-    const nameB = b.name.toLocaleLowerCase();
+    const nameA = a.name.toLowerCase();
+    const nameB = b.name.toLowerCase();
     if(nameA < nameB) {
       return -1;
     }
@@ -40,8 +40,8 @@ export function dataAZ(data) {
 
 export function dataZA(data) {
   return data.sort((a,b) => {
-    const nameA = a.name.toLocaleLowerCase();
-    const nameB = b.name.toLocaleLowerCase();
+    const nameA = a.name.toLowerCase();
+    const nameB = b.name.toLowerCase();
     if(nameA > nameB) {
       return -1;
     }

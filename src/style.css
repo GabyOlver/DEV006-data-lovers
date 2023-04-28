@@ -3,41 +3,39 @@
 @import url('https://fonts.cdnfonts.com/css/harry-potter');
 
 .mis-graficas {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-};
+  display: flex; /*Organiza a los elementos en una fila horizontal (fila flex)*/
+  flex-wrap: wrap;/* Hace que los elementos pasen a una segunda fila si no hay suficiente espacio */
+  justify-content: center;
+
+}
 
 .mi-grafica{
-  background-color: #242323;
-  border-radius: 10px;
-  margin: 1%;
-  margin-left: 6%;
-  padding: 1%;
-  width: 30%;
-};
+  background-color: #242323; /* Color de fondo para la grafica*/
+  border-radius: 10px; /*Borde redondeado para el fondo de la grafica */
+  margin: 1%; /* margen del 1% alrededor externo de la grafica para que los elementos no esten pegados*/
+  padding: 1%; /*Un margen del 1% hacia adentro del fondo */
+  width: 30%; /*Ancho de la grafica de un 30% de acuerdo a su contenedor */
+}
 
 .otra-grafica {
   background-color: #0f0f0ff6;
   border-radius: 10px;
   margin: 1%;
-  margin-right: 6%;
   padding: 1%;
   width: 30%;
-};
+}
 
 .descripción-graficas {
   font-family: 'IM Fell English', serif;
   border-radius: 10px;
-  text-align: center;
+  text-align: center; 
   font-size: 25px;
   background-color: #4e4c4cd8;
   width: 20%;
   height: 35%;
-  display: inline-block;
-  flex-wrap: wrap;
-};
+  display: inline-block; /* Hace que la descripcion se vea alineada con las graficas */
+  flex-wrap: wrap; /* Hace que la descripcion se vaya a una segunda linea si no cabe */
+}
 
 .contenedor-principal {
   object-fit: contain;
@@ -49,13 +47,13 @@
   margin: 0 auto;
   overflow: hidden;
   box-sizing: border-box;
-};
+}
 
 .hp-img {
   position: relative;
   width: 40%;
   height: 0 auto;
-};
+}
 
 .bienvenida-container {
   background-image: linear-gradient(to bottom, #12151bd7,  #151e27d3, #082538cc, #03122ead);
@@ -65,20 +63,21 @@
   line-height: 1.5;
   text-align: center;
   display: inline-block;
-};
+}
 
 .msj-bienvenida {
   color: rgb(255, 246, 246);
   text-shadow: 1px 1px 8px rgb(0, 0, 0);
-};
+}
 
 .btn-container{
   margin: 0 auto;
   text-align: center;
   width: 20%;
-  };
+ }
 
   .btn_iniciar {
+    cursor: pointer;
     display: inline-block;
     padding: 1% 2%;
     cursor: pointer;
@@ -87,7 +86,7 @@
     border-radius: 10px;
     text-decoration: none;
     color: #fff;
-  };
+  }
 
 .tarjetas-data {
   margin: 0 auto;
@@ -95,9 +94,10 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-};
+}
 
 .title-cards {
+  cursor: default;
   background-image: linear-gradient(to bottom, #12151bb4,  #0c131bb7);
   width: fit-content;
   border-radius: 10px;
@@ -109,14 +109,15 @@
   margin-top: 10px;
   margin: 0 auto;
   margin-bottom: 10px;
-};
+}
 
 .buscador-container {
   text-align: center;
   margin: 0 auto;
-};
+}
 
 .buscador {
+  cursor: help;
   background-color: #ada4a4;
   border: 3px solid black;
   box-shadow: 2px 2px 10px #000000;
@@ -125,20 +126,21 @@
   width: 150px;
   outline: none;
   font-size: 15px;
-};
+}
 
 .etiqueta-buscador {
   font-family: 'IM Fell English', serif;
   font-size: 25px;
   color: #000000;
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
-};
+}
 
 .buscador:hover {
   background-color: #796666;
-};
+}
 
 .card {
+  cursor: pointer;
   background-color: transparent;
   max-width: 200px;
   height: 18em;
@@ -148,7 +150,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-};
+}
 
 .card-inner {
   position: relative;
@@ -157,11 +159,11 @@
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-};
+}
 
 .card:hover .card-inner {
   transform: rotateY(180deg);
-};
+}
 
 .card-front,
 .card-back {
@@ -171,7 +173,7 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border: 3px solid rgb(0, 0, 0);
-};
+}
 
 .card-front {
   border-radius: 10px;
@@ -184,7 +186,7 @@
   flex: 1;
   text-align: center;
   margin-top: 5px;
-};
+}
 
 .card-back {
   object-fit: contain;
@@ -200,7 +202,7 @@
   background-image: url("https://i.pinimg.com/474x/4a/00/5f/4a005fd9632d6ca43e574e06b3f54f22.jpg");
   flex: 1;
   text-align: center;
-};
+}
 
 .card-back p {
   padding-top: 5px;
@@ -213,7 +215,7 @@
   align-items: center;
   object-fit: contain;
   font-size: 18px;
-};
+}
 
 .card-front img {
   display: block;
@@ -222,47 +224,47 @@
   width: 80%;
   height: 180px;
   object-fit: contain;
-};
+}
 
 .card-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-};
+}
 
 .card-container>div {
   margin: 10px;
   padding: 10px;
   width: 280px;
-};
+}
 
 .spell-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-};
+}
 
 .spell-container>div {
   margin: 10px;
   padding: 10px;
   width: 280px;
-};
+}
 
 .funFact-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-};
+}
 
 .funFact-container>div {
   margin: 10px;
   padding: 10px;
   width: 280px;
   font-size: 15px;
-};
+}
 
 .book-container {
   display: flex;
@@ -270,28 +272,30 @@
   align-items: center;
   flex-wrap: wrap;
   object-fit: contain;
-};
+}
 
 .book-container>div {
   margin: 10px;
   padding: 10px;
   width: 280px;
-};
+}
 
 .potion-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-};
+}
 
 .potion-container>div {
   margin: 10px;
   padding: 10px;
   width: 280px;
-};
+}
 
 .menu {
+  /* background-color: #3b0405f3;
+  color: white; */
   height: 70px;
   margin: 0 auto;
   margin-bottom: 10px;
@@ -299,7 +303,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-};
+}
 
 .menu_container {
   display: flex;
@@ -310,7 +314,7 @@
   height: 100%;
   margin: 0 auto;
   box-sizing: border-box;
-};
+}
 
 .menu_links {
   font-family: 'IM Fell English', serif;
@@ -320,7 +324,7 @@
   font-size: 28px;
   z-index: 1;
   box-sizing: border-box;
-};
+}
 
 .menu_item {
   list-style: none;
@@ -329,13 +333,13 @@
   --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
   --transform: rotate(-90deg);
   box-sizing: border-box;
-};
+}
 
 .menu_item:hover {
   --clip: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   --transform: rotate(0);
   box-sizing: border-box;
-};
+}
 
 .menu_link {
   background-color: #1c2441;
@@ -352,11 +356,11 @@
   align-items: center;
   border: 3px solid black;
   box-shadow: 2px 2px 10px #000000;
-};
+}
 
 .menu_link:hover, .menu_link:hover .menu_arrow {
   background-color: #4e3819;
-};
+}
 
 .menu_in {
   list-style:none;
@@ -368,7 +372,7 @@
   width: max-content;
   border-radius: 2px;
   transform: translateY(100%);
-};
+}
 
 .menu_arrow {
   transform: var(--transform);
@@ -377,15 +381,15 @@
   margin-left: 3px;
   background-color: #1c2441;
   box-sizing: border-box;
-};
+}
 
 .menu_link--inside {
   padding: 10px 60px 10px 5px;
-};
+} 
 
 .menu_link--inside:hover {
   background-color: #4e3819;
-};
+}
 
 .menu_hamburger {
   height: 100%;
@@ -394,7 +398,7 @@
   padding: 0 15px;
   cursor: pointer;
   display: none; 
-};
+}
 
 .menu_img{
   background-color: #303236;
@@ -404,7 +408,7 @@
   top: 20px;
   right: 25px;
   height: auto;
-};
+}
 
 @media (max-width: 1500px){
     body {
@@ -414,38 +418,39 @@
       background-size: cover;
       background-attachment: fixed;
       object-fit: contain;
-    };
+    }
 
     .hp-img {
       position: relative;
       width: 40%;
       height: 0 auto;
-    };
+    }
 
     .bienvenida-container{
       width: 100%;
       font-size: 30px;
-    };
+    }
 
     .btn-container {
       text-align: center;
       width: 80%;
-    };
+    }
 
     .tarjetas-data{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-    };
+    }
 
     .card {
       width: 25%;
-    };
+    }
 
     .menu_hamburger{
       display: none;
-    };
-  };
+    }
+  }
+
 
   @media (max-width: 1100px){
     body {
@@ -455,155 +460,148 @@
       background-size: cover;
       background-attachment: fixed;
       object-fit: contain;
-    };
+    }
 
     .hp-img {
       position: relative;
       width: 40%;
       height: 0 auto;
-    };
+    }
 
     .mi-grafica{
       background-color: #242323;
       width: 40%;
       flex-wrap: wrap;
-    };
+    }
 
     .otra-grafica {
       background-color: #0f0f0ff6;
       width: 40%;
       flex-wrap: wrap;
-      margin-left: 30%;
-    };
+    }
 
     .descripción-graficas {
       width: 40%;
       flex-wrap: wrap;
       font-size: 30px;
       margin-right: 5%;
-    };
+    }
 
     .bienvenida-container{
       width: 80%;
       font-size: 25px;
-    };
+    }
 
     .btn-container {
       text-align: center;
       width: 80%;
-    };
+    }
 
     .tarjetas-data{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-    };
+    }
 
     .card {
       width: 33.33%;
-    };
+    }
 
     .menu_hamburger{
       display: none;
-    };
-  };
+    }
+  }
 
   @media (max-width: 950px){
     body {
       background-image: url("https://fondosmil.com/fondo/38514.jpg");
       object-fit: contain;
-    };
+    } 
 
     .hp-img {
       position: relative;
       width: 70%;
       height: 0 auto;
-    };
+    }
 
     .bienvenida-container{
       width: 100%;
       font-size: 25px;
-    };
+    }
 
     .btn-container {
       text-align: center;
       width: 100%;
-    };
-
-    .mis-graficas {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    };
+    }
 
     .mi-grafica{
-      background-color: #0c0e14e5;
+      background-color: #242323;
       margin: 1%;
       width: 70%;
       height: 0 auto;
-    };
+    }
 
     .otra-grafica {
-      background-color: #0c0e14e5;
+      background-color: #0f0f0ff6;
       margin: 1%;
       width: 70%;
       height: 0 auto;
-    };
+    }
 
     .descripción-graficas {
       background-color: #706969f6;
       width: 70%;
       flex-wrap: wrap;
-      font-size: 30px;
+      font-size: 40px;
       margin-right: 5%;
-    };
+    }
 
     .tarjetas-data{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-    };
+    }
 
     .card {
       width: 50%;
-    };
-  };
+    }
+  }
 
   @media (max-width:800px){
     body {
       background-image: url("https://fondosmil.com/fondo/15598.jpg");
       object-fit: contain;
-    };
+    } 
 
     .title-cards {
       background-image: linear-gradient(to bottom, #637eced7,  #8bafdfb7);
-    };
+    }
 
     .mi-grafica{
       background-color: #242323;
       width: 70%;
       flex-wrap: wrap;
-    };
+    }
 
     .otra-grafica {
       background-color: #0f0f0ff6;
       width: 70%;
       flex-wrap: wrap;
-    };
+    }
 
     .descripción-graficas {
       background-color: #706969f6;
       width: 70%;
       flex-wrap: wrap;
-      font-size: 30px;
+      font-size: 35px;
       margin-right: 5%;
-    };
+    }
 
     .menu_hamburger{
       display: flex;
       margin-left: 10px;
-    };
+    }
 
     .menu_links{
       position: fixed;
@@ -619,18 +617,18 @@
       display: grid;
       grid-auto-rows:max-content; 
       transform: translateX(100%); 
-    };
+    } 
 
     .menu_link{
       padding: 25px 0;
       padding-left: 30px;
       height: auto;
-    };
+    }
 
     .menu_arrow{
       margin-left: auto;
       margin-right: 20px;
-    };
+    }
 
     .menu_in{
       display:grid;
@@ -639,74 +637,68 @@
       transform: translateY(0);
       height: 0;
       transition: height .3s;
-    };
+    }
 
     .menu_link--inside{
       width: 90%;
       margin-left: auto;
       border-left: 1px solid #18243b ;
-    };
+    } 
 
     .menu_item{
       --clip:0; 
       overflow: hidden; 
-    };
+    }
      
     .menu_item--active{ 
       --transform: rotate(0);
       --background: #18243b; 
-    };
+    }
 
     .menu_item--show{
       background-color: var(--background);
-    };
+    }
   
     .menu_links--show{
       transform: unset;
       width: 100%;
-    };
-  } ;
+    }
+  } 
 
   @media (max-width: 600px){
     body {
       background-image: url("https://fondosmil.com/fondo/15598.jpg");
       object-fit: contain;
-    };
+    } 
 
     .hp-img {
       position: relative;
       width: 70%;
       height: 0 auto;
-    };
+    }
 
     .bienvenida-container{
       width: 100%;
       font-size: 25px;
-    };
+    }
 
     .btn-container {
       text-align: center;
       width: 100%;
-    };
-
-    .mis-graficas {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    };
+    }
 
     .mi-grafica{
       background-color: #242323;
       margin: 1%;
       width: 90%;
-    };
+    }
 
     .otra-grafica {
       background-color: #0f0f0ff6;
       margin: 1%;
       width: 90%;
       height: 0 auto;
-    };
+    }
 
     .descripción-graficas {
       background-color: #706969f6;
@@ -714,161 +706,149 @@
       flex-wrap: wrap;
       font-size: 30px;
       margin-right: 5%;
-    };
+    }
 
     .title-cards {
       background-image: linear-gradient(to bottom, #7180acd7,  #8bafdfb7);
-    };
+    }
 
     .tarjetas-data{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-    };
+    }
 
     .card {
       width: 50%;
-    };
-  };
+    }
+  }
 
   @media (max-width: 400px){
     body {
       background-image: url("https://fondosmil.com/fondo/15598.jpg");
       object-fit: contain;
-    };
+    }
 
     .hp-img {
       position: relative;
       width: 70%;
       height: 0 auto;
-    };
+    }
 
     .bienvenida-container{
       width: 100%;
       font-size: 20px;
       margin-top: 10%;
-    };
+    }
 
     .btn-container {
       text-align: center;
       width: 100%;
-    };
-
-    .mis-graficas {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    };
+    }
 
     .mi-grafica{
       background-color: #242323;
       margin: 1%;
       width: 100%;
       height: 0 auto;
-    };
+    }
 
     .otra-grafica {
       background-color: #0f0f0ff6;
       margin: 1%;
       width: 100%;
       height: 0 auto;
-    };
+    }
 
     .descripción-graficas {
       background-color: #706969f6;
       width: 100%;
       flex-wrap: wrap;
-      font-size: 25px;
+      font-size: 27px;
       margin-right: 5%;
-    };
+    }
 
     .title-cards {
       background-image: linear-gradient(to bottom, #7180acd7,  #8bafdfb7);
-    };
+    }
 
     .tarjetas-data{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-    };
+    }
 
     .card {
       width: 100%;
-    };
-  };
+    }
+  }
 
   @media (max-width: 300px){
     .contenedor-principal {
       width: 100%;
       align-items: center;
       object-fit: contain;
-    };
+    }
 
     body {
       background-image: url('https://fondosmil.com/fondo/15598.jpg');
       width: 100%;
       object-fit: cover;
-    };
+    }
 
     .hp-img {
       position: relative;
       width: 60%;
       height: 0 auto;
-    };
+    }
 
     .bienvenida-container{
       width: 80%;
       font-size: 16px;
       margin-top: 10%;
-    };
+    }
 
     .btn-container {
       text-align: center;
       width: 100%;
-    };
-
-    .mis-graficas {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    };
+    }
 
     .mi-grafica{
       background-color: #242323;
       width: 100%;
       height: 0 auto;
-    };
+    }
 
     .otra-grafica {
       background-color: #0f0f0ff6;
       width: 100%;
       height: 0 auto;
-    };
+    }
 
     .descripción-graficas {
       background-color: #706969f6;
       width: 100%;
       flex-wrap: wrap;
       font-size: 20px;
-    };
+    }
 
     .title-cards {
       background-image: linear-gradient(to bottom, #7180acd7,  #8bafdfb7);
-    };
+    }
 
     .tarjetas-data{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-    };
+    }
 
     .card {
       width: 100%;
-    };
-  };
+    }
+  }
 
   
 

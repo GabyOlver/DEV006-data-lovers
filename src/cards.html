@@ -5,12 +5,13 @@
   <meta charset="utf-8">
   <title>Data Lovers - Harry Potter</title>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- Etiqueta meta viewport que sirve para que la pagina pueda visualizarse correctamente en diferentes tamaños de pantallas -->
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <div class="contenedor-menu-cards">
+  <!-- En esta seccion se crea un menu para poder mostrar los contenidos de la pagina. Se utilizo nav para porque es una etiqueta de navegacion, creamos dentro una section para contener cada uno de los enlaces del menu. ul crea una lista no ordenada de las opciones del menu y cada una de ellas va asignada con un li. La etiqueta a href se usa para crear el enlace que muestra el texto que vemos como boton  -->
     <nav class="menu" id="menu">
       <section class="menu_container">
         <ul class="menu_links">
@@ -65,13 +66,17 @@
           </li>
         </ul>
         
+        <!-- despliega la imagen del menu hamburguesa que sirve para las pantallas peque;as -->
         <div class="menu_hamburger">
           <img src="../menu.svg" class="menu_img">
         </div>
       </section>
     </nav>
-    <div id="misGraficas">
-      <div class="mis-graficas">
+
+    <!-- Se utiliza canvas que es una etiqueta unica que se usa para graficas, animaciones, etc. -->
+    <!-- Se hicieron dos contenedores grandes uno se usa para aplicar display none y el segundo para darle todas las otras propiedades en css y no afecte el dise;o -->
+    <div id="misGraficas"> 
+      <div class="mis-graficas" >
         <div class="mi-grafica">
           <canvas id="miGrafica" width="50" height="50"></canvas>
         </div>
@@ -82,7 +87,7 @@
       </div>
     </div>
 
-    <div id="root"></div>
+    <!-- Se hizo un contenedor padre en cada contenedor de cards para que se pudiera aplicar correctamente display none -->
     <div class="tarjetas-data" id="tarjetasData">
       <div id="characters-cards-dad">
         <h1 class="title-cards">CHARACTERS:</h1>
@@ -92,6 +97,7 @@
         </div>
         <div id="characters-cards"></div>
       </div>
+
       <div id="spells-container-dad">
         <h1 class="title-cards">SPELLS:</h1>
         <div class="buscador-container">
@@ -100,6 +106,7 @@
         </div>
         <div id="spells-container"></div>
       </div>
+
       <div id="potions-container-dad">
         <h1 class="title-cards">POTIONS:</h1>
         <div class="buscador-container">
@@ -108,17 +115,20 @@
         </div>
         <div id="potions-container"></div>
       </div>
+
       <div id="books-container-dad">
         <h1 class="title-cards">BOOKS:</h1>
         <div id="books-container"></div>
       </div>
+
       <div id="funFacts-container-dad">
         <h1 class="title-cards">FUNFACTS:</h1>
         <div id="funFacts-container"></div>
       </div>
-    </div>
-  </div>
 
+    </div>
+
+<!-- Link de chart js permite usar las graficas -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
   <script src="main.js" type="module"></script>
   <script src="grafica.js" type="module"></script>
